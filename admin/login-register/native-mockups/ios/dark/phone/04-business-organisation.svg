@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="852" viewBox="0 0 393 852" font-family="Satoshi, sans-serif"><title>Organisation details · iOS · dark</title><desc>Static native interface mockup. Decorative DNA and Persona artwork is illustrative.</desc><defs><clipPath id="device-ios-dark-phone-4"><rect width="393" height="852" rx="26"/></clipPath><filter id="dna-ios-dark-phone-4" x="-15%" y="-10%" width="130%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="6"/></filter><radialGradient id="quiet-ios-dark-phone-4" cx="50%" cy="48%" r="66%"><stop offset="0" stop-color="#201C18" stop-opacity="1"/><stop offset="0.44" stop-color="#201C18" stop-opacity="0.98"/><stop offset="1" stop-color="#201C18" stop-opacity="0.25"/></radialGradient><linearGradient id="phone-scrim-ios-dark-phone-4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#201C18" stop-opacity="0.2"/><stop offset="0.2" stop-color="#201C18" stop-opacity="0.96"/><stop offset="0.6" stop-color="#201C18" stop-opacity="0.98"/><stop offset="0.8" stop-color="#201C18" stop-opacity="0.3"/><stop offset="0.91" stop-color="#201C18" stop-opacity="0.9"/><stop offset="1" stop-color="#201C18" stop-opacity="0.82"/></linearGradient></defs><g clip-path="url(#device-ios-dark-phone-4)"><rect width="393" height="852" fill="#201C18"/><image data-background="dna" href="../../../../samples/sigmar-dna-dark-background.png" width="393" height="852" preserveAspectRatio="xMidYMid slice" opacity="0.48" filter="url(#dna-ios-dark-phone-4)"/><rect width="393" height="852" fill="url(#phone-scrim-ios-dark-phone-4)"/></g><rect x=".5" y=".5" width="392" height="851" rx="26" fill="none" stroke="#494037"/><text x="30" y="28" font-size="12" font-weight="500" fill="#E8DCCB" text-anchor="start">9:41</text><rect x="156.5" y="12" width="80" height="23" rx="12" fill="#080706"/><g transform="translate(317,16)" stroke="#E8DCCB" stroke-width="1.5" fill="none"><path d="M0 11V7m4 4V4m4 7V1M17 5q7-7 14 0m-11 3q4-4 8 0"/><rect x="38" y="1" width="17" height="9" rx="2"/><path d="M41 5h10" stroke-width="4"/></g><rect x="136.5" y="832" width="120" height="4" rx="2" fill="#E8DCCB"/>
+
+<svg x="24" y="60" width="124" height="28" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 221.2 50" style="enable-background:new 0 0 221.2 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DB5A02;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F67D10;}
+	.st3{fill:#AF4600;}
+	.st4{opacity:0.47;fill:#F22200;}
+</style>
+
+<g>
+	<g>
+		<path class="st1" d="M67.37,29.22c0-1.63,1.37-2.97,4.94-2.97c2.31,0,4.8,0.67,7.21,2.05l1.86-4.57c-2.41-1.52-5.76-2.3-9.03-2.3
+			c-7.39,0-10.96,3.68-10.96,8.1c0,9.66,15.12,6.32,15.12,11.18c0,1.6-1.45,2.79-5.02,2.79c-3.12,0-6.39-1.12-8.58-2.71l-2.05,4.53
+			c2.31,1.78,6.47,3.01,10.59,3.01c7.43,0,11.04-3.71,11.04-8.06C82.49,30.71,67.37,34.02,67.37,29.22z"/>
+		<path class="st1" d="M86.62,21.87v26.01h6.02V21.87H86.62z"/>
+		<path class="st1" d="M116.38,42.08c-1.52,0.82-3.05,1.11-4.68,1.11c-4.98,0-8.43-3.46-8.43-8.32c0-4.94,3.46-8.32,8.51-8.32
+			c2.64,0,4.83,0.93,6.73,2.93l3.86-3.57c-2.53-2.94-6.32-4.5-10.88-4.5c-8.28,0-14.3,5.61-14.3,13.45s6.02,13.45,14.19,13.45
+			c3.71,0,7.65-1.15,10.51-3.31V34.46h-5.5V42.08z"/>
+		<path class="st1" d="M156.69,21.87h-4.94l-9.58,16.16l-9.73-16.16h-4.98v26.01h5.65V32.6l7.62,12.52h2.71l7.65-12.85l0.04,15.6
+			h5.65L156.69,21.87z"/>
+		<path class="st1" d="M177.05,21.87h-5.95l-11.59,26.01h6.17l2.3-5.57h12.08l2.3,5.57h6.32L177.05,21.87z M169.91,37.73l4.12-9.96
+			l4.13,9.96H169.91z"/>
+		<path class="st1" d="M208.59,39.51c3.38-1.45,5.35-4.31,5.35-8.21c0-5.83-4.35-9.44-11.3-9.44h-11.25v26.01h6.02v-7.24h5.53
+			l5.01,7.24h6.47L208.59,39.51z M202.31,35.84h-4.9v-9.06h4.9c3.68,0,5.53,1.67,5.53,4.53C207.85,34.13,205.99,35.84,202.31,35.84z
+			"/>
+	</g>
+	<path class="st0" d="M55.22,22.78c-4.08,0-8.21,1.83-11.01,5.1c-0.17,0.19-0.32,0.39-0.48,0.59h-0.11l0.05-0.21l1.27-5.11h-6.12
+		l-4.34,17.64H19.65l11.9-18.46L16.98,5.32h19.28c1.91,0,3.64,1.14,4.37,2.9c0.96,2.29,2.46,5.11,4.04,5.11V1.68H6.78l17.49,23.56
+		L6.78,48.32h25.86h6.1l2.04-8.36c1.65-6.68,5.48-9.9,9.93-10.7c0.82-0.15,1.65-0.21,2.5-0.21h1.9l1.53-6.27H55.22z"/>
+</g>
+</svg>
+<text x="24" y="116" font-size="14" font-weight="500" fill="#F08D4C" text-anchor="start">Cancel</text><g id="authentication-content" transform="translate(24,137)"><text x="0" y="14" font-size="12" font-weight="500" fill="#A69B8E" text-anchor="start">Step 1 of 4</text><path d="M226 10h26" stroke="#494037"/><circle cx="221" cy="10" r="4" fill="#E87832" stroke="#E87832"/><path d="M262 10h26" stroke="#494037"/><circle cx="257" cy="10" r="4" fill="#201C18" stroke="#918171"/><path d="M298 10h26" stroke="#494037"/><circle cx="293" cy="10" r="4" fill="#201C18" stroke="#918171"/><circle cx="329" cy="10" r="4" fill="#201C18" stroke="#918171"/><text x="0" y="62" font-size="22" font-weight="500" fill="#E8DCCB" text-anchor="start">Organisation details</text><rect y="78" width="48" height="48" rx="10" fill="#2B2520" stroke="#918171" stroke-dasharray="3 3"/><g transform="translate(12,90) scale(1)" fill="none" stroke="#E8DCCB" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h4l2-3h4l2 3h4v14H4Z"/><circle cx="12" cy="13" r="4"/></g><text x="62" y="96" font-size="14" font-weight="500" fill="#E8DCCB" text-anchor="start">Upload logo (optional)</text><text x="62" y="116" font-size="12" font-weight="400" fill="#A69B8E" text-anchor="start">JPG, PNG or SVG. Up to 5 MB.</text><text x="0" y="158" font-size="14" font-weight="500" fill="#A69B8E" text-anchor="start">Organisation name *</text><rect x="0" y="167" width="345" height="48" rx="10" fill="#332D27" stroke="#918171"/><text x="14" y="197" font-size="16" font-weight="400" fill="#BFB5A9" text-anchor="start">Acme Group</text><text x="0" y="246" font-size="14" font-weight="500" fill="#A69B8E" text-anchor="start">Functional currency *</text><rect x="0" y="255" width="164.5" height="48" rx="10" fill="#332D27" stroke="#918171"/><text x="14" y="285" font-size="16" font-weight="400" fill="#BFB5A9" text-anchor="start">AUD</text><g transform="translate(135.5,270) scale(0.6666666666666666)" fill="none" stroke="#A69B8E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></g><text x="180.5" y="246" font-size="14" font-weight="500" fill="#A69B8E" text-anchor="start">Country *</text><rect x="180.5" y="255" width="164.5" height="48" rx="10" fill="#332D27" stroke="#918171"/><text x="194.5" y="285" font-size="16" font-weight="400" fill="#BFB5A9" text-anchor="start">Australia</text><g transform="translate(316,270) scale(0.6666666666666666)" fill="none" stroke="#A69B8E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></g><text x="0" y="334" font-size="14" font-weight="500" fill="#A69B8E" text-anchor="start">Weight unit *</text><rect x="0" y="343" width="164.5" height="48" rx="10" fill="#332D27" stroke="#918171"/><text x="14" y="373" font-size="16" font-weight="400" fill="#BFB5A9" text-anchor="start">Kilograms</text><g transform="translate(135.5,358) scale(0.6666666666666666)" fill="none" stroke="#A69B8E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></g><text x="180.5" y="334" font-size="14" font-weight="500" fill="#A69B8E" text-anchor="start">Length unit *</text><rect x="180.5" y="343" width="164.5" height="48" rx="10" fill="#332D27" stroke="#918171"/><text x="194.5" y="373" font-size="16" font-weight="400" fill="#BFB5A9" text-anchor="start">Millimetres</text><g transform="translate(316,358) scale(0.6666666666666666)" fill="none" stroke="#A69B8E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></g><text x="0" y="422" font-size="14" font-weight="500" fill="#A69B8E" text-anchor="start">Volumetric divisor *</text><rect x="0" y="431" width="345" height="48" rx="10" fill="#332D27" stroke="#918171"/><text x="14" y="461" font-size="16" font-weight="400" fill="#BFB5A9" text-anchor="start">6000 mm³/g</text><g transform="translate(316,446) scale(0.6666666666666666)" fill="none" stroke="#A69B8E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></g><rect y="500" width="345" height="48" rx="12" fill="#E87832"/><text x="172.5" y="530" font-size="15" font-weight="500" fill="#1F1A16" text-anchor="middle">Continue</text></g><text x="92.5" y="799" font-size="12" font-weight="400" fill="#A69B8E" text-anchor="start">Privacy policy</text><text x="186.5" y="799" font-size="12" font-weight="400" fill="#A69B8E" text-anchor="middle">·</text>
+<svg x="204.5" y="783" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Sigmar AI: Idle</title>
+  <desc id="desc">The Sigmar emblem in ivory on a copper-orange circular coin, with subtle circuit traces.</desc>
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#FF9B46"/>
+      <stop offset=".48" stop-color="#F27D28"/>
+      <stop offset="1" stop-color="#C95813"/>
+    </linearGradient>
+    <radialGradient id="face" cx=".36" cy=".25" r=".83">
+      <stop offset="0" stop-color="#E56B1C"/>
+      <stop offset="1" stop-color="#AE420C"/>
+    </radialGradient>
+    <clipPath id="disc"><circle cx="500" cy="500" r="374"/></clipPath>
+  </defs>
+  <style><![CDATA[
+
+.coin, .scan { transform-box: view-box; transform-origin: 500px 500px; }
+.rim-signal { fill: none; stroke: #FFD1A1; stroke-width: 18; stroke-linecap: round; }
+@keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(.963); } }
+@keyframes seek { 0%,100% { transform: rotate(-62deg); } 50% { transform: rotate(96deg); } }
+@keyframes trace { 0%,100% { stroke-dashoffset: 0; opacity: .24; } 50% { stroke-dashoffset: -195; opacity: .68; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%,100% { transform: scale(.975); } 50% { transform: scale(1.035); } }
+@keyframes signal { 0%,100% { opacity: .12; } 50% { opacity: .8; } }
+@keyframes bounce { 0%,100% { transform: translateY(0) scale(1); } 35% { transform: translateY(-31px) scale(1.01); } 75% { transform: translateY(0) scale(.97,1.015); } }
+@keyframes blink { 0%,75%,83%,91%,100% { opacity: .10; } 79%,87% { opacity: .92; } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-38px); } 75% { transform: translateX(38px); } }
+@media (prefers-reduced-motion: reduce) { .coin,.scan,.trace,.signal { animation: none !important; } }
+.coin { animation: breathe 4s ease-in-out infinite; }
+  ]]></style>
+  <g class="coin">
+  
+  <circle cx="500" cy="500" r="457" fill="url(#rim)"/>
+  <circle cx="500" cy="500" r="444" fill="none" stroke="#FFD0A0" stroke-opacity=".38" stroke-width="5"/>
+  <circle cx="500" cy="500" r="383" fill="#88320B" fill-opacity=".22"/>
+  <circle cx="500" cy="500" r="374" fill="url(#face)"/>
+  
+  <g clip-path="url(#disc)" fill="none" stroke="#6A280C" stroke-opacity=".25" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 208H735V368L880 463"/>
+    <path d="M150 245H706V396L880 501"/>
+    <path d="M215 280H675V418L880 540"/>
+    <path d="M264 307H645V440L875 570"/>
+    <path d="M180 306L340 497 133 600"/>
+    <path d="M158 345L274 482 125 555"/>
+    <path d="M140 389L218 471 125 517"/>
+    <path d="M168 670L432 528 264 307"/>
+    <path d="M185 703L367 599 260 740H609V875"/>
+    <path d="M247 774H568V875"/>
+    <path d="M296 811H525V875"/>
+    <path d="M866 616L688 515 645 555V870"/>
+    <path d="M846 643L699 546 675 577V870"/>
+  </g>
+  <circle cx="500" cy="500" r="374" fill="none" stroke="#762B09" stroke-opacity=".25" stroke-width="5"/>
+
+  
+  <g transform="translate(500 500) scale(1.06) translate(-532 -533)">
+    <path fill="#FFF8ED" d="M722.83,515.07c-33.11,0-66.59,14.87-89.29,41.4c-1.34,1.54-2.63,3.15-3.89,4.78h-0.86l0.43-1.72l10.26-41.46h-49.61l-35.2,143.1H434.3l96.56-149.77L412.63,373.46h156.43c15.5,0,29.51,9.26,35.45,23.56c7.78,18.61,19.93,41.49,32.77,41.49v-94.58H329.86l141.88,191.11L329.86,722.28h209.78h49.49l16.58-67.85c13.35-54.18,44.43-80.29,80.57-86.81c6.63-1.2,13.41-1.74,20.3-1.69h15.38l12.41-50.87H722.83z"/>
+  </g>
+
+  </g>
+</svg>
+<text x="232.5" y="799" font-size="12" font-weight="400" fill="#A69B8E" text-anchor="start">Help</text></svg>

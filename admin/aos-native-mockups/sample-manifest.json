@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "status": "Produced from the approved direction; individual adaptations ready for review.",
+  "sourceScreens": 47,
+  "screens": 1,
+  "platforms": 2,
+  "themes": 2,
+  "layouts": 4,
+  "total": 16,
+  "entries": [
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "svg": "android/dark/phone/02-your-personas-are-ready.svg",
+      "png": "android/dark/phone/02-your-personas-are-ready.png",
+      "fullSvg": "android/dark/phone/02-your-personas-are-ready-full.svg",
+      "fullPng": "android/dark/phone/02-your-personas-are-ready-full.png",
+      "fullHeight": 1580,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 24,
+          "y": 668,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "android/dark/tablet-compact/02-your-personas-are-ready.svg",
+      "png": "android/dark/tablet-compact/02-your-personas-are-ready.png",
+      "fullSvg": "android/dark/tablet-compact/02-your-personas-are-ready-full.svg",
+      "fullPng": "android/dark/tablet-compact/02-your-personas-are-ready-full.png",
+      "fullHeight": 1108,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 736,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "android/dark/tablet-landscape/02-your-personas-are-ready.svg",
+      "png": "android/dark/tablet-landscape/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1024,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "New conversation",
+          "x": 16,
+          "y": 102,
+          "w": 204,
+          "h": 44
+        },
+        {
+          "label": "Personalise a Persona",
+          "x": 281,
+          "y": 800,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "android/dark/tablet-portrait/02-your-personas-are-ready.svg",
+      "png": "android/dark/tablet-portrait/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1194,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 970,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "svg": "android/light/phone/02-your-personas-are-ready.svg",
+      "png": "android/light/phone/02-your-personas-are-ready.png",
+      "fullSvg": "android/light/phone/02-your-personas-are-ready-full.svg",
+      "fullPng": "android/light/phone/02-your-personas-are-ready-full.png",
+      "fullHeight": 1580,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 24,
+          "y": 668,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "android/light/tablet-compact/02-your-personas-are-ready.svg",
+      "png": "android/light/tablet-compact/02-your-personas-are-ready.png",
+      "fullSvg": "android/light/tablet-compact/02-your-personas-are-ready-full.svg",
+      "fullPng": "android/light/tablet-compact/02-your-personas-are-ready-full.png",
+      "fullHeight": 1108,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 736,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "android/light/tablet-landscape/02-your-personas-are-ready.svg",
+      "png": "android/light/tablet-landscape/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1024,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "New conversation",
+          "x": 16,
+          "y": 102,
+          "w": 204,
+          "h": 44
+        },
+        {
+          "label": "Personalise a Persona",
+          "x": 281,
+          "y": 800,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "android/light/tablet-portrait/02-your-personas-are-ready.svg",
+      "png": "android/light/tablet-portrait/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1194,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 970,
+          "w": 345,
+          "h": 48
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "svg": "ios/dark/phone/02-your-personas-are-ready.svg",
+      "png": "ios/dark/phone/02-your-personas-are-ready.png",
+      "fullSvg": "ios/dark/phone/02-your-personas-are-ready-full.svg",
+      "fullPng": "ios/dark/phone/02-your-personas-are-ready-full.png",
+      "fullHeight": 1604,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 24,
+          "y": 628,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "ios/dark/tablet-compact/02-your-personas-are-ready.svg",
+      "png": "ios/dark/tablet-compact/02-your-personas-are-ready.png",
+      "fullSvg": "ios/dark/tablet-compact/02-your-personas-are-ready-full.svg",
+      "fullPng": "ios/dark/tablet-compact/02-your-personas-are-ready-full.png",
+      "fullHeight": 1108,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 736,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "ios/dark/tablet-landscape/02-your-personas-are-ready.svg",
+      "png": "ios/dark/tablet-landscape/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1024,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "New conversation",
+          "x": 16,
+          "y": 102,
+          "w": 204,
+          "h": 44
+        },
+        {
+          "label": "Personalise a Persona",
+          "x": 281,
+          "y": 800,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "ios/dark/tablet-portrait/02-your-personas-are-ready.svg",
+      "png": "ios/dark/tablet-portrait/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1194,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 970,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "svg": "ios/light/phone/02-your-personas-are-ready.svg",
+      "png": "ios/light/phone/02-your-personas-are-ready.png",
+      "fullSvg": "ios/light/phone/02-your-personas-are-ready-full.svg",
+      "fullPng": "ios/light/phone/02-your-personas-are-ready-full.png",
+      "fullHeight": 1604,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 24,
+          "y": 628,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "ios/light/tablet-compact/02-your-personas-are-ready.svg",
+      "png": "ios/light/tablet-compact/02-your-personas-are-ready.png",
+      "fullSvg": "ios/light/tablet-compact/02-your-personas-are-ready-full.svg",
+      "fullPng": "ios/light/tablet-compact/02-your-personas-are-ready-full.png",
+      "fullHeight": 1108,
+      "needsScroll": true,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 736,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "ios/light/tablet-landscape/02-your-personas-are-ready.svg",
+      "png": "ios/light/tablet-landscape/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1024,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "New conversation",
+          "x": 16,
+          "y": 102,
+          "w": 204,
+          "h": 44
+        },
+        {
+          "label": "Personalise a Persona",
+          "x": 281,
+          "y": 800,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    },
+    {
+      "screen": "02",
+      "title": "Your Personas are ready",
+      "group": "01_Home_Personas_Career_Knowledge",
+      "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "ios/light/tablet-portrait/02-your-personas-are-ready.svg",
+      "png": "ios/light/tablet-portrait/02-your-personas-are-ready.png",
+      "fullSvg": null,
+      "fullPng": null,
+      "fullHeight": 1194,
+      "needsScroll": false,
+      "actions": [
+        {
+          "label": "Personalise a Persona",
+          "x": 32,
+          "y": 970,
+          "w": 345,
+          "h": 44
+        }
+      ],
+      "tabs": [],
+      "notice": null,
+      "consentRequired": false
+    }
+  ]
+}

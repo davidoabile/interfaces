@@ -1,0 +1,6 @@
+/* Targeted visual refinement after the first complete build. */
+const {fs,path}=require('./components.cjs');
+const {screens}=require('./screens.cjs'),{render,prepareBackgrounds,emit}=require('./build.cjs');
+const manifest=JSON.parse(fs.readFileSync(path.join(__dirname,'manifest.json'),'utf8'));
+async function run(){await prepareBackgrounds();const jobs=manifest.entries.filter(e=>e.layout==='tablet-landscape'||e.screen==='49'||screens.find(s=>s.id===e.screen).activeTab!==undefined);let cursor=0;await Promise.all(Array.from({length:3},async()=>{while(cursor<jobs.length){const e=jobs[cursor++],screen=screens.find(s=>s.id===e.screen),l={id:e.layout,w:e.width,h:e.height},r=render(screen,e.platform,e.theme,l);await emit(r.svg,path.join(__dirname,e.svg.slice(0,-4)));if(e.fullSvg){const f=render(screen,e.platform,e.theme,l,true);await emit(f.svg,path.join(__dirname,e.fullSvg.slice(0,-4)));}e.activeTab=screen.activeTab||0;e.actions=r.actions;}}));fs.writeFileSync(path.join(__dirname,'manifest.json'),JSON.stringify(manifest,null,2));console.log(`Refined ${jobs.length} variants: selected tabs and a single Recent conversations menu.`);}
+run().catch(e=>{console.error(e.stack);process.exitCode=1});

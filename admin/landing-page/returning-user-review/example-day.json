@@ -1,0 +1,30 @@
+{
+  "status": "Illustrative design fixture, not live member data",
+  "name": "David",
+  "availableMinutesToday": 360,
+  "commitments": {
+    "meetingsMinutes": 180,
+    "twoDeadlineTasksMinutes": 120,
+    "waitingFlowReviewMinutes": 30
+  },
+  "proposedMoves": [
+    { "task": "Expense admin", "persona": "My.Work", "minutes": 45, "from": "Today", "to": "Tomorrow 14:00–14:45", "due": "Friday" },
+    { "task": "Course notes", "persona": "My.Learning", "minutes": 45, "from": "Today", "to": "Tomorrow 14:45–15:30", "due": "Friday" }
+  ],
+  "constraints": {
+    "tomorrowSlotIsAvailable": true,
+    "tomorrowCapacityAfterMovesMinutes": 30,
+    "familyCommitment": "School pickup at 16:00 today is protected",
+    "availabilityExcludesFamilyCommitmentsAndBreaks": true,
+    "noDeadlineChanges": true,
+    "noActionBeforeApproval": true
+  },
+  "expected": {
+    "plannedBeforeMinutes": 420,
+    "overCapacityBeforeMinutes": 60,
+    "rescheduledMinutes": 90,
+    "plannedAfterMinutes": 330,
+    "bufferAfterMinutes": 30,
+    "effortSavedMinutes": 0
+  }
+}

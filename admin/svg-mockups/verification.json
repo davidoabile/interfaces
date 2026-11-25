@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "screens": 71,
+  "svgSelections": 1136,
+  "uniqueSVGs": 1136,
+  "newAccountScreens": 10,
+  "newAccountSVGs": 160,
+  "existingSVGsReused": 976,
+  "filterCombinations": 16,
+  "screensPerCombination": 71,
+  "resolvedRelativeLinks": 816,
+  "checks": [
+    "All SVGs parse and have embedded Satoshi fonts",
+    "All SVG dimensions match catalogue metadata",
+    "All source/reference and SVG navigation links resolve",
+    "Every screen has both platforms, both themes and four layouts",
+    "Personal security has three question/answer pairs",
+    "AOS PIN has five positions and verification has six",
+    "No raster exports in the new account or catalogue folders"
+  ],
+  "visualReview": "Representative light/dark phone, wide/tablet layouts and full-scroll security content inspected using in-memory rendering. Static SVGs do not implement account registration or permissions.",
+  "gallerySelectionsChecked": 1136,
+  "categoryCounts": {
+    "account": 10,
+    "auth": 12,
+    "aos": 49
+  },
+  "themeComparison": "passed"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "screens": 49,
+  "originalReferences": 47,
+  "viewportCompositions": 784,
+  "inspectedViewportPNGHeaders": 784,
+  "fullScrollCompanions": 580,
+  "filterCombinations": 16,
+  "screensPerFilter": 49,
+  "checks": [
+    "All 47 supplied references mapped, plus returning-user and menu states",
+    "Every platform/theme/size selection contains 49 screens",
+    "All SVG/PNG and original reference links resolve",
+    "PNG dimensions match logical frames at 2×",
+    "Every composer exposes microphone and typing",
+    "Consent-dependent actions are disabled until acceptance",
+    "All authored action targets meet the 44 px minimum",
+    "Dense screens have full-scroll companions",
+    "Generated gallery script exercised across all 784 screen/filter selections",
+    "Full-scroll and source links checked through the gallery logic",
+    "Theme comparison toggles correctly"
+  ],
+  "visualReview": "Representative phone, compact and wide layouts and contact sheets reviewed. Static mockups do not verify native runtime, accessibility scaling, recording or payment behaviour.",
+  "galleryScriptSelectionsChecked": 784,
+  "themeComparison": "passed",
+  "contactSheets": 14
+}

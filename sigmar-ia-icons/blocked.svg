@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Sigmar AI: Blocked</title>
+  <desc id="desc">The Sigmar emblem in ivory on a red circular coin, with subtle circuit traces.</desc>
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#F56C70"/>
+      <stop offset=".48" stop-color="#D93142"/>
+      <stop offset="1" stop-color="#991D32"/>
+    </linearGradient>
+    <radialGradient id="face" cx=".36" cy=".25" r=".83">
+      <stop offset="0" stop-color="#C62B3C"/>
+      <stop offset="1" stop-color="#83182A"/>
+    </radialGradient>
+    <clipPath id="disc"><circle cx="500" cy="500" r="374"/></clipPath>
+  </defs>
+  <style><![CDATA[
+
+.coin, .scan { transform-box: view-box; transform-origin: 500px 500px; }
+.rim-signal { fill: none; stroke: #FFD1A1; stroke-width: 18; stroke-linecap: round; }
+@keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(.963); } }
+@keyframes seek { 0%,100% { transform: rotate(-62deg); } 50% { transform: rotate(96deg); } }
+@keyframes trace { 0%,100% { stroke-dashoffset: 0; opacity: .24; } 50% { stroke-dashoffset: -195; opacity: .68; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%,100% { transform: scale(.975); } 50% { transform: scale(1.035); } }
+@keyframes signal { 0%,100% { opacity: .12; } 50% { opacity: .8; } }
+@keyframes bounce { 0%,100% { transform: translateY(0) scale(1); } 35% { transform: translateY(-31px) scale(1.01); } 75% { transform: translateY(0) scale(.97,1.015); } }
+@keyframes blink { 0%,75%,83%,91%,100% { opacity: .10; } 79%,87% { opacity: .92; } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-38px); } 75% { transform: translateX(38px); } }
+@media (prefers-reduced-motion: reduce) { .coin,.scan,.trace,.signal { animation: none !important; } }
+.coin { animation: shake .32s ease-in-out 3; }
+  ]]></style>
+  <g class="coin">
+  <!-- Transparent outside the coin; a soft copper rim replaces the flat orange ring. -->
+  <circle cx="500" cy="500" r="457" fill="url(#rim)"/>
+  <circle cx="500" cy="500" r="444" fill="none" stroke="#FFA9AE" stroke-opacity=".38" stroke-width="5"/>
+  <circle cx="500" cy="500" r="383" fill="#601421" fill-opacity=".22"/>
+  <circle cx="500" cy="500" r="374" fill="url(#face)"/>
+  <!-- Retain the original circuit-inspired treatment with quieter contrast. -->
+  <g clip-path="url(#disc)" fill="none" stroke="#4D1020" stroke-opacity=".25" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 208H735V368L880 463"/>
+    <path d="M150 245H706V396L880 501"/>
+    <path d="M215 280H675V418L880 540"/>
+    <path d="M264 307H645V440L875 570"/>
+    <path d="M180 306L340 497 133 600"/>
+    <path d="M158 345L274 482 125 555"/>
+    <path d="M140 389L218 471 125 517"/>
+    <path d="M168 670L432 528 264 307"/>
+    <path d="M185 703L367 599 260 740H609V875"/>
+    <path d="M247 774H568V875"/>
+    <path d="M296 811H525V875"/>
+    <path d="M866 616L688 515 645 555V870"/>
+    <path d="M846 643L699 546 675 577V870"/>
+  </g>
+  <circle cx="500" cy="500" r="374" fill="none" stroke="#59101E" stroke-opacity=".25" stroke-width="5"/>
+
+  <!-- Original Sigmar logomark, enlarged slightly and optically centred. -->
+  <g transform="translate(500 500) scale(1.06) translate(-532 -533)">
+    <path fill="#FFF8ED" d="M722.83,515.07c-33.11,0-66.59,14.87-89.29,41.4c-1.34,1.54-2.63,3.15-3.89,4.78h-0.86l0.43-1.72l10.26-41.46h-49.61l-35.2,143.1H434.3l96.56-149.77L412.63,373.46h156.43c15.5,0,29.51,9.26,35.45,23.56c7.78,18.61,19.93,41.49,32.77,41.49v-94.58H329.86l141.88,191.11L329.86,722.28h209.78h49.49l16.58-67.85c13.35-54.18,44.43-80.29,80.57-86.81c6.63-1.2,13.41-1.74,20.3-1.69h15.38l12.41-50.87H722.83z"/>
+  </g>
+
+  </g>
+</svg>

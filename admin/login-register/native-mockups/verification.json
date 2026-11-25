@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "mockupVariants": 192,
+  "decodedPNGs": 192,
+  "uniqueVariants": 192,
+  "galleryFilterCombinations": 16,
+  "screensPerGalleryFilter": 12,
+  "contactSheets": 32,
+  "checks": [
+    "All SVG and PNG files exist",
+    "PNG aspect ratios match logical frames",
+    "Authentication content fits frame bounds",
+    "Relative background asset links resolve",
+    "OTP has six fields and PIN has five",
+    "Business logo upload limits preserved",
+    "Approved nine-Persona spotlight exists on wide login",
+    "All gallery filter combinations and file links resolve"
+  ],
+  "visualReview": "Representative full-size dense phone forms and contact sheets inspected. Static mockups do not validate native accessibility or runtime behaviour."
+}

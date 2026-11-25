@@ -1,0 +1,6327 @@
+{
+  "screens": 10,
+  "total": 160,
+  "format": "SVG only",
+  "entries": [
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1043,
+      "svg": "ios/dark/phone/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 32,
+          "y": 326,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 204.5,
+          "y": 326,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 32,
+          "y": 430,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 32,
+          "y": 534,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 32,
+          "y": 638,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 204.5,
+          "y": 638,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 804,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 880,
+      "svg": "ios/dark/phone/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 32,
+          "y": 626,
+          "w": 329,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 32,
+          "y": 698,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 903,
+      "svg": "ios/dark/phone/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 32,
+          "y": 649,
+          "w": 329,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 32,
+          "y": 721,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1023,
+      "svg": "ios/dark/phone/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 32,
+          "y": 406,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 32,
+          "y": 510,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 32,
+          "y": 614,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 204.5,
+          "y": 614,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 32,
+          "y": 718,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 32,
+          "y": 822,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1196,
+      "svg": "ios/dark/phone/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 32,
+          "y": 349,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 32,
+          "y": 453,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 32,
+          "y": 557,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 32,
+          "y": 661,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 32,
+          "y": 765,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 32,
+          "y": 869,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 1014,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 928,
+      "svg": "ios/dark/phone/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 746,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 852,
+      "svg": "ios/dark/phone/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 32,
+          "y": 437,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 852,
+      "svg": "ios/dark/phone/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 852,
+      "svg": "ios/dark/phone/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 32,
+          "y": 595,
+          "w": 329,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 32,
+          "y": 667,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1018,
+      "svg": "ios/dark/phone/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 32,
+          "y": 349,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 32,
+          "y": 453,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 32,
+          "y": 557,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 32,
+          "y": 836,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-compact/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 90,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 308,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 90,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 308,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/dark/tablet-compact/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 90,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 90,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/dark/tablet-compact/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 90,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 90,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1023,
+      "svg": "ios/dark/tablet-compact/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 90,
+          "y": 406,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 90,
+          "y": 510,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 90,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 308,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 90,
+          "y": 718,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 90,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1196,
+      "svg": "ios/dark/tablet-compact/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 90,
+          "y": 349,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 90,
+          "y": 453,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 90,
+          "y": 557,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 90,
+          "y": 661,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 90,
+          "y": 765,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 90,
+          "y": 869,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/dark/tablet-compact/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/dark/tablet-compact/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 90,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/dark/tablet-compact/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/dark/tablet-compact/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 90,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 90,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 995,
+      "svg": "ios/dark/tablet-compact/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 90,
+          "y": 326,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 90,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 207,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 425,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 207,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 425,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 207,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 207,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 207,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 207,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 207,
+          "y": 406,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 207,
+          "y": 510,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 207,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 425,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 207,
+          "y": 718,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 207,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1196,
+      "svg": "ios/dark/tablet-portrait/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 207,
+          "y": 349,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 207,
+          "y": 453,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 207,
+          "y": 557,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 207,
+          "y": 661,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 207,
+          "y": 765,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 207,
+          "y": 869,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 207,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 207,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 207,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/dark/tablet-portrait/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 207,
+          "y": 326,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 207,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 850,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 1068,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 850,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 1068,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 850,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 850,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 850,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 850,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 850,
+          "y": 406,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 850,
+          "y": 510,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 850,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 1068,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 850,
+          "y": 718,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 850,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1196,
+      "svg": "ios/dark/tablet-landscape/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 850,
+          "y": 349,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 850,
+          "y": 453,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 850,
+          "y": 557,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 850,
+          "y": 661,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 850,
+          "y": 765,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 850,
+          "y": 869,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 850,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 850,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 850,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/dark/tablet-landscape/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 850,
+          "y": 326,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 850,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1043,
+      "svg": "01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 32,
+          "y": 326,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 204.5,
+          "y": 326,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 32,
+          "y": 430,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 32,
+          "y": 534,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 32,
+          "y": 638,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 204.5,
+          "y": 638,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 804,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 880,
+      "svg": "02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 32,
+          "y": 626,
+          "w": 329,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 32,
+          "y": 698,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 903,
+      "svg": "03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 32,
+          "y": 649,
+          "w": 329,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 32,
+          "y": 721,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1023,
+      "svg": "04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 32,
+          "y": 406,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 32,
+          "y": 510,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 32,
+          "y": 614,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 204.5,
+          "y": 614,
+          "w": 156.5,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 32,
+          "y": 718,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 32,
+          "y": 822,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1196,
+      "svg": "05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 32,
+          "y": 349,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 32,
+          "y": 453,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 32,
+          "y": 557,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 32,
+          "y": 661,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 32,
+          "y": 765,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 32,
+          "y": 869,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 1014,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 928,
+      "svg": "06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 746,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 852,
+      "svg": "07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 32,
+          "y": 437,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 852,
+      "svg": "08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 852,
+      "svg": "09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 32,
+          "y": 595,
+          "w": 329,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 32,
+          "y": 667,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "canvasHeight": 1018,
+      "svg": "10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 32,
+          "y": 349,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 32,
+          "y": 453,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 32,
+          "y": 557,
+          "w": 329,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 32,
+          "y": 836,
+          "w": 329,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-compact/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 90,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 308,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 90,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 308,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/light/tablet-compact/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 90,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 90,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/light/tablet-compact/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 90,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 90,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1023,
+      "svg": "ios/light/tablet-compact/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 90,
+          "y": 406,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 90,
+          "y": 510,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 90,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 308,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 90,
+          "y": 718,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 90,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1196,
+      "svg": "ios/light/tablet-compact/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 90,
+          "y": 349,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 90,
+          "y": 453,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 90,
+          "y": 557,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 90,
+          "y": 661,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 90,
+          "y": 765,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 90,
+          "y": 869,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/light/tablet-compact/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/light/tablet-compact/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 90,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/light/tablet-compact/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "ios/light/tablet-compact/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 90,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 90,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 995,
+      "svg": "ios/light/tablet-compact/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 90,
+          "y": 326,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 90,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 207,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 425,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 207,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 425,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 207,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 207,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 207,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 207,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 207,
+          "y": 406,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 207,
+          "y": 510,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 207,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 425,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 207,
+          "y": 718,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 207,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1196,
+      "svg": "ios/light/tablet-portrait/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 207,
+          "y": 349,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 207,
+          "y": 453,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 207,
+          "y": 557,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 207,
+          "y": 661,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 207,
+          "y": 765,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 207,
+          "y": 869,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 207,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 207,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 207,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "ios/light/tablet-portrait/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 207,
+          "y": 326,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 207,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 850,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 1068,
+          "y": 326,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 850,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 1068,
+          "y": 638,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 850,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 850,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 850,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 850,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 850,
+          "y": 406,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 850,
+          "y": 510,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 850,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 1068,
+          "y": 614,
+          "w": 202,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 850,
+          "y": 718,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 850,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1196,
+      "svg": "ios/light/tablet-landscape/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 850,
+          "y": 349,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 850,
+          "y": 453,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 850,
+          "y": 557,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 850,
+          "y": 661,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 850,
+          "y": 765,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 850,
+          "y": 869,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 850,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 850,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 850,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "ios/light/tablet-landscape/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 850,
+          "y": 326,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 81
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 850,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1043,
+      "svg": "android/dark/phone/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 32,
+          "y": 326,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 214,
+          "y": 326,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 32,
+          "y": 430,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 32,
+          "y": 534,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 32,
+          "y": 638,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 214,
+          "y": 638,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 804,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/dark/phone/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 32,
+          "y": 626,
+          "w": 348,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 32,
+          "y": 698,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 903,
+      "svg": "android/dark/phone/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 32,
+          "y": 649,
+          "w": 348,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 32,
+          "y": 721,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1023,
+      "svg": "android/dark/phone/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 32,
+          "y": 406,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 32,
+          "y": 510,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 32,
+          "y": 614,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 214,
+          "y": 614,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 32,
+          "y": 718,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 32,
+          "y": 822,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1196,
+      "svg": "android/dark/phone/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 32,
+          "y": 349,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 32,
+          "y": 453,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 32,
+          "y": 557,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 32,
+          "y": 661,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 32,
+          "y": 765,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 32,
+          "y": 869,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 1014,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 928,
+      "svg": "android/dark/phone/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 746,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/dark/phone/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 32,
+          "y": 437,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/dark/phone/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/dark/phone/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 32,
+          "y": 595,
+          "w": 348,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 32,
+          "y": 667,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1018,
+      "svg": "android/dark/phone/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 32,
+          "y": 349,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 32,
+          "y": 453,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 32,
+          "y": 557,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 32,
+          "y": 836,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-compact/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 90,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 308,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 90,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 308,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/dark/tablet-compact/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 90,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 90,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/dark/tablet-compact/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 90,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 90,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1023,
+      "svg": "android/dark/tablet-compact/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 90,
+          "y": 406,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 90,
+          "y": 510,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 90,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 308,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 90,
+          "y": 718,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 90,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1196,
+      "svg": "android/dark/tablet-compact/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 90,
+          "y": 349,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 90,
+          "y": 453,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 90,
+          "y": 557,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 90,
+          "y": 661,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 90,
+          "y": 765,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 90,
+          "y": 869,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/dark/tablet-compact/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/dark/tablet-compact/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 90,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/dark/tablet-compact/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/dark/tablet-compact/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 90,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 90,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 995,
+      "svg": "android/dark/tablet-compact/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 90,
+          "y": 326,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 90,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 207,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 425,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 207,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 425,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 207,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 207,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 207,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 207,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 207,
+          "y": 406,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 207,
+          "y": 510,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 207,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 425,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 207,
+          "y": 718,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 207,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1196,
+      "svg": "android/dark/tablet-portrait/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 207,
+          "y": 349,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 207,
+          "y": 453,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 207,
+          "y": 557,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 207,
+          "y": 661,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 207,
+          "y": 765,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 207,
+          "y": 869,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 207,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 207,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 207,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/dark/tablet-portrait/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 207,
+          "y": 326,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 207,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 850,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 1068,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 850,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 1068,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 850,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 850,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 850,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 850,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 850,
+          "y": 406,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 850,
+          "y": 510,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 850,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 1068,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 850,
+          "y": 718,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 850,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1196,
+      "svg": "android/dark/tablet-landscape/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 850,
+          "y": 349,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 850,
+          "y": 453,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 850,
+          "y": 557,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 850,
+          "y": 661,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 850,
+          "y": 765,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 850,
+          "y": 869,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 850,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 850,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 850,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/dark/tablet-landscape/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 850,
+          "y": 326,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 850,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1043,
+      "svg": "android/light/phone/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 32,
+          "y": 326,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 214,
+          "y": 326,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 32,
+          "y": 430,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 32,
+          "y": 534,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 32,
+          "y": 638,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 214,
+          "y": 638,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 804,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/light/phone/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 32,
+          "y": 626,
+          "w": 348,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 32,
+          "y": 698,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 903,
+      "svg": "android/light/phone/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 32,
+          "y": 649,
+          "w": 348,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 32,
+          "y": 721,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1023,
+      "svg": "android/light/phone/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 32,
+          "y": 406,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 32,
+          "y": 510,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 32,
+          "y": 614,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 214,
+          "y": 614,
+          "w": 166,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 32,
+          "y": 718,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 32,
+          "y": 822,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1196,
+      "svg": "android/light/phone/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 32,
+          "y": 349,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 32,
+          "y": 453,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 32,
+          "y": 557,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 32,
+          "y": 661,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 32,
+          "y": 765,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 32,
+          "y": 869,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 1014,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 928,
+      "svg": "android/light/phone/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 32,
+          "y": 746,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/light/phone/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 32,
+          "y": 437,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/light/phone/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 892,
+      "svg": "android/light/phone/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 32,
+          "y": 595,
+          "w": 348,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 32,
+          "y": 667,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 412,
+      "height": 892,
+      "canvasHeight": 1018,
+      "svg": "android/light/phone/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 32,
+          "y": 349,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 32,
+          "y": 453,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 32,
+          "y": 557,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 32,
+          "y": 836,
+          "w": 348,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-compact/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 90,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 308,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 90,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 308,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/light/tablet-compact/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 90,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 90,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/light/tablet-compact/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 90,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 90,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1023,
+      "svg": "android/light/tablet-compact/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 90,
+          "y": 406,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 90,
+          "y": 510,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 90,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 308,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 90,
+          "y": 718,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 90,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 1196,
+      "svg": "android/light/tablet-compact/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 90,
+          "y": 349,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 90,
+          "y": 453,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 90,
+          "y": 557,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 90,
+          "y": 661,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 90,
+          "y": 765,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 90,
+          "y": 869,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/light/tablet-compact/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 90,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/light/tablet-compact/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 90,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/light/tablet-compact/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 960,
+      "svg": "android/light/tablet-compact/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 90,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 90,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "canvasHeight": 995,
+      "svg": "android/light/tablet-compact/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 90,
+          "y": 326,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 90,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 90,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 90,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 207,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 425,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 207,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 425,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 207,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 207,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 207,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 207,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 207,
+          "y": 406,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 207,
+          "y": 510,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 207,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 425,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 207,
+          "y": 718,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 207,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1196,
+      "svg": "android/light/tablet-portrait/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 207,
+          "y": 349,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 207,
+          "y": 453,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 207,
+          "y": 557,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 207,
+          "y": 661,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 207,
+          "y": 765,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 207,
+          "y": 869,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 207,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 207,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 207,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 207,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "canvasHeight": 1194,
+      "svg": "android/light/tablet-portrait/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 207,
+          "y": 326,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 207,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 207,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 207,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "01-personal-account",
+      "title": "Your personal account",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/01-personal-account.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "First name *",
+          "x": 850,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Last name *",
+          "x": 1068,
+          "y": 326,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Email address *",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Phone (optional)",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country (optional)",
+          "x": 850,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Postcode (optional)",
+          "x": 1068,
+          "y": 638,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 785,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "02-business-organisations",
+      "title": "Choose an organisation",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/02-business-organisations.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with Acme Group",
+          "x": 850,
+          "y": 626,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an organisation",
+          "x": 850,
+          "y": 698,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "03-business-entities",
+      "title": "Choose an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/03-business-entities.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue with this entity",
+          "x": 850,
+          "y": 649,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Add an entity",
+          "x": 850,
+          "y": 721,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "04-add-entity",
+      "title": "Add an entity",
+      "category": "Business setup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/04-add-entity.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Entity name *",
+          "x": 850,
+          "y": 406,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Industry *",
+          "x": 850,
+          "y": 510,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Currency *",
+          "x": 850,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Country *",
+          "x": 1068,
+          "y": 614,
+          "w": 202,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "ABN (optional)",
+          "x": 850,
+          "y": 718,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue to address",
+          "x": 850,
+          "y": 822,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "05-personal-security",
+      "title": "Security questions",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1196,
+      "svg": "android/light/tablet-landscape/05-personal-security.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Question 1",
+          "x": 850,
+          "y": 349,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 1",
+          "x": 850,
+          "y": 453,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 2",
+          "x": 850,
+          "y": 557,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 2",
+          "x": 850,
+          "y": 661,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Question 3",
+          "x": 850,
+          "y": 765,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Answer 3",
+          "x": 850,
+          "y": 869,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 1014,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "06-personal-pin",
+      "title": "Set your AOS PIN",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/06-personal-pin.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Continue",
+          "x": 850,
+          "y": 723,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "07-personal-verification",
+      "title": "Verify your email",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/07-personal-verification.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Verify account",
+          "x": 850,
+          "y": 414,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "08-personal-aos-setup",
+      "title": "Build your AOS",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/08-personal-aos-setup.svg",
+      "controls": []
+    },
+    {
+      "screen": "09-personal-personas",
+      "title": "Review your Personas",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/09-personal-personas.svg",
+      "controls": [
+        {
+          "kind": "button",
+          "label": "Review My.Work",
+          "x": 850,
+          "y": 595,
+          "w": 420,
+          "h": 48
+        },
+        {
+          "kind": "button",
+          "label": "Done",
+          "x": 850,
+          "y": 667,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    },
+    {
+      "screen": "10-persona-review",
+      "title": "Review My.Work",
+      "category": "Personal signup",
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "canvasHeight": 1024,
+      "svg": "android/light/tablet-landscape/10-persona-review.svg",
+      "controls": [
+        {
+          "kind": "field",
+          "label": "Persona name",
+          "x": 850,
+          "y": 326,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Classification",
+          "x": 850,
+          "y": 430,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "field",
+          "label": "Scope",
+          "x": 850,
+          "y": 534,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "kind": "button",
+          "label": "Save Persona",
+          "x": 850,
+          "y": 813,
+          "w": 420,
+          "h": 48
+        }
+      ]
+    }
+  ]
+}

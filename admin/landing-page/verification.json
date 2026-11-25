@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "variants": 16,
+  "galleryFilterCombinations": 4,
+  "checks": [
+    "PNG aspect ratios",
+    "Required personal assistant content",
+    "No business dashboard content",
+    "SVG background links",
+    "Composer and native navigation spacing",
+    "Gallery filter counts and download links"
+  ],
+  "visualReview": "Phone, compact, portrait and landscape samples inspected in both themes across representative platforms."
+}

@@ -1,0 +1,150 @@
+{
+  "status": "Initial landing-page design for review",
+  "reference": "../Sigmar AI personal and business UI.jpg",
+  "entries": [
+    {
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "svg": "aos-admin-ios-dark-phone-v1.svg",
+      "png": "aos-admin-ios-dark-phone-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "aos-admin-ios-dark-tablet-compact-v1.svg",
+      "png": "aos-admin-ios-dark-tablet-compact-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "aos-admin-ios-dark-tablet-portrait-v1.svg",
+      "png": "aos-admin-ios-dark-tablet-portrait-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "aos-admin-ios-dark-tablet-landscape-v1.svg",
+      "png": "aos-admin-ios-dark-tablet-landscape-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "svg": "aos-admin-ios-light-phone-v1.svg",
+      "png": "aos-admin-ios-light-phone-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "aos-admin-ios-light-tablet-compact-v1.svg",
+      "png": "aos-admin-ios-light-tablet-compact-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "aos-admin-ios-light-tablet-portrait-v1.svg",
+      "png": "aos-admin-ios-light-tablet-portrait-v1.png"
+    },
+    {
+      "platform": "ios",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "aos-admin-ios-light-tablet-landscape-v1.svg",
+      "png": "aos-admin-ios-light-tablet-landscape-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "dark",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "svg": "aos-admin-android-dark-phone-v1.svg",
+      "png": "aos-admin-android-dark-phone-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "aos-admin-android-dark-tablet-compact-v1.svg",
+      "png": "aos-admin-android-dark-tablet-compact-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "aos-admin-android-dark-tablet-portrait-v1.svg",
+      "png": "aos-admin-android-dark-tablet-portrait-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "dark",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "aos-admin-android-dark-tablet-landscape-v1.svg",
+      "png": "aos-admin-android-dark-tablet-landscape-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "light",
+      "layout": "phone",
+      "width": 393,
+      "height": 852,
+      "svg": "aos-admin-android-light-phone-v1.svg",
+      "png": "aos-admin-android-light-phone-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-compact",
+      "width": 600,
+      "height": 960,
+      "svg": "aos-admin-android-light-tablet-compact-v1.svg",
+      "png": "aos-admin-android-light-tablet-compact-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-portrait",
+      "width": 834,
+      "height": 1194,
+      "svg": "aos-admin-android-light-tablet-portrait-v1.svg",
+      "png": "aos-admin-android-light-tablet-portrait-v1.png"
+    },
+    {
+      "platform": "android",
+      "theme": "light",
+      "layout": "tablet-landscape",
+      "width": 1366,
+      "height": 1024,
+      "svg": "aos-admin-android-light-tablet-landscape-v1.svg",
+      "png": "aos-admin-android-light-tablet-landscape-v1.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+/* Execute the generated gallery script against a minimal DOM to check its filter/link logic offline. */
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8'),script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const elements=new Map(),defaults={platform:'ios',theme:'dark',layout:'phone',capture:'viewport',search:''};
+function element(id){if(!elements.has(id))elements.set(id,{value:defaults[id]||'',innerHTML:'',textContent:'',options:[{},{}],style:{setProperty(){}},querySelectorAll(){return[]},setAttribute(k,v){this[k]=v},scrollIntoView(){}});return elements.get(id)}
+const ctx=vm.createContext({document:{getElementById:element},location:{hash:'#48'}});vm.runInContext(script,ctx,{timeout:5000});
+let checked=0;
+for(const p of ['ios','android'])for(const t of ['dark','light'])for(const l of ['phone','tablet-compact','tablet-portrait','tablet-landscape']){element('platform').value=p;element('theme').value=t;element('layout').value=l;element('layout').onchange();for(let i=0;i<49;i++){element('next').onclick();for(const id of ['png','svg','source'])assert(fs.existsSync(path.resolve(__dirname,element(id).href)),id+': '+element(id).href);assert(fs.existsSync(path.join(__dirname,element('preview').src)));element('capture').value='full';element('capture').onchange();assert(fs.existsSync(path.join(__dirname,element('preview').src)));element('capture').value='viewport';checked++;}}
+element('compareButton').onclick();assert.equal(element('comparison').hidden,false);assert.equal((element('comparison').innerHTML.match(/<img /g)||[]).length,2);element('compareButton').onclick();assert.equal(element('comparison').hidden,true);
+console.log(`Gallery script passed: ${checked} screen/filter selections, full-scroll links, source links and theme comparison.`);
+const reportPath=path.join(__dirname,'verification.json');
+if(fs.existsSync(reportPath)){const r=JSON.parse(fs.readFileSync(reportPath,'utf8'));r.galleryScriptSelectionsChecked=checked;r.themeComparison='passed';r.contactSheets=fs.readdirSync(path.join(__dirname,'contact-sheets')).filter(n=>/^ios-.*phone/.test(n)).length;r.checks=[...new Set([...r.checks,'Generated gallery script exercised across all 784 screen/filter selections','Full-scroll and source links checked through the gallery logic','Theme comparison toggles correctly'])];fs.writeFileSync(reportPath,JSON.stringify(r,null,2));}

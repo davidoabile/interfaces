@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+<fontconfig>
+  <dir>/Users/doabile/workspace/hedgetech/workers/sigmar-aos-site/public/fonts/satoshi</dir>
+  <cachedir>/Users/doabile/Documents/ChatGPT/Interfaces designs/admin/login-register/samples/.font-cache</cachedir>
+</fontconfig>

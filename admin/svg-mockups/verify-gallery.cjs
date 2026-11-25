@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8'),script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const elements=new Map(),defaults={platform:'ios',theme:'light',layout:'phone',family:'all',search:''};
+function element(id){if(!elements.has(id))elements.set(id,{value:defaults[id]||'',innerHTML:'',textContent:'',style:{},querySelectorAll(){return[]},setAttribute(k,v){this[k]=v},scrollIntoView(){}});return elements.get(id)}
+const ctx=vm.createContext({document:{getElementById:element},location:{hash:'#setup-01'}});vm.runInContext(script,ctx,{timeout:5000});
+let n=0;for(const p of ['ios','android'])for(const t of ['light','dark'])for(const l of ['phone','tablet-compact','tablet-portrait','tablet-landscape']){element('platform').value=p;element('theme').value=t;element('layout').value=l;element('layout').onchange();for(let i=0;i<71;i++){element('next').onclick();for(const id of ['open','source'])assert(fs.existsSync(path.resolve(__dirname,element(id).href)));assert(fs.existsSync(path.resolve(__dirname,element('preview').data)));n++;}}
+for(const [f,count]of [['setup',10],['auth',12],['aos',49]]){element('family').value=f;element('family').onchange();assert.equal(vm.runInContext('visible().length',ctx),count)}
+element('compareButton').onclick();assert.equal(element('comparison').hidden,false);assert.equal((element('comparison').innerHTML.match(/<object /g)||[]).length,2);element('compareButton').onclick();assert.equal(element('comparison').hidden,true);
+console.log(`Gallery passed: ${n} screen/filter selections, category counts, SVG/source links and theme comparison.`);
+const file=path.join(__dirname,'verification.json');if(fs.existsSync(file)){const r=JSON.parse(fs.readFileSync(file,'utf8'));r.gallerySelectionsChecked=n;r.categoryCounts={account:10,auth:12,aos:49};r.themeComparison='passed';fs.writeFileSync(file,JSON.stringify(r,null,2));}
