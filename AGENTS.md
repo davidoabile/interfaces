@@ -34,4 +34,4 @@ The own-AI macOS first sample is approved. Current linked source: `admin/own-ai-
 
 Persona management now includes the requested media library, uploads and previews: see requirements section 26 and `admin/persona-management/MEDIA_NOTES.md`. Keep the visible wizard/media shortcuts and specific alert messages. Never restore generic per-tone headings or a preselected-file list as the upload screen. Current Persona inventory is 676 states / 9,464 SVGs. All media and wizard links stay in their Persona/platform/theme.
 
-The approved Flow view/editor and complete supplied source inventory are in `admin/flows-mockups/`, linked from the global gallery. See requirements section 28. The user approved completion across both themes and seven layouts; preserve the separate Flutter designer and scoped agreement/replay identities.
+The approved Flow view/editor and complete supplied source inventory are in `admin/flows-mockups/`, linked from the global gallery. See requirements section 29. The user approved completion across both themes and seven layouts; preserve the separate Flutter designer and scoped agreement/replay identities.
