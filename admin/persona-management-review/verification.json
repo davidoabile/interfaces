@@ -1,0 +1,15 @@
+{
+  "XML": "valid",
+  "canvas": [
+    1440,
+    1000
+  ],
+  "controlsMapped": 32,
+  "embeddedFonts": 2,
+  "controlTargets": "at least 44 \u00d7 44",
+  "textBounds": "passed",
+  "renderedInMemory": true,
+  "scope": "Persona management only",
+  "firstSampleOnly": true,
+  "rasterExports": 0
+}

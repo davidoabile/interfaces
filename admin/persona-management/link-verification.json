@@ -1,0 +1,66 @@
+{
+  "personaStates": 676,
+  "personaSVGs": 9464,
+  "linksChecked": 64428,
+  "interactiveControlsChecked": 37928,
+  "reachability": {
+    "macos/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "macos/dark": {
+      "reachable": 676,
+      "total": 676
+    },
+    "web/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "web/dark": {
+      "reachable": 676,
+      "total": 676
+    },
+    "web-phone/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "web-phone/dark": {
+      "reachable": 676,
+      "total": 676
+    },
+    "ios/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "ios/dark": {
+      "reachable": 676,
+      "total": 676
+    },
+    "ipad/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "ipad/dark": {
+      "reachable": 676,
+      "total": 676
+    },
+    "android/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "android/dark": {
+      "reachable": 676,
+      "total": 676
+    },
+    "android-tablet/light": {
+      "reachable": 676,
+      "total": 676
+    },
+    "android-tablet/dark": {
+      "reachable": 676,
+      "total": 676
+    }
+  },
+  "errors": [],
+  "nativeChrome": "OS window controls and read-only illustrative fields excluded from app-link test"
+}

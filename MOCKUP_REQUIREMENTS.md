@@ -1,12 +1,12 @@
 # Sigmar interface mockup requirements
 
-**Status:** Approved visual direction, recorded 25 November 2026, Australia/Melbourne.
+**Status:** Global design standard updated 26 November 2026, Australia/Melbourne. Section 16 is the current cross-platform authority; earlier sections retain the design history and functional requirements.
 
 **Purpose:** Give another AI enough information to continue these mockups without repeating the rejected design directions. This is a design project containing references and mockup assets. The sample builders are design utilities, not production application implementations.
 
 ## 1. Sources and precedence
 
-Apply the user's latest instructions first, then this project record, then the shared [Sigmar branding topology and design system](https://github.com/davidoabile/apcce/blob/main/htql/docs/website/sigmar-branding-topology.md). Consult [sigmar.io](https://sigmar.io/) for product context and maintained product language.
+Apply the user's latest instructions first, then the global standard in section 16, then the remaining project record, then the shared [Sigmar branding topology and design system](https://github.com/davidoabile/apcce/blob/main/htql/docs/website/sigmar-branding-topology.md). Consult [sigmar.io](https://sigmar.io/) for product context and maintained product language.
 
 The shared guide describes a primarily dark system. The user explicitly requires **both light and dark themes on mobile and tablets**. The approved examples in this project establish the light treatment for this work.
 
@@ -27,7 +27,7 @@ Older sample versions, the initial six-screen generation boards in `ios/` and `a
 
 ## 2. Product and platform context
 
-- Desktop uses Tauri 2 and React. The web portal uses React and shares the theme.
+- The user now requires native macOS. Earlier desktop references used Tauri 2 and React; do not assume they define the current Mac implementation. The web portal shares the same global design system.
 - iOS and iPadOS use native Swift interfaces. Android uses native Kotlin interfaces.
 - Share the brand, semantic colours, typography, voice and content hierarchy across platforms.
 - Adapt navigation, controls, safe areas, system chrome, keyboards and interaction conventions to each native platform.
@@ -38,7 +38,7 @@ Older sample versions, the initial six-screen generation boards in `ios/` and `a
 
 Sigmar is a sophisticated AI platform with a biological DNA identity. The interface must feel calm, precise, mature and carefully composed for demanding users.
 
-Use warm neutrals, restrained copper, comfortable space and small, professional app typography. Preserve a clear visual hierarchy: the login action is immediately usable; the surrounding visual invites curiosity.
+Use the cool neutral surfaces, white raised surfaces, charcoal typography and restrained copper details in section 16, with comfortable space and small, professional app typography. Earlier warm beige surfaces are design history. Preserve a clear visual hierarchy: the login action is immediately usable; the surrounding visual invites curiosity.
 
 Background interest comes from faint biological forms and the Persona teaser. Avoid plain empty compositions, loud technology illustrations, robots, circuit boards, neon, orange particles, lens flares, sharp decorative DNA and oversized marketing headlines. Bank login examples were inspiration for an engaging welcome surface, not permission to copy bank branding or features. The coastal experiment has been replaced by the DNA direction.
 
@@ -80,6 +80,8 @@ Use actual supported font weights. Avoid synthetic semibold, heavy bold, compres
 The Regular and Medium OTF files are used through [fontconfig.xml](admin/login-register/samples/fontconfig.xml). This is an environment-specific dependency. If unavailable, locate the approved Satoshi assets rather than silently changing the family. Preserve applicable font licensing.
 
 ## 6. Theme contract
+
+**Historical palette:** The table below documents the earlier warm direction. For new or revised work on every platform, section 16 supersedes these surface and action colours. Keep the contrast requirements and original brand artwork.
 
 Use semantic tokens throughout the composition. Each theme applies to the entire screen, including illustrative UI and Persona cards.
 
@@ -354,3 +356,289 @@ The remaining personal sequence follows the inspected Flutter routes: details, t
 Business selection remains organisation → existing entity or add entity → existing address/review/success. Link corresponding platform/theme/layout SVGs without crossing into another theme. A new organisation has a separate details route; an existing organisation is reused. Existing entity continuation retains its current access role.
 
 Embed the approved Satoshi fonts in SVGs used for review, so direct SVG viewing preserves typography. Use one full-content SVG for a new screen/device/theme, with its native viewport size identified. Retain old PNGs as history. The old gallery entry pages now lead to the unified SVG gallery; use it rather than reopening historical raster galleries as the current deliverable.
+
+### 15.9 Chat-first navigation and macOS first review, 26 November 2026
+
+The user requested less confusing navigation: a single **Discover** destination opens tiles for the existing spaces and tools, while customers primarily chat. They now use **native macOS**, so future screen coverage must include macOS with suitable native window chrome and sidebar behaviour. The earlier desktop stack statement does not establish the implementation of the new native Mac app.
+
+The user subsequently instructed: **“Always do the first mockup for approval”**. This applies before extending this new navigation/macOS direction, including the previously requested batch. Produce one initial mockup, wait for explicit approval, then extend within the agreed scope. Existing authorised sets remain historical outputs.
+
+- First proposal, **awaiting approval**: [macOS Discover v1](admin/macos-discover-review/01-discover-macos-light-v1.svg), with [source and review notes](admin/macos-discover-review/README.md).
+- The proposed sidebar contains New conversation, Search conversations, Discover, recent chats and the profile entry. App menus stay out of bottom navigation.
+- The first sample exposes all twelve destinations as tiles: My Personas, My.Career, Knowledge, My Tasks, Flows, Workers, Blackboard, Opportunities, Marketplace, My DNA, Training Hub and Publishing. Preserve Workers and Flows as distinct destinations; moving them does not equate their behaviour.
+- Purchases & licences, account switching, Add business account and Settings are proposed profile-menu destinations. Their mockups have not yet been produced.
+- Use the original logo vectors, embedded Satoshi Regular/Medium, warm semantic colours and the visible voice-capable composer. The initial review is one light macOS SVG, with no extra theme/device batches or raster exports.
+- This records the requested direction and review gate, not approval of the rendered proposal or new product capabilities.
+
+#### 15.9.1 macOS colour refinement
+
+The user accepted the first sample's layout (“Perfect”) but rejected its background colours as insufficiently enterprise and sophisticated. Preserve the chat-first structure and tile arrangement. Replace the warm beige surfaces in this macOS proposal with cool neutral surfaces, white tiles, charcoal typography and restrained copper brand accents. This feedback does not approve a specific replacement palette.
+
+Current first-sample colour proposal, **awaiting approval**: [macOS Discover v2](admin/macos-discover-review/01-discover-macos-light-v2.svg). The new palette is scoped to this review; do not automatically recolour existing approved authentication or other platform outputs. Continue to wait for approval before extending the remaining screens.
+
+#### 15.9.2 Projects and elegance refinement
+
+The user requested **Projects immediately after Discover** in the sidebar and said the revised appearance had improved, asking for “a touch of elegance”. Projects is an explicit additional destination; its contents and behaviour have not yet been designed.
+
+Current review sample: [macOS Discover v3](admin/macos-discover-review/01-discover-macos-light-v3.svg). It adds Projects beneath Discover, moves recent conversations down to preserve spacing, and refines the cool neutral treatment with subtle surface gradients, fine section rules, gentle card/composer depth and muted copper icon details. Keep the original logo, embedded Satoshi and visible microphone. The rendered refinement awaits approval before the remaining screens are produced. Preserve v1 and v2 as history.
+
+## 16. Global Sigmar design standard, 26 November 2026
+
+The user instructed: “Add the design requirements and this must be globals even to small devices and web as we don't want brand discord”. The refined [Discover v3 SVG](admin/macos-discover-review/01-discover-macos-light-v3.svg) is the shared visual reference. Its design language applies globally, not just to the Mac app. Earlier statements restricting the colour refinement to the macOS review are superseded by this instruction.
+
+### 16.1 Scope and precedence
+
+- Apply this standard to native macOS, web at all viewport sizes, iOS/iPadOS, Android, phones, tablets and compact windows. Personal and business surfaces share the same brand system.
+- Apply it to new and revised AOS, account, authentication and onboarding screens. Preserve their existing content, permissions, security semantics and approved flows. Existing exports remain history; this instruction records the standard and does not request an immediate regeneration of every file.
+- Use one semantic palette, type system, icon vocabulary and component language across platforms. Platform differences concern native chrome, input behaviour, accessibility and responsive composition, not a separate visual identity.
+- The direction is recorded globally. New screens, themes and substantially different responsive compositions still follow the user's “Always do the first mockup for approval” instruction. This documentation update does not approve unseen variants.
+
+### 16.2 Colour and material
+
+Use white surfaces, cool neutral backgrounds and charcoal text/actions. Avoid warm beige or cream as the default application canvas. Keep copper as a small, purposeful signature rather than a large background wash. Preserve the original logo colours exactly.
+
+| Semantic role | Current light reference |
+| --- | --- |
+| Base canvas | `#F8F9FB`; subtle vertical finish `#FCFDFE` → `#F6F8FA` |
+| Sidebar / secondary region | `#F0F2F5`; subtle finish `#F3F5F7` → `#EBEFF3` |
+| Native title-bar surround | `#F4F5F7` |
+| Raised cards, fields and composer | `#FFFFFF` |
+| Selected navigation | `#E4E8EF` |
+| Heading / primary action | `#202630`; action finish `#303945` → `#202630` |
+| Text on charcoal actions | `#FFFFFF` |
+| Body text | `#424C5B` |
+| Secondary text | `#5B6573` |
+| Decorative borders | `#DCE1E8` |
+| Section rules | `#E2E6EC` |
+| Essential control borders | `#8C96A5` |
+| Icon backing | `#F4F5F7` |
+| Muted copper icon strokes | `#78543E` |
+| Copper links / selected icon | `#98450F` |
+| Signature voice action | `#E87832`, with `#1F1A16` foreground |
+
+Use semantic roles instead of platform-specific palette forks. Gradients are optional finishes; their flat fallback must preserve the same hierarchy. Dark mode must use the shared Sigmar warm-charcoal foundation palette, following the user’s explicit correction in section 18.1, with the original white-wordmark logo and readable surfaces. Keep restrained copper details and the same typography, hierarchy and navigation. Do not substitute a blue/slate palette. The revised rendered sample still requires approval before extending the batch.
+
+### 16.3 Elegance, typography and components
+
+- Use Satoshi Regular 400 and Medium 500 for app content and the original vector wordmark. Keep OS-owned chrome native. Embed Satoshi in review SVGs.
+- Retain compact, professional type: approximately 26 for the main desktop page title, 15 for tile titles, 13–16 for body content and 11–12 for supporting metadata. Preserve hierarchy when reflowing and honour accessibility text sizing; do not shrink mobile content to imitate a desktop screenshot.
+- Use fine decorative borders, consistent line icons, muted copper details and generous alignment/spacing. Avoid heavy outlines, excessive orange, glossy effects and decorative clutter.
+- Reference corners are 12 logical units on tiles, 16 on the composer and 7–9 on smaller controls. Adapt dimensions to native conventions while keeping the family resemblance.
+- Depth is subtle: reference cards use a 2-unit downward shadow, 3-unit blur and charcoal at roughly 4.5% opacity; the composer uses 3-unit offset, 7-unit blur and roughly 5.5% opacity. Maintain readable boundaries without depending on shadow.
+- DNA background artwork and personal Persona teasers remain specific to the established onboarding/authentication contexts. Integrate them with the new neutral surfaces and quiet scrims; do not carry warm beige panels into another platform or add decorative artwork to functional chat/workspaces by default.
+
+### 16.4 Shared navigation and conversation
+
+- Primary navigation order: **New conversation → Search conversations → Discover → Projects**, followed by recent conversations and the profile entry. Projects sits directly after Discover. Its internal screen content still needs a first sample.
+- Discover presents tiles for My Personas, My.Career, Knowledge, My Tasks, Flows, Workers and Blackboard under Your space; Opportunities and Marketplace under Explore; My DNA, Training Hub and Publishing under DNA.
+- Workers and Flows remain distinct destinations with their existing semantics. Reorganising navigation does not introduce new capabilities.
+- Purchases & licences, account switching, Add business account and Settings belong in the profile menu. Preserve access to every existing destination when adapting the layout.
+- Chat is the main customer experience. Keep recent conversations easy to reach, and retain a clearly visible composer with typing, attachments and a prominent microphone labelled “Talk to Sigmar”. Preserve transcript review and existing approval rules.
+
+### 16.5 Responsive and native behaviour
+
+- Wide macOS and web layouts use a collapsible sidebar. Phones and narrow web/windows use a scrollable side drawer containing the same navigation order and destinations. Do not introduce bottom application navigation.
+- Reflow Discover tiles from the reference's four columns to fewer columns as space requires, down to one column on a small device. Preserve group order, readable descriptions, comfortable gutters and all destinations; do not scale down the whole desktop screen.
+- Permit vertical scrolling and text wrapping. Keep the composer reachable above keyboards and safe areas, with voice and attachment access visible. Honour 44-point targets on Apple platforms and at least 48-dp targets on Android; web controls need equivalent accessible targets and visible keyboard focus.
+- Use genuine platform chrome: macOS traffic-light window controls on Mac, browser conventions on web, native safe areas and input controls on mobile. Do not paste Mac title-bar controls onto mobile or into a web page's app content.
+- Confirm text contrast (at least 4.5:1 for normal text), meaningful controls/focus (at least 3:1), text scaling and keyboard access. Decorative hairlines and shadows do not establish essential control boundaries.
+- Deliver new mockups as SVG only. Inspect the first rendered sample at the target size before review; wait for approval before extending the new screen/direction to more screens, themes or device variants.
+
+## 17. Complete global screen batch, 26 November 2026
+
+After recording the shared design requirements, the user explicitly requested: **“now do the mockup for all screens based on the above”**. This authorises extending the reviewed direction to the complete batch below. Do not treat the earlier first-sample rule as a reason to stop that requested batch. Keep it for future new directions and scope.
+
+Current deliverable: [global SVG gallery](admin/global-mockups/index.html), with [inventory](admin/global-mockups/manifest.json) and [build/review notes](admin/global-mockups/README.md). The historical gallery links to this current set; historical exports remain intact.
+
+- **86 screen states, 602 SVGs:** 49 supplied AOS states, all 12 login/onboarding states, all 10 account-setup states and 15 chat/navigation/Projects/account additions.
+- Every state is provided for macOS (1440 × 1000), desktop web (1440 × 1000), narrow web (393 × 852), iPhone (393 × 852), iPad (834 × 1194), Android phone (412 × 892) and Android tablet (800 × 1100). Long screens use full-content SVGs with the native viewport recorded in their metadata and gallery.
+- This batch follows the refined **light** v3 direction. It does not establish a reviewed replacement dark palette; section 16.2's dark-theme review requirement remains in force.
+- Additions cover Discover, Projects, project detail, new project, project sources, search/results and empty search, an active conversation, profile overview and menu, account switching, Settings, recent conversations, reviewing the two proposed schedule changes and continuing with an existing entity while retaining its role.
+- Navigation remains chat-first, with Projects directly after Discover and the account options in the profile menu. Mobile and narrow-web navigation uses the side drawer. Every AOS composer retains typing, attachments and speaking; a typed-message example retains the microphone beside Send.
+- Original logos and embedded Satoshi are preserved. Functional state content is reused from the existing screen specifications, including blocked publication, independent holdout evaluation, explicit business/Guild scope, unchecked required consent, payment before activation, upload limits, six-digit passcodes and five-digit PINs.
+- Proposed schedule changes reuse the illustrative approved fixture, including tomorrow's 14:00–15:30 slots, unchanged Friday deadlines, protected school pickup and 30 minutes remaining tomorrow. The review identifies 90 minutes rescheduled and no effort saved.
+- Existing entity continuation retains existing details and permissions. It does not pass through new-entity registration or silently assign a new role.
+- These are reviewable mockups, not a functioning native app or live account operations. Producing the batch does not imply individual approval of every adaptation.
+
+## 18. First dark-mode review, 26 November 2026
+
+The user reported that dark versions were missing. The prior global batch contained 602 light SVGs only. A first [dark macOS Discover sample](admin/global-mockups/dark/macos/discover.svg) is now available through the gallery's **Theme → Dark · first sample** selector and [direct dark gallery link](admin/global-mockups/index.html#macos/discover/dark).
+
+This preserves the user's instruction, “Always do the first mockup for approval”, before extending the new dark palette. The remaining dark states and device variants have not been generated and must not be represented as available. The gallery filters dark selection to the available macOS Discover sample; the complete light set remains available for all seven layouts.
+
+The proposed dark system uses cool charcoal/slate surfaces, softly separated raised cards, ivory-white text and restrained copper details. Reference colours: canvas gradient `#171E28` → `#10161F`; sidebar `#1B2430` → `#151D27`; raised surface `#202733`; selected surface `#2D3745`; headings `#EDF0F4`; body `#C4CCD7`; secondary text `#A7B2C1`; borders `#394453`; essential control boundary `#77889B`; copper links `#D9A47B`; muted copper icons `#CBA281`. Copper voice controls retain the original orange/dark foreground pairing. The original white-wordmark logo replaces the light-background logo, preserving the original vector paths and proportions.
+
+The sample has embedded fonts, was rendered in memory and visually inspected, and passed text/control contrast checks. The palette awaits approval; once approved, extend it to the same 86 states and seven platform/layout combinations. Do not treat this sample as approval of all dark adaptations.
+
+### 18.1 Use our Sigmar charcoal
+
+The user corrected the dark sample: **“The dark must be our charcoal”**. This supersedes the proposed slate palette in section 18. Use the existing shared brand foundations, not a new dark identity. The maintained branding topology was read locally at `/Users/doabile/workspace/hedgetech-wt-native-sync/htql/docs/website/sigmar-branding-topology.md`, sections 3.1–3.3.
+
+Current dark review: [Sigmar charcoal Discover v2](admin/global-mockups/dark/macos/discover-charcoal-v2.svg), also selected by the gallery's Dark option. The earlier slate SVG remains history and is not the current dark reference.
+
+| Role | Shared brand colour |
+| --- | --- |
+| Canvas | `#201C18` |
+| Deep/sidebar | `#171411` |
+| Panel/cards | `#2B2520` |
+| Raised controls | `#332D27` |
+| Selected item | `#3B2B20` |
+| Heading | `#E8DCCB` |
+| Body | `#BFB5A9` |
+| Secondary | `#A69B8E` |
+| Decorative border | `#494037` |
+| Essential control boundary | `#918171` |
+| Signature copper action | `#E87832` |
+| Copper link/highlight | `#F08D4C` |
+| Foreground on copper | `#201C18` |
+
+Use these shared colours on every dark platform and screen. This does not reverse the separate approved light direction. Dark canvas and sidebar finishes in the revised sample are solid charcoal; preserve the refined layout and small, professional Satoshi typography. The existing white logo artwork is kept intact. Only this first sample has been revised; wait for its review before producing other dark screens or device variants.
+
+## 19. Charcoal dark approved and complete, 26 November 2026
+
+The user explicitly approved the corrected shared-brand charcoal sample: **“Yes -approved”**. This approves extending that dark direction across the previously requested screen inventory and platform/layout coverage. Sections 17–18's statements that dark is sample-only or awaiting palette approval are historical and superseded.
+
+The [current gallery](admin/global-mockups/index.html#macos/discover/dark) now includes **86 screen states × 7 layouts × 2 themes = 1,204 SVGs**: 602 light and 602 charcoal dark. Every screen has both themes on macOS, desktop web, narrow web, iPhone, iPad, Android phone and Android tablet. The Theme selector supports both complete sets; changing platform preserves the selected theme and screen. Dark links stay within the matching dark layout.
+
+The approved [charcoal reference](admin/global-mockups/dark/macos/discover-charcoal-v2.svg) uses the exact existing Sigmar foundations in section 18's correction: `#201C18` canvas, `#171411` deep/sidebar, `#2B2520` panels, `#332D27` raised controls, warm ivory/grey text and restrained copper. This is the global dark standard, including small devices and web. The earlier blue/slate sample is superseded. Keep the refined light design as the matching light standard.
+
+All dark outputs preserve original dark-background vector logos, original AI artwork, embedded Satoshi, governed content states, source permissions and the visible microphone. Authentication uses the original dark DNA artwork with the same quiet composition. Settings indicates the theme shown. SVG-only delivery remains in force; raster inspection was performed in memory without exporting PNG companions.
+
+Validation covered all 1,204 SVGs for XML, embedded fonts, content/reference paths, text bounds, theme metadata, review links, source-panel content, consent gates and OTP/PIN/upload constraints. All 602 new dark SVGs were decoded in memory; representative native, web and authentication compositions were visually inspected. Gallery theme/platform selection checks passed. No additional approval is needed to keep this authorised batch complete; retain first-sample review for future new visual directions.
+
+## 20. Settings structure approved and first macOS design, 26 November 2026
+
+The user approved the researched settings structure: **“Settings are approved so we need to design first in MacOs to see it”**. This approves the [research recommendations](reports/Sigmar%20AOS%20settings%20review.md) as the design basis and requests a first macOS visual sample. It does not approve unseen layouts or establish implementation of proposed controls.
+
+- Approved categories: General; Conversation & voice; Notifications; Privacy & AI access; Personalisation & learning; Data & sync; Account & security; About & support.
+- First rendered proposal, awaiting visual approval: [macOS Settings v1](admin/settings-review/01-settings-macos-light-v1.svg), with [source/review notes](admin/settings-review/README.md). The [current gallery Settings selection](admin/global-mockups/index.html#macos/settings/light) opens it.
+- Use a dedicated native macOS Settings window with traffic-light controls, stable category navigation, search and explicit scope. The first pane is Privacy & AI access, with member policy, client status, Persona grants and separate learning/source permission routes.
+- Keep the approved global brand. This first sample uses the light theme, original vector logo, embedded Satoshi, white raised surfaces, cool neutral backgrounds and restrained copper. Produce other settings panes/themes/device variants after review of this first visual design.
+- Controls illustrate permission review and confirmation; they do not change a live account. Example read access is enabled for an active scoped client, with proposed changes off. Existing default-deny safeguards and Flow/Persona/governance requirements are not weakened.
+- A dedicated Settings utility window does not need a chat composer. The microphone requirement remains mandatory anywhere a conversation composer appears. App navigation stays chat-first with Discover then Projects; this utility window uses settings-category navigation instead.
+- The rest of the settings gallery compositions remain earlier layouts and are labelled accordingly. Preserve historical exports; do not treat the previous sparse Settings canvas as the approved substantive design.
+
+## 21. Settings design approved and all links completed, 26 November 2026
+
+The user approved the first macOS Settings visual and explicitly requested: **“Approved now do for all screens and each link must be covered”**. This authorises the complete settings design, linked detail/confirmation/outcome screens and the established cross-platform, light/charcoal-dark adaptations. The prior first-settings-sample gate is satisfied for this batch; do not stop it at another subset or label the approved sample as pending.
+
+Current deliverable: [complete Settings in the unified gallery](admin/global-mockups/index.html#macos/settings/light), with [settings source and notes](admin/settings-mockups/README.md), [settings inventory](admin/settings-mockups/manifest.json) and [link/reachability verification](admin/settings-mockups/link-verification.json).
+
+- **137 settings screen states, 1,918 SVGs:** all eight panes, linked detail screens, policy/client/grant reviews, confirmations, pending/rejected/accepted states, device-permission guidance, notification preferences, saved-context correction, source scope, sync recovery, local-cleanup safeguards, scoped export previews, account lock/sign-out, support/diagnostic review and unavailable legal-document states.
+- Every state is available in light and approved Sigmar charcoal on macOS, desktop web, narrow web, iPhone, iPad, Android phone and tablet. The unified gallery now has **222 screen states and 3,108 SVGs**, reusing the existing AOS/onboarding/account screens.
+- The approved macOS Privacy & AI access composition is retained as the main pane and now has working review-file links for its sidebar, search, switches, safeguards, clients and learning/source actions. Desktop web reuses the composition without Mac window controls; compact views reflow content and use native settings navigation. Settings remains an independent utility surface without a chat composer.
+- All ordinary links retain platform and theme; explicit appearance choices can change theme. Contextual links open the corresponding existing Persona, Knowledge, Training Hub, licence, account or lock screen. Existing app-to-Settings links point to the new settings module.
+- All app buttons and switches link to their review states. Read-only illustrative inputs and OS window chrome are not executable app controls. Alternate backend outcomes are linked under Related review states in the gallery rather than presented as customer-facing controls for choosing success or failure.
+- No live account or device actions occur. Client identity, Persona scope and effective permissions stay explicit. Permission changes require confirmation and acknowledgement; rejection retains the prior accepted policy. Registration alone grants no authority. A client action must not silently target another client.
+- Device permissions remain OS/browser-owned. Unsent changes block unsafe cleanup; sync, export, client revocation and account removal have distinct scopes. No passkey, password, PIN recovery or erasure guarantees are invented. Legal-document errors show retry/support routes rather than fabricated policy wording.
+- The light settings controls use `#8B95A4` against white and `#788596` for pale off-switch outlines to meet essential-control contrast; this is a small contrast refinement of the approved cool neutral system. Charcoal values remain the shared brand palette. These control-boundary refinements should guide future light controls without changing the brand identity.
+- Verification checks actual link targets, platform/theme continuity, native action target coverage, complete graph reachability, source content, embedded fonts, SVG XML, text bounds and contrast. SVGs are rendered in memory, with no PNG companions or contact sheets.
+
+The original first sample and earlier sparse settings SVGs remain historical assets. The current source is `admin/settings-mockups/`; use `admin/global-mockups/build-all.cjs` to rebuild both base themes and the completed settings extension before regenerating the single gallery.
+
+## 22. Persona-management first-screen request, 26 November 2026
+
+The user requested **Persona management only**, based on the working Flutter end-to-end flow, with all Persona-related links eventually covered. They explicitly requested the first screen for approval before continuing.
+
+Historical first proposal, now approved (see section 23): [macOS Persona management v1](admin/persona-management-review/01-persona-management-macos-light-v1.svg). See [source/scope notes](admin/persona-management-review/README.md) and [control route plan](admin/persona-management-review/route-plan.json). This is one light macOS screen, with the existing app navigation retained as context and a Persona list/shared detail surface. Approval of the linked batch is recorded in section 23.
+
+The source's canonical Add entry is `PersonaIntroRoute`: identity plus category-driven descriptions typed or spoken, converging on the existing extraction/review/save path. The shared `PersonaViewPage` handles reading and editing through type/speak section editors. Preserve current-account scope, source provenance, category-specific section contracts, knowledge retention on Inactive (Paused), local/pending changes and stale-version handling. Older form/wizard files and placeholder hub controls are not proof of the canonical working flow.
+
+The sample exposes identity/purpose, section expand/edit, upload/type/speak input, provenance review and status management. It uses illustrative records, original vector assets, embedded Satoshi and the approved light visual system. Source-origin labels do not assert credential verification. A Persona-management surface does not require a conversation composer; speaking remains visible where section input is offered.
+
+After visual approval, every Persona-management control must have a corresponding scoped mockup target and appropriate confirmation/outcome states. Do not expand into DNA authoring, training, publishing, marketplace, Guild, Flow, independent task management or unrelated settings. Goals & Tasks is retained only as Persona content. No hard-delete action is introduced. The approved linked suite is now integrated into the global gallery; see section 23.
+
+
+## 23. Approved Persona management and creation wizard, 26 November 2026
+
+The user approved the first macOS screen and clarified: **“Approved and note that creating a persona has a wizzard”**. This explicitly authorises the linked Persona-management set, including a creation wizard. The earlier source interpretation in section 22 does not override this instruction. The first-sample approval gate is satisfied for this batch.
+
+Approved visual reference: [macOS Persona overview v1](admin/persona-management-review/01-persona-management-macos-light-v1.svg). Current editable source: [Persona-management suite](admin/persona-management/README.md). [Open the linked overview](admin/global-mockups/index.html#macos/persona-home/light) or [creation wizard](admin/global-mockups/index.html#macos/persona-wizard-1/light).
+
+- **436 Persona screen states in 6,104 SVGs**, across the established seven layouts and both approved themes. The unified gallery now contains **658 states in 9,212 SVGs**.
+- The four creation steps are **Basic information → Constitution → Permissions → Review & add**. The inspected Flutter `create_persona_page.dart` supplies the step structure; the category-driven description, type/speak, review/save and shared Persona view/edit behaviour remain grounded in the working Persona sources.
+- Cover list/search/filter/empty states, category-specific sections, identity/image review, typed and spoken input, microphone permission fallback, document/source review, Active/Inactive confirmation, pending/acknowledged/rejected/offline updates and stale-version recovery. Deactivation retains knowledge; no hard-delete action is offered.
+- Speaking starts only from an explicit action, allows cancellation, and returns to reviewable text before saving. Each existing Persona retains its own context. Source-origin labels do not certify truth.
+- The example creation path is private by default. A named person's read access is reviewed separately; type choice, registration and activation do not widen authority. Local pending and accepted outcomes are distinct. The new Persona is not automatically activated.
+- Scope is Persona management only. Constitutional references are reviewed within the Persona, without compiled-DNA authoring or new training, publishing, marketplace, Guild, Flow, standalone task or settings modules. Existing primary navigation retains links to existing screens.
+- Use exact brand vectors, embedded Satoshi, approved cool light and warm charcoal/ivory themes. The approved wide overview is preserved. Phone/tablet layouts reflow without bottom app navigation. SVG only.
+- These are finite illustrative review snapshots, not a persistent data-entry application. Alternate name/type pages explicitly return to the consistent example identity. Alternative backend outcomes appear as gallery review states outside the customer screen.
+
+Every state is reachable from the overview on all fourteen layout/theme combinations. [Link verification](admin/persona-management/link-verification.json) checks all 38,120 SVG links and 22,416 linked controls, preserving platform/theme. Global structural checks and in-memory render reports remain alongside the gallery. All 6,104 Persona SVGs decoded successfully; no new raster exports were written.
+
+
+## 24. Own-AI first sample, pending visual approval
+
+The user requested Settings mockups for member-owned AI (GOV-415 / PR #382), adding that **each Persona selects the account to attach, with Sigmar AI as the default**. Manage credentials centrally in Settings → Privacy & AI access → AI accounts; Persona selection refers to an account and never stores a key in Persona content. Do not confuse these outgoing credentials with registered external AI clients calling Sigmar.
+
+First macOS/light review: [AI accounts](admin/own-ai-review/01-ai-accounts-macos-light-v1.svg), linked to [My.Career selection](admin/own-ai-review/02-persona-ai-selector-macos-light-v1.svg). These are two navigation states of one first sample, awaiting approval. Do not extend themes/devices/full flows before that approval. Keep original brand vectors, embedded Satoshi and the global cool light / approved charcoal standard. See [scope, source and seven unresolved decisions](admin/own-ai-review/README.md).
+
+PR #382 was read as draft design evidence, not an instruction to implement its approvals. Its member-wide choice does not implement the user's per-Persona refinement. All seven Sponsor decisions remain open; a visual approval does not approve security widening, money, legal wording or runtime policy. The sample uses API-key account metadata only, no subscription/OAuth login, no real secrets and no live operations. It illustrates explicit failure without silent fallback, while withholding unapproved numeric daily caps, fee promises and provider-retention claims.
+
+
+## 25. Own-AI screens approved; shared feedback and recovery UX
+
+The user approved the first macOS own-AI sample, requested the remaining screens, and identified generic Persona failure recovery as insufficient. They then explicitly required **tone and alerts: danger, warning, success and info**. The first-sample gate in section 24 is satisfied; the seven architecture/security/money/provider-policy decisions are not implicitly approved.
+
+Current [own-AI suite](admin/own-ai-mockups/README.md): **188 states / 2,632 SVGs**, all seven layouts and both approved themes. [Open AI accounts](admin/global-mockups/index.html#macos/own-ai-accounts/light), [Persona selector](admin/global-mockups/index.html#macos/own-ai-selector-career/light), or [shared feedback reference](admin/global-mockups/index.html#macos/own-ai-feedback-guide/light). Persona management now has **460 states / 6,440 SVGs** after 24 scoped recovery additions. The current unified gallery has **870 states / 12,180 SVGs**. Earlier counts in sections 21–24 describe their historical batches.
+
+Settings manages outgoing provider accounts; each Persona selects one, defaulting to **Sigmar AI**. The Persona creation wizard includes the selection entry. Connecting a key never silently changes Persona selections. Keys remain outside Persona content. Cover credential setup/PIN/validation, classified errors, replace/remove impact/confirmation/outcomes, scoped choices for each Persona, usage limits and request failure. Ordinary links preserve platform/theme. No live credential/provider/account operation occurs.
+
+### 25.1 Global feedback contract
+
+Use [shared-feedback.cjs](admin/shared-feedback.cjs) for new/revised feedback across Settings, Persona management, own-AI, native and web layouts. Preserve Satoshi and charcoal foundations; semantic colours are restrained local accents.
+
+| Meaning | Icon | Light text / background / border | Charcoal text / background / border |
+| --- | --- | --- | --- |
+| Danger: failure or action requiring intervention | Circle and cross | `#9C3434 / #FCEEEE / #B85E5E` | `#F0B4AA / #38221F / #BC7568` |
+| Warning: consequences, conflicts or recoverable limits | Triangle and exclamation | `#785417 / #FFF6E3 / #AA7E24` | `#E8C67E / #352C1E / #A68A4D` |
+| Success: confirmed result | Circle and check | `#326146 / #EDF6EF / #5B8768` | `#A4CFB0 / #213026 / #6E9A79` |
+| Info: progress or neutral context | Circle and information mark | `#315477 / #EEF4FB / #718AA5` | `#B8CADB / #242C33 / #7E93A4` |
+
+- Pair colour with an icon, text and a clear next action. Danger uses an alert/assertive live region; noncritical information and confirmed results use status/polite. Do not use colour alone or automatically dismiss critical feedback.
+- Explain what happened, whether the action completed, what work is retained, and the next useful step. Use calm, specific, non-blaming customer language. Do not invent a reason when the service supplied none.
+- Use warnings before consequential choices; a destructive button is not a substitute for explaining the effect. Show success only after confirmation. Pending is information, never success.
+- Keep unsent Persona edits visibly separate from the saved version. Offer review, corrected retry, viewing the saved version and conflict comparison navigation. Preserve knowledge and avoid forced overwrites. Comparison is a scoped navigation design here; it must not pretend to show field differences that the source state does not contain.
+- Retained-work and confirmation statements are proposed behaviour that implementation must honour, not proof of a working backend. Alternate success/error snapshots remain outside customer menus.
+- Apply the same system to compact devices, allow text wrapping and keep controls reachable. API keys and PINs remain masked; speaking is for Persona content, never credential entry.
+
+Current verification: all own-AI links and controls pass reachability and platform/theme checks; the full 12,180-SVG gallery passes structural/content checks. 6,314 new/revised own-AI, feedback and entry-point SVGs decoded in memory without errors. Feedback text contrast is at least 6.3:1 in light and 8:1 in charcoal. Reports are in `admin/own-ai-mockups/`.
+
+
+## 26. Persona wizard visibility, media library and contextual alerts — 27 November 2026
+
+The user rejected repeated generic feedback headings, could not find the creation wizard, and identified missing media-library, image and document-upload screens from the Flutter design. These are corrections to the authorised Persona-management batch, using the approved brand direction.
+
+Current [Persona suite](admin/persona-management/README.md): **676 states / 9,464 SVGs**, including **216 added media states** and the four-stage creation wizard. The unified gallery now has **1,086 states / 15,204 SVGs**. Earlier sections retain historical counts. [Media notes and source evidence](admin/persona-management/MEDIA_NOTES.md).
+
+- Gallery shortcuts explicitly expose **Persona management**, **Add Persona · 4-step wizard**, and **Media library · upload & preview**. The Persona overview places Media library beside Add Persona and labels the wizard. Compact layouts expose both actions above the list. Wizard stages display “Add Persona · step N of 4”, retain back navigation, and have searchable wizard titles.
+- Media uses thumbnail browsing, image/document filters, search/empty states, previews, upload dropzones, native-style file selection, selected-file review, progress, retry/cancel, photo/camera permissions, crop/confirmation and source attachment/extraction review. It replaces the earlier preselected-filename upload and avatar placeholders. Source content is reviewed before saving into a named Persona section. Scope, privacy and the distinction between origin and truth remain explicit.
+- Do not reuse category headings such as “Review before continuing” or “Action needed” for unrelated events. Every alert requires an event-specific title and useful detail. Keep the semantic icons/colours in section 25, but explain the actual outcome, retained work and next action. The shared renderer rejects missing titles. Do not put an unrelated pending-state card on media or browsing pages.
+- Use editable vector thumbnails and original brand assets. Preserve media content colours when switching the surrounding chrome to charcoal. No real files, uploads or provider/device operations occur in SVG mockups. Document formats follow inspected PDF/DOCX/TXT import support; image examples use JPG/PNG. Do not invent numeric file-size policy or claim a working library persistence layer from seeded Flutter UI alone.
+- Existing first-screen visual approval covers these missing linked states within the accepted Persona design. Do not leave the authorised correction unfinished at another subset or expand into unrelated library publishing/marketplace/DNA management.
+
+Regression checks explicitly verify wizard entry and labels, media thumbnails, real upload-selection UI, scoped graph reachability and absence of the rejected generic messages. Render checks remain in memory; no new raster exports.
+
+Section 26 verification: all 64,428 Persona SVG links pass and every state is reachable across fourteen layout/theme combinations. Explicit regression checks cover visible wizard/media entry points, four labelled wizard stages, thumbnail browsing and upload selection. The revised media/wizard/contextual-feedback audit decoded 9,366 SVGs in memory with no errors and no raster exports.
+
+
+## 27. Existing Flow designs: theme refresh request — 27 November 2026
+
+The user requested the previously designed Flows under `admin` be updated to the new theme. The [source inventory](admin/flows-review/source-inventory.json) identifies 27 original Flow-related JPGs. This is separate from the simplified two-Flow AOS inventory already in the global gallery.
+
+First macOS/light refresh for approval: [Flow designer v1](admin/flows-review/01-flow-designer-macos-light-v1.svg), with [review/source notes](admin/flows-review/README.md) and a [control route plan](admin/flows-review/route-plan.json). Apply the standing first-sample gate before generating the remaining refreshed Flow screens, charcoal variants or other device layouts. This sample does not label the batch complete or replace the current gallery.
+
+Preserve the original designer topology, step configuration, HTQL condition, run-history context and governance/contract/approval requirements. Retain business/workspace scope explicitly; do not turn project execution authority into a personal or global grant. Use the exact original brand vector, embedded Satoshi, cool neutral light surfaces, restrained copper and contextual feedback. Publish must not appear available before required validation and review. Historical example runs are distinct from the current unexecuted draft. Controls in the first review are route annotations, not live actions or missing-file links.
+
+After approval, apply the accepted treatment to the inventoried designer, add-step/publish review, templates, contracts, terms, triggers, executions/replay, signing/HTTP and source-linked CMS/commerce Flow states. Keep original reference files intact. Deliver editable SVGs only, with the established charcoal and responsive rules; do not regenerate legacy PNGs.
+
+
+### 27.1 Flutter drag-and-drop designer and explicit View/Edit split
+
+The user clarified that the first refresh is suitable for opening/viewing a Flow, but the editor must follow Flutter's drag-and-drop interaction. They then explicitly requested **Edit Flow** on the view to open a separate designer, referencing Shopify Flow.
+
+Current first-review pair: [Flow view v2](admin/flows-review/02-flow-view-macos-light-v2.svg) and [Flow editor v2](admin/flows-review/03-flow-designer-macos-light-v2.svg). The opening view's layout is accepted; the corrected designer remains for approval. Preserve the same `order_sync` identity and graph across both views. Do not turn the opening inspection/run-history view into the editor or automatically open editing on every Flow visit.
+
+The implementation authority for editing interactions is Flutter `flow_builder_page.dart` and `flow_models.dart`, not the older HTQLDB designer JPG alone. Keep free-positioned draggable rounded cards, source-defined connection rules, click-to-edit, the nonmodal Actions/Logic tray, tap-to-append/drag-to-place, pan-lock mode and zoom. Keep 14 Action and 4 Logic kinds; Contracts/Terms are tabs, not palette nodes. Tabs: Builder, Details, Contracts, Terms, Metadata, Audit Log. Save and Preview compiled Flow follow the source; approval marks Ready and is not evidence of engine deployment or execution.
+
+[Shopify's official editor guide](https://help.shopify.com/en/manual/shopify-flow/create/workflow-editor) confirms the View → Edit entry pattern and draggable step canvas. It informs familiarity only: do not import Shopify's branch/merge restrictions or replace Sigmar's Flutter node catalogue. SVGs represent the intended interactions; they are not a functioning drag engine. Two linked states of this same first sample are provided to review navigation before the remaining themes/devices/screens.

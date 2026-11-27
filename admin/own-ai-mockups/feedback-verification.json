@@ -1,0 +1,14 @@
+{
+  "feedbackComponentsByModule": {
+    "Own AI": 1526,
+    "Persona management": 2604,
+    "Settings": 952
+  },
+  "feedbackComponentsByTone": {
+    "danger": 1232,
+    "info": 1106,
+    "warning": 1708,
+    "success": 1036
+  },
+  "errors": []
+}

@@ -1,0 +1,295 @@
+{
+  "scope": "Persona management only",
+  "status": "First screen approved; all Persona controls connected in ../persona-management/",
+  "routes": [
+    {
+      "label": "New conversation",
+      "route": "existing-conversation",
+      "x": 16,
+      "y": 172,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Search conversations",
+      "route": "existing-chat-search",
+      "x": 16,
+      "y": 229,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Discover",
+      "route": "existing-discover",
+      "x": 16,
+      "y": 277,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Projects",
+      "route": "existing-projects",
+      "x": 16,
+      "y": 325,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Planning my week",
+      "route": "existing-conversation",
+      "x": 16,
+      "y": 448,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Preparing for my next role",
+      "route": "existing-conversation",
+      "x": 16,
+      "y": 488,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Notes from the course",
+      "route": "existing-conversation",
+      "x": 16,
+      "y": 528,
+      "w": 232,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Your account",
+      "route": "existing-account",
+      "x": 16,
+      "y": 932,
+      "w": 232,
+      "h": 52,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Add Persona",
+      "route": "persona-add-description",
+      "x": 1240,
+      "y": 102,
+      "w": 160,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Search Personas",
+      "route": "persona-search",
+      "x": 304,
+      "y": 184,
+      "w": 430,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "All Personas",
+      "route": "persona-filter-all",
+      "x": 320,
+      "y": 295,
+      "w": 88,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Active Personas",
+      "route": "persona-filter-active",
+      "x": 411,
+      "y": 295,
+      "w": 88,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Inactive Personas",
+      "route": "persona-filter-inactive",
+      "x": 502,
+      "y": 295,
+      "w": 88,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open My.Career",
+      "route": "persona-view-career",
+      "x": 316,
+      "y": 345,
+      "w": 286,
+      "h": 76,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open My.Work",
+      "route": "persona-view-work",
+      "x": 316,
+      "y": 427,
+      "w": 286,
+      "h": 76,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open My.Learning",
+      "route": "persona-view-learning",
+      "x": 316,
+      "y": 509,
+      "w": 286,
+      "h": 76,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open My.Family",
+      "route": "persona-view-family",
+      "x": 316,
+      "y": 591,
+      "w": 286,
+      "h": 76,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open My.Health",
+      "route": "persona-view-health",
+      "x": 316,
+      "y": 673,
+      "w": 286,
+      "h": 76,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open My.Travel",
+      "route": "persona-view-travel",
+      "x": 316,
+      "y": 755,
+      "w": 286,
+      "h": 76,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Change My.Career status",
+      "route": "persona-status-review",
+      "x": 1282,
+      "y": 270,
+      "w": 94,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Edit My.Career identity and purpose",
+      "route": "persona-identity-edit",
+      "x": 1264,
+      "y": 314,
+      "w": 112,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Collapse Skills & Expertise",
+      "route": "persona-section-skills-collapsed",
+      "x": 670,
+      "y": 420,
+      "w": 516,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Edit Skills & Expertise",
+      "route": "persona-section-skills-edit",
+      "x": 1317,
+      "y": 420,
+      "w": 44,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Review API integration source",
+      "route": "persona-skill-api-source",
+      "x": 1238,
+      "y": 454,
+      "w": 116,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Review Systems analysis source",
+      "route": "persona-skill-analysis-source",
+      "x": 1238,
+      "y": 511,
+      "w": 116,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Upload evidence for Skills & Expertise",
+      "route": "persona-section-skills-upload",
+      "x": 676,
+      "y": 575,
+      "w": 170,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Type or speak to add Skills & Expertise",
+      "route": "persona-section-skills-type-speak",
+      "x": 1158,
+      "y": 575,
+      "w": 204,
+      "h": 44,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open Experience",
+      "route": "persona-section-experience",
+      "x": 658,
+      "y": 638,
+      "w": 718,
+      "h": 46,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open Qualifications",
+      "route": "persona-section-qualifications",
+      "x": 658,
+      "y": 693,
+      "w": 718,
+      "h": 46,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open Memories & Moments",
+      "route": "persona-section-memories",
+      "x": 658,
+      "y": 748,
+      "w": 718,
+      "h": 46,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open Values & Principles",
+      "route": "persona-section-values",
+      "x": 658,
+      "y": 803,
+      "w": 718,
+      "h": 46,
+      "status": "Approved; linked in current Persona suite"
+    },
+    {
+      "label": "Open Goals & Tasks",
+      "route": "persona-section-goals",
+      "x": 658,
+      "y": 858,
+      "w": 718,
+      "h": 46,
+      "status": "Approved; linked in current Persona suite"
+    }
+  ],
+  "currentSuite": "../persona-management/README.md"
+}

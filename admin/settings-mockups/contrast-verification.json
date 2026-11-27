@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "foreground": "#8B95A4",
+      "background": "#FFFFFF",
+      "ratio": 3.029,
+      "minimum": 3
+    },
+    {
+      "foreground": "#788596",
+      "background": "#F4F5F7",
+      "ratio": 3.441,
+      "minimum": 3
+    },
+    {
+      "foreground": "#A69B8E",
+      "background": "#332D27",
+      "ratio": 4.983,
+      "minimum": 3
+    },
+    {
+      "foreground": "#202630",
+      "background": "#FFFFFF",
+      "ratio": 15.203,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "#5B6573",
+      "background": "#FFFFFF",
+      "ratio": 5.909,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "#E8DCCB",
+      "background": "#2B2520",
+      "ratio": 11.188,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "#A69B8E",
+      "background": "#2B2520",
+      "ratio": 5.547,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "#201C18",
+      "background": "#E87832",
+      "ratio": 5.774,
+      "minimum": 4.5
+    }
+  ],
+  "result": "passed"
+}

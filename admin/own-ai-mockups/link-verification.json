@@ -1,0 +1,66 @@
+{
+  "ownAIStates": 188,
+  "ownAISVGs": 2632,
+  "linksChecked": 16846,
+  "interactiveControlsChecked": 10090,
+  "reachability": {
+    "macos/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "macos/dark": {
+      "reachable": 188,
+      "total": 188
+    },
+    "web/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "web/dark": {
+      "reachable": 188,
+      "total": 188
+    },
+    "web-phone/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "web-phone/dark": {
+      "reachable": 188,
+      "total": 188
+    },
+    "ios/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "ios/dark": {
+      "reachable": 188,
+      "total": 188
+    },
+    "ipad/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "ipad/dark": {
+      "reachable": 188,
+      "total": 188
+    },
+    "android/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "android/dark": {
+      "reachable": 188,
+      "total": 188
+    },
+    "android-tablet/light": {
+      "reachable": 188,
+      "total": 188
+    },
+    "android-tablet/dark": {
+      "reachable": 188,
+      "total": 188
+    }
+  },
+  "errors": [],
+  "nativeChrome": "OS window controls and read-only illustrative fields excluded from app-link test"
+}

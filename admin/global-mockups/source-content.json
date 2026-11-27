@@ -1,0 +1,3599 @@
+{
+  "aos-01": {
+    "id": "01",
+    "title": "How can I help you today?",
+    "nav": "Home",
+    "intro": "Your personal workspace, ready when you are.",
+    "source": "01_Home_Personas_Career_Knowledge/sigmar_ai_persona_workspace.jpg",
+    "kind": "welcome"
+  },
+  "aos-02": {
+    "id": "02",
+    "title": "Your Personas are ready",
+    "nav": "My Personas",
+    "intro": "Start with one part of your life. Personalise it and connect more as you grow.",
+    "source": "01_Home_Personas_Career_Knowledge/personalized_personas_ready_in_aos.jpg",
+    "kind": "personas",
+    "action": "Personalise a Persona",
+    "panels": [
+      {
+        "title": "Your starting places",
+        "rows": [
+          {
+            "title": "My.Health",
+            "detail": "Understand your health history.",
+            "status": ""
+          },
+          {
+            "title": "My.Work",
+            "detail": "Get meaningful work done.",
+            "status": ""
+          },
+          {
+            "title": "My.Career",
+            "detail": "Prepare for opportunities.",
+            "status": ""
+          },
+          {
+            "title": "My.Family",
+            "detail": "Share and plan together.",
+            "status": ""
+          },
+          {
+            "title": "My.Finances",
+            "detail": "Understand your money.",
+            "status": ""
+          },
+          {
+            "title": "My.Learning",
+            "detail": "Build your skills.",
+            "status": ""
+          },
+          {
+            "title": "My.Travel",
+            "detail": "Plan your next adventure.",
+            "status": ""
+          },
+          {
+            "title": "My.Home",
+            "detail": "Manage everyday life.",
+            "status": ""
+          },
+          {
+            "title": "My.Legacy",
+            "detail": "Preserve what matters.",
+            "status": ""
+          }
+        ],
+        "kind": "personas"
+      }
+    ]
+  },
+  "aos-03": {
+    "id": "03",
+    "title": "My.Work",
+    "nav": "My Personas",
+    "intro": "Your knowledge, capabilities and approved ways of working.",
+    "source": "01_Home_Personas_Career_Knowledge/my.work_persona_admin_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Capabilities",
+      "Knowledge",
+      "Workers",
+      "DNA"
+    ],
+    "action": "Personalise",
+    "panels": [
+      {
+        "title": "Scope and purpose",
+        "rows": [
+          {
+            "title": "Scope",
+            "detail": "Support my work with planning, research and preparation.",
+            "status": ""
+          },
+          {
+            "title": "Purpose",
+            "detail": "Help me get meaningful work done within my permissions.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Capabilities",
+        "rows": [
+          {
+            "title": "Code and software",
+            "detail": "Development and integration experience",
+            "status": "Supported"
+          },
+          {
+            "title": "Analysis and research",
+            "detail": "Compare information and explain findings",
+            "status": "Supported"
+          },
+          {
+            "title": "Planning and projects",
+            "detail": "Prepare tasks and next steps",
+            "status": "Supported"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Connected to My.Work",
+        "rows": [
+          {
+            "title": "Sigmar AI",
+            "detail": "Assistant follows this Persona’s authority",
+            "status": "Active"
+          },
+          {
+            "title": "Linked knowledge",
+            "detail": "Private sources and approved shared material",
+            "status": "Private"
+          },
+          {
+            "title": "Workers and linked DNA",
+            "detail": "Inspect scope before enabling an action",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-04": {
+    "id": "04",
+    "title": "My.Career",
+    "nav": "My.Career",
+    "intro": "Build on your experience and see where your capabilities can take you.",
+    "source": "01_Home_Personas_Career_Knowledge/my.career_profile_and_capability_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Career in Action",
+      "Capabilities",
+      "Experience",
+      "Opportunities"
+    ],
+    "action": "Add work evidence",
+    "panels": [
+      {
+        "title": "David W.",
+        "rows": "",
+        "kind": "identity"
+      },
+      {
+        "title": "Career capability match",
+        "rows": [
+          {
+            "title": "API integration",
+            "detail": "Experience supported by work evidence",
+            "status": "Strong"
+          },
+          {
+            "title": "Cloud delivery",
+            "detail": "Review supporting projects",
+            "status": "Strong"
+          },
+          {
+            "title": "Retail systems",
+            "detail": "Experience in operational systems",
+            "status": "Supported"
+          },
+          {
+            "title": "Automation",
+            "detail": "Evidence linked to My.Work",
+            "status": "Supported"
+          }
+        ],
+        "kind": "bars"
+      },
+      {
+        "title": "Career in Action",
+        "rows": [
+          {
+            "title": "Your work tells a story",
+            "detail": "Link an example rather than adding an unsupported claim.",
+            "status": ""
+          },
+          {
+            "title": "Next opportunity",
+            "detail": "Compare the required capabilities with your evidence.",
+            "status": ""
+          },
+          {
+            "title": "Capability gaps",
+            "detail": "See what needs practice or additional evidence.",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-05": {
+    "id": "05",
+    "title": "My.Work knowledge",
+    "nav": "Knowledge",
+    "intro": "Knowledge available to My.Work, with scope and classification kept visible.",
+    "source": "01_Home_Personas_Career_Knowledge/my.work_knowledge_workspace_with_classifications.jpg",
+    "tabs": [
+      "Sources",
+      "Classifications",
+      "Permissions"
+    ],
+    "action": "Add document",
+    "panels": [
+      {
+        "title": "Knowledge sources",
+        "rows": [
+          {
+            "title": "Integration playbook",
+            "detail": "My.Work · procedures and integration notes",
+            "status": "Private"
+          },
+          {
+            "title": "API contract standards",
+            "detail": "Integration Engineer · approved shared source",
+            "status": "Confidential"
+          },
+          {
+            "title": "Operational procedures",
+            "detail": "Operational reference material",
+            "status": "Internal"
+          },
+          {
+            "title": "Project notes",
+            "detail": "My.Work · experience and working notes",
+            "status": "Private"
+          },
+          {
+            "title": "Training guide",
+            "detail": "Learning reference material",
+            "status": "Public"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Integration playbook",
+        "rows": [
+          {
+            "title": "Source owner",
+            "detail": "My.Work",
+            "status": ""
+          },
+          {
+            "title": "Classification",
+            "detail": "Private",
+            "status": ""
+          },
+          {
+            "title": "Available to",
+            "detail": "This Persona only",
+            "status": ""
+          },
+          {
+            "title": "Sharing",
+            "detail": "Review permissions before linking elsewhere",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-06": {
+    "id": "06",
+    "title": "Knowledge",
+    "nav": "Knowledge",
+    "intro": "Manage sources, scope and access across the Personas you can use.",
+    "source": "01_Home_Personas_Career_Knowledge/sigmar_aos_knowledge_admin_workspace.jpg",
+    "tabs": [
+      "All sources",
+      "By Persona",
+      "Permissions"
+    ],
+    "action": "Add document",
+    "panels": [
+      {
+        "title": "Your library",
+        "rows": [
+          {
+            "title": "Integration playbook",
+            "detail": "My.Work · integration procedures",
+            "status": "Private"
+          },
+          {
+            "title": "API contract standards",
+            "detail": "Integration Engineer · shared reference",
+            "status": "Confidential"
+          },
+          {
+            "title": "Operational procedures",
+            "detail": "Work reference material",
+            "status": "Internal"
+          },
+          {
+            "title": "Recipe notes",
+            "detail": "My.Cooking · personal experience",
+            "status": "Private"
+          },
+          {
+            "title": "Training guide",
+            "detail": "Published reference material",
+            "status": "Public"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Source permissions",
+        "rows": [
+          {
+            "title": "Owner and classification",
+            "detail": "Each source retains its owner and access rules.",
+            "status": ""
+          },
+          {
+            "title": "Persona scope",
+            "detail": "A linked source does not become public.",
+            "status": ""
+          },
+          {
+            "title": "Manage access",
+            "detail": "Review who can read and use this source.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-07": {
+    "id": "07",
+    "title": "My.Work settings",
+    "nav": "My Personas",
+    "intro": "Keep this Persona focused on the work you authorise.",
+    "source": "01_Home_Personas_Career_Knowledge/standard_personal_workspace_settings.jpg",
+    "tabs": [
+      "Scope",
+      "Capabilities",
+      "Knowledge",
+      "Workers",
+      "DNA"
+    ],
+    "action": "Save changes",
+    "panels": [
+      {
+        "title": "Scope and purpose",
+        "rows": [
+          {
+            "title": "Scope",
+            "detail": "Work planning, integration and research",
+            "status": ""
+          },
+          {
+            "title": "Purpose",
+            "detail": "Help me organise and complete meaningful work",
+            "status": ""
+          },
+          {
+            "title": "Personal workspace",
+            "detail": "My.Work",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Controls",
+        "rows": [
+          {
+            "title": "Permissions",
+            "detail": "Actions must stay within the authority you grant.",
+            "status": ""
+          },
+          {
+            "title": "Constitution",
+            "detail": "Review the rules used by this Persona.",
+            "status": ""
+          },
+          {
+            "title": "Knowledge access",
+            "detail": "Private sources stay access-controlled.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Linked services",
+        "rows": [
+          {
+            "title": "Sigmar AI",
+            "detail": "Personal assistant",
+            "status": "Active"
+          },
+          {
+            "title": "Workers",
+            "detail": "Review an assignment before enabling it",
+            "status": "Review"
+          },
+          {
+            "title": "Linked DNA",
+            "detail": "Inspect capabilities and licence conditions",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-08": {
+    "id": "08",
+    "title": "My DNA",
+    "nav": "My DNA",
+    "intro": "Manage your DNA, linked knowledge and available capabilities.",
+    "source": "01_Home_Personas_Career_Knowledge/sigmar_aos_my_dna_dashboard.jpg",
+    "tabs": [
+      "Created",
+      "Licensed",
+      "Linked"
+    ],
+    "action": "Create DNA",
+    "panels": [
+      {
+        "title": "Your DNA",
+        "rows": [
+          {
+            "title": "Shopify-to-ERP integration",
+            "detail": "Integration experience · v1.0",
+            "status": "Created"
+          },
+          {
+            "title": "Personal fitness guidance",
+            "detail": "Training and evaluation required",
+            "status": "Draft"
+          },
+          {
+            "title": "Family bread guidance",
+            "detail": "Knowledge and experience in preparation",
+            "status": "Draft"
+          },
+          {
+            "title": "Retail inventory planning",
+            "detail": "Licensed capability",
+            "status": "Licensed"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Shopify-to-ERP integration",
+        "rows": [
+          {
+            "title": "Attached capabilities",
+            "detail": "API integration and data mapping",
+            "status": ""
+          },
+          {
+            "title": "Knowledge",
+            "detail": "Inspect linked sources and their rights",
+            "status": ""
+          },
+          {
+            "title": "Training evidence",
+            "detail": "Open the Training Hub to review readiness",
+            "status": ""
+          },
+          {
+            "title": "Publication",
+            "detail": "Only eligible DNA can be published",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-09": {
+    "id": "09",
+    "title": "Explore opportunities",
+    "nav": "Opportunities",
+    "intro": "Opportunities related to your capabilities, experience and personal goals.",
+    "source": "01_Home_Personas_Career_Knowledge/sigmar_aos_opportunities_workspace.jpg",
+    "tabs": [
+      "For you",
+      "Saved",
+      "Applications"
+    ],
+    "action": "Review my matches",
+    "panels": [
+      {
+        "title": "Related to your capabilities",
+        "rows": [
+          {
+            "title": "Integration architect",
+            "detail": "API integration · systems experience",
+            "status": "Explore"
+          },
+          {
+            "title": "Retail inventory specialist",
+            "detail": "Retail systems · planning experience",
+            "status": "Explore"
+          },
+          {
+            "title": "Cross-channel consulting",
+            "detail": "Commerce systems · operational knowledge",
+            "status": "Explore"
+          },
+          {
+            "title": "Personal coach services",
+            "detail": "Only where supported by your evidence",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Why these opportunities?",
+        "rows": [
+          {
+            "title": "Capability match",
+            "detail": "Based on the evidence you choose to include.",
+            "status": ""
+          },
+          {
+            "title": "Your choice",
+            "detail": "Review the requirements before expressing interest.",
+            "status": ""
+          },
+          {
+            "title": "Improve your match",
+            "detail": "Link more work examples or develop a missing skill.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-10": {
+    "id": "10",
+    "title": "Workers",
+    "nav": "Workers",
+    "intro": "AI workers assigned to your Personas, with clear scope and authority.",
+    "source": "01_Home_Personas_Career_Knowledge/sigmar_aos_workers_dashboard.jpg",
+    "tabs": [
+      "Workers",
+      "Activity",
+      "Permissions"
+    ],
+    "action": "New Worker",
+    "panels": [
+      {
+        "title": "Assigned workers",
+        "rows": [
+          {
+            "title": "Order synchronisation",
+            "detail": "Linked to an integration Persona",
+            "status": "Active"
+          },
+          {
+            "title": "Invoice reconciliation",
+            "detail": "Review outstanding differences",
+            "status": "Review"
+          },
+          {
+            "title": "Progress planner",
+            "detail": "Prepares the next work step",
+            "status": "Ready"
+          },
+          {
+            "title": "Research preparation",
+            "detail": "Organises approved reference material",
+            "status": "Ready"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Order synchronisation",
+        "rows": [
+          {
+            "title": "Assigned Persona",
+            "detail": "Integration Engineer",
+            "status": ""
+          },
+          {
+            "title": "Allowed work",
+            "detail": "Only the work granted to this assignment",
+            "status": ""
+          },
+          {
+            "title": "Permissions",
+            "detail": "Read source data; governed writes only",
+            "status": ""
+          },
+          {
+            "title": "Activity",
+            "detail": "Review evidence and execution history",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-11": {
+    "id": "11",
+    "title": "Flows",
+    "nav": "Flows",
+    "intro": "Create and manage work that runs within agreed limits.",
+    "source": "02_Flows_and_Tasks/sigmar_aos_flow_management_dashboard.jpg",
+    "tabs": [
+      "My Flows",
+      "Shared with me",
+      "Templates"
+    ],
+    "action": "Create Flow",
+    "panels": [
+      {
+        "title": "Your Flows",
+        "rows": [
+          {
+            "title": "Shopify-to-ERP data sync",
+            "detail": "Integration Engineer · inspect latest run",
+            "status": "Active"
+          },
+          {
+            "title": "Invoice reconciliation",
+            "detail": "Finance scope · awaiting a decision",
+            "status": "Review"
+          },
+          {
+            "title": "Order synchronisation",
+            "detail": "Integration scope · approved work",
+            "status": "Active"
+          },
+          {
+            "title": "Weekly planning",
+            "detail": "My.Work · prepare the next week",
+            "status": "Draft"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Work with a Flow",
+        "rows": [
+          {
+            "title": "Create from a template",
+            "detail": "Start with an approved pattern.",
+            "status": ""
+          },
+          {
+            "title": "Inspect a run",
+            "detail": "See steps, evidence and pending decisions.",
+            "status": ""
+          },
+          {
+            "title": "Agreements",
+            "detail": "Review contracts and requests attached to Flows.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-12": {
+    "id": "12",
+    "title": "Purchase approval Flow",
+    "nav": "Flows",
+    "intro": "Review the draft and its approval requirements before publishing.",
+    "source": "02_Flows_and_Tasks/sigmar_aos_flow_designer_interface.jpg",
+    "kind": "designer",
+    "tabs": [
+      "Builder",
+      "Contracts",
+      "Terms",
+      "Permissions",
+      "Audit log"
+    ],
+    "action": "Review draft",
+    "panels": [
+      {
+        "title": "Draft steps",
+        "rows": [
+          {
+            "title": "Start",
+            "detail": "Where this Flow begins.",
+            "status": "Draft"
+          },
+          {
+            "title": "Task",
+            "detail": "Prepare the purchase request.",
+            "status": ""
+          },
+          {
+            "title": "Approval",
+            "detail": "A named approver must decide before continuing.",
+            "status": ""
+          },
+          {
+            "title": "End",
+            "detail": "Finish after the required decision.",
+            "status": ""
+          }
+        ],
+        "kind": "steps"
+      },
+      {
+        "title": "Approval settings",
+        "rows": [
+          {
+            "title": "Approver",
+            "detail": "Select an authorised Persona or role",
+            "status": ""
+          },
+          {
+            "title": "Condition",
+            "detail": "Define when approval is required",
+            "status": ""
+          },
+          {
+            "title": "Required approvals",
+            "detail": "Set the required number",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Draft controls",
+        "rows": [
+          {
+            "title": "Contracts and Terms",
+            "detail": "Configure these on their own tabs.",
+            "status": ""
+          },
+          {
+            "title": "Validation",
+            "detail": "Check required inputs before publishing.",
+            "status": ""
+          },
+          {
+            "title": "Execution",
+            "detail": "Reviewing this draft does not run the Flow.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-13": {
+    "id": "13",
+    "title": "My Tasks",
+    "nav": "My Tasks",
+    "intro": "Actions generated by your Flows. Open the related step to take action.",
+    "source": "02_Flows_and_Tasks/my_tasks_flow_triggered_action_list.jpg",
+    "tabs": [
+      "All tasks",
+      "Awaiting me",
+      "Completed"
+    ],
+    "action": "Review next task",
+    "panels": [
+      {
+        "title": "Today",
+        "rows": [
+          {
+            "title": "Provide ERP credentials",
+            "detail": "Integration Flow · action required from you",
+            "status": "Due today"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Coming up",
+        "rows": [
+          {
+            "title": "Review career evidence",
+            "detail": "My.Career · review supporting work",
+            "status": "Review"
+          },
+          {
+            "title": "Sign agreement",
+            "detail": "Related contract and Flow step",
+            "status": "Pending"
+          },
+          {
+            "title": "Confirm finance scope",
+            "detail": "Review the authority being requested",
+            "status": "Pending"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Task context",
+        "rows": [
+          {
+            "title": "The Flow owns the next step",
+            "detail": "Completing a task returns your decision to its Flow.",
+            "status": ""
+          },
+          {
+            "title": "Evidence stays linked",
+            "detail": "Inspect the source material before you decide.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-14": {
+    "id": "14",
+    "title": "Agreements",
+    "nav": "Flows",
+    "intro": "Requests and agreements linked to the work you can review.",
+    "source": "03_Agreements/agreements.jpg",
+    "tabs": [
+      "Awaiting me",
+      "In progress",
+      "Completed"
+    ],
+    "action": "Review request",
+    "panels": [
+      {
+        "title": "Awaiting your decision",
+        "rows": [
+          {
+            "title": "Approve work done",
+            "detail": "Site works · Stage 2 · AGR-7749",
+            "status": "Awaiting you"
+          },
+          {
+            "title": "Approve cost change",
+            "detail": "Contract variation · inspect the evidence",
+            "status": "Review"
+          },
+          {
+            "title": "Sign service agreement",
+            "detail": "Read the contract and applicable terms",
+            "status": "Pending"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Agreement record",
+        "rows": [
+          {
+            "title": "Originating Flow",
+            "detail": "Each request stays linked to its Flow.",
+            "status": ""
+          },
+          {
+            "title": "Evidence and terms",
+            "detail": "Available before you make a decision.",
+            "status": ""
+          },
+          {
+            "title": "Completed requests",
+            "detail": "Inspect recorded decisions and their evidence.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-15": {
+    "id": "15",
+    "title": "Approve work done",
+    "nav": "Flows",
+    "intro": "Review the submitted deliverables before confirming this Flow step.",
+    "source": "03_Agreements/agreement_review.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Contract & Terms",
+      "Activity"
+    ],
+    "notice": "Awaiting your decision",
+    "action": "Approve work",
+    "secondary": "Request changes",
+    "consentRequired": true,
+    "panels": [
+      {
+        "title": "Work acceptance request",
+        "rows": [
+          {
+            "title": "Work package",
+            "detail": "Site works · Stage 2",
+            "status": ""
+          },
+          {
+            "title": "Contract",
+            "detail": "Works Contract · WC-042",
+            "status": ""
+          },
+          {
+            "title": "Requested by",
+            "detail": "Construction Guild / Contractor",
+            "status": ""
+          },
+          {
+            "title": "Current reviewer",
+            "detail": "Project Owner Persona",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Supporting evidence",
+        "rows": [
+          {
+            "title": "Stage 2 completion report.pdf",
+            "detail": "Submitted evidence",
+            "status": "Linked"
+          },
+          {
+            "title": "Inspection results and photographs",
+            "detail": "Inspection record INSP-803",
+            "status": "Linked"
+          },
+          {
+            "title": "Blackboard findings",
+            "detail": "Access-controlled observations",
+            "status": "View"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Review and decide",
+        "rows": [
+          {
+            "title": "Acceptance",
+            "detail": "Approval confirms the specified deliverables meet the agreed criteria.",
+            "status": ""
+          },
+          {
+            "title": "I have reviewed the evidence and terms",
+            "detail": "Required before approval",
+            "status": "Unchecked"
+          },
+          {
+            "title": "Comments or required corrections",
+            "detail": "Add a reason or request changes",
+            "status": ""
+          }
+        ],
+        "kind": "consent"
+      },
+      {
+        "title": "Resulting payment",
+        "rows": [
+          {
+            "title": "Milestone value",
+            "detail": "AUD 18,500.00",
+            "status": ""
+          },
+          {
+            "title": "Conditions",
+            "detail": "Payment remains controlled by the originating Flow, contract and Terms.",
+            "status": ""
+          },
+          {
+            "title": "Decision record",
+            "detail": "Your decision and evidence references return to the existing step.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-16": {
+    "id": "16",
+    "title": "Blackboard",
+    "nav": "Blackboard",
+    "intro": "Manage shared work, findings and evidence with their original context.",
+    "source": "04_Blackboard/blackboard_workboard_admin_dashboard.jpg",
+    "tabs": [
+      "Workboard",
+      "Shared context"
+    ],
+    "action": "New work item",
+    "panels": [
+      {
+        "title": "Order sync discrepancy",
+        "rows": [
+          {
+            "title": "Prepare",
+            "detail": "Collect source records and identify the mismatch.",
+            "status": "Ready"
+          },
+          {
+            "title": "In progress",
+            "detail": "Review mapping and investigate the difference.",
+            "status": "Active"
+          },
+          {
+            "title": "Awaiting review",
+            "detail": "Evidence ready for an authorised decision.",
+            "status": "Review"
+          },
+          {
+            "title": "Done",
+            "detail": "Resolved work with evidence retained.",
+            "status": "Complete"
+          }
+        ],
+        "kind": "board"
+      },
+      {
+        "title": "Work item context",
+        "rows": [
+          {
+            "title": "Linked Flow",
+            "detail": "Order synchronisation",
+            "status": ""
+          },
+          {
+            "title": "Evidence",
+            "detail": "Records and observations are access-controlled.",
+            "status": ""
+          },
+          {
+            "title": "Next step",
+            "detail": "Review findings before returning to the Flow.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-17": {
+    "id": "17",
+    "title": "Shared context",
+    "nav": "Blackboard",
+    "intro": "A shared view of evidence and decisions for the current Flow step.",
+    "source": "04_Blackboard/blackboard_shared_context_dashboard.jpg",
+    "tabs": [
+      "Context",
+      "Evidence",
+      "Activity"
+    ],
+    "action": "Open Flow step",
+    "panels": [
+      {
+        "title": "Shared records",
+        "rows": [
+          {
+            "title": "Evidence requested",
+            "detail": "Source data attached to the current step",
+            "status": "Linked"
+          },
+          {
+            "title": "ERP stock level issue",
+            "detail": "Mismatch identified in the source records",
+            "status": "Review"
+          },
+          {
+            "title": "Owner response",
+            "detail": "Clarification and next steps",
+            "status": "Waiting"
+          },
+          {
+            "title": "Data quality check",
+            "detail": "Validation evidence attached",
+            "status": "Linked"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Current step",
+        "rows": [
+          {
+            "title": "Evidence and data quality",
+            "detail": "Review the evidence before continuing.",
+            "status": ""
+          },
+          {
+            "title": "Who can see this",
+            "detail": "Only participants with the required permissions.",
+            "status": ""
+          },
+          {
+            "title": "Reply to the shared context",
+            "detail": "Add a finding or attach supporting evidence.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-18": {
+    "id": "18",
+    "title": "Training Hub",
+    "nav": "Training Hub",
+    "intro": "Research, train, validate and operate your DNA.",
+    "source": "05_Training_Hub/sigmar_aos_training_hub_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Publication blocked · training requirements remain",
+    "action": "Review training plan",
+    "panels": [
+      {
+        "title": "Development lifecycle",
+        "rows": [
+          {
+            "title": "Identity and scope",
+            "detail": "Confirm purpose, ownership and permitted use",
+            "status": "Review"
+          },
+          {
+            "title": "Capability fit",
+            "detail": "Check whether the evidence supports the capability",
+            "status": "Review"
+          },
+          {
+            "title": "Research",
+            "detail": "Collect sources and confirm rights",
+            "status": "In progress"
+          },
+          {
+            "title": "Evidence and datasets",
+            "detail": "Separate training, validation and holdout",
+            "status": "Review"
+          },
+          {
+            "title": "Training and evaluation",
+            "detail": "Evaluate the exact candidate version",
+            "status": "Required"
+          }
+        ],
+        "kind": "steps"
+      },
+      {
+        "title": "Your next step",
+        "rows": [
+          {
+            "title": "Shopify-to-ERP integration",
+            "detail": "Review the evidence and training plan.",
+            "status": ""
+          },
+          {
+            "title": "Release gate",
+            "detail": "Publication stays blocked until requirements pass.",
+            "status": ""
+          },
+          {
+            "title": "Monitoring",
+            "detail": "Available after an eligible version is published.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-19": {
+    "id": "19",
+    "title": "Training lifecycle",
+    "nav": "Training Hub",
+    "intro": "See what is ready, what needs evidence and what blocks publication.",
+    "source": "05_Training_Hub/training_hub_lifecycle_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Publication blocked",
+    "action": "Review requirements",
+    "panels": [
+      {
+        "title": "Lifecycle requirements",
+        "rows": [
+          {
+            "title": "Identity and scope",
+            "detail": "Purpose and ownership confirmed",
+            "status": "Complete"
+          },
+          {
+            "title": "Capability fit",
+            "detail": "Evidence needs to support each claim",
+            "status": "Review"
+          },
+          {
+            "title": "Research and sources",
+            "detail": "Source rights must be checked",
+            "status": "In progress"
+          },
+          {
+            "title": "Evidence and datasets",
+            "detail": "Holdout must remain independent",
+            "status": "Required"
+          },
+          {
+            "title": "Train and validate",
+            "detail": "Use a defined candidate version",
+            "status": "Required"
+          },
+          {
+            "title": "Evaluation",
+            "detail": "Pass required scenarios",
+            "status": "Required"
+          },
+          {
+            "title": "Release validation",
+            "detail": "Complete all publication gates",
+            "status": "Blocked"
+          }
+        ],
+        "kind": "steps"
+      },
+      {
+        "title": "Assistant review",
+        "rows": [
+          {
+            "title": "Evidence gaps",
+            "detail": "Open the requirement to see what is missing.",
+            "status": ""
+          },
+          {
+            "title": "Next useful action",
+            "detail": "Resolve the first incomplete dependency.",
+            "status": ""
+          },
+          {
+            "title": "Publication",
+            "detail": "Blocked until the required checks pass.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-20": {
+    "id": "20",
+    "title": "What would you like to share?",
+    "nav": "Training Hub",
+    "intro": "Start with an idea or an experience you already have.",
+    "source": "05_Training_Hub/light_aos_training_setup_wizard.jpg",
+    "tabs": [
+      "1 Your idea",
+      "2 Your experience",
+      "3 Your training plan"
+    ],
+    "action": "Save idea and continue",
+    "panels": [
+      {
+        "title": "Your idea",
+        "rows": [
+          {
+            "title": "Describe what you want to share",
+            "detail": "I have been cooking family recipes for years. I would like to help beginners make bread.",
+            "status": ""
+          },
+          {
+            "title": "Persona",
+            "detail": "My.Cooking",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Start with a familiar place",
+        "rows": [
+          {
+            "title": "Cooking and recipes",
+            "detail": "Something you have learned through practice",
+            "status": ""
+          },
+          {
+            "title": "Skills and experience",
+            "detail": "Work you can support with evidence",
+            "status": ""
+          },
+          {
+            "title": "Family knowledge",
+            "detail": "Experience you have permission to share",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Already available",
+        "rows": [
+          {
+            "title": "Identity",
+            "detail": "Use your existing Persona identity",
+            "status": "Verified"
+          },
+          {
+            "title": "Existing experience",
+            "detail": "Look for relevant work and knowledge first.",
+            "status": ""
+          },
+          {
+            "title": "Your choice",
+            "detail": "An idea is not a published capability.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-21": {
+    "id": "21",
+    "title": "Use the work you have already done",
+    "nav": "Training Hub",
+    "intro": "Select existing work and evidence before creating new material.",
+    "source": "05_Training_Hub/sigmar_aos_training_hub_wizard.jpg",
+    "tabs": [
+      "1 Your idea",
+      "2 Your experience",
+      "3 Your training plan"
+    ],
+    "action": "Save and continue",
+    "panels": [
+      {
+        "title": "What would you like to format?",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "My Shopify-to-ERP integration patterns and order synchronisation.",
+            "status": ""
+          },
+          {
+            "title": "Persona",
+            "detail": "My.Career",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Select the evidence to use",
+        "rows": [
+          {
+            "title": "My Career in Action",
+            "detail": "Experience and supporting work",
+            "status": "Available"
+          },
+          {
+            "title": "Project documentation",
+            "detail": "Specifications, designs and delivery records",
+            "status": "Add"
+          },
+          {
+            "title": "Code repository and test results",
+            "detail": "Authorised source evidence",
+            "status": "Review"
+          },
+          {
+            "title": "Existing Persona methods",
+            "detail": "Reusable experience you own",
+            "status": "Available"
+          }
+        ],
+        "kind": "checklist"
+      },
+      {
+        "title": "Your setup so far",
+        "rows": [
+          {
+            "title": "Identity",
+            "detail": "Use the verified Persona identity.",
+            "status": ""
+          },
+          {
+            "title": "Private evidence",
+            "detail": "Only use material you are authorised to access.",
+            "status": ""
+          },
+          {
+            "title": "Review",
+            "detail": "Confirm evidence before preparing a training plan.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 1
+  },
+  "aos-22": {
+    "id": "22",
+    "title": "Show us how you do it",
+    "nav": "Training Hub",
+    "intro": "Capture your experience in your own words and review what AOS understood.",
+    "source": "05_Training_Hub/your_experience_guided_cooking_evidence.jpg",
+    "tabs": [
+      "1 Your idea",
+      "2 Your experience",
+      "3 Your training plan"
+    ],
+    "action": "Continue to training plan",
+    "panels": [
+      {
+        "title": "Your experience",
+        "rows": [
+          {
+            "title": "Tell us what you do",
+            "detail": "I start with a warm jug and make sure the yeast wakes up before mixing.",
+            "status": ""
+          },
+          {
+            "title": "Add more evidence",
+            "detail": "Attach a photo, file, video or spoken explanation",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "What AOS has understood",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "Guide a beginner through making bread.",
+            "status": ""
+          },
+          {
+            "title": "Experience",
+            "detail": "Family cooking and practical demonstration.",
+            "status": ""
+          },
+          {
+            "title": "Safety",
+            "detail": "Review food handling, allergens and appropriate limitations.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Your control",
+        "rows": [
+          {
+            "title": "Review the interpretation",
+            "detail": "Correct anything AOS misunderstood.",
+            "status": ""
+          },
+          {
+            "title": "Sharing",
+            "detail": "Keep personal or family information private unless you choose otherwise.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 1
+  },
+  "aos-23": {
+    "id": "23",
+    "title": "Your training plan is ready",
+    "nav": "Training Hub",
+    "intro": "Review a plan based on your experience before starting training.",
+    "source": "05_Training_Hub/training_plan_for_family_bread_guidance.jpg",
+    "tabs": [
+      "1 Your idea",
+      "2 Your experience",
+      "3 Your training plan"
+    ],
+    "action": "Review training Hub",
+    "panels": [
+      {
+        "title": "Family bread recipe guidance",
+        "rows": [
+          {
+            "title": "Persona",
+            "detail": "My.Cooking",
+            "status": ""
+          },
+          {
+            "title": "Experience",
+            "detail": "Family bread-making knowledge",
+            "status": ""
+          },
+          {
+            "title": "Scope",
+            "detail": "Beginner guidance with appropriate limits",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Required lifecycle",
+        "rows": [
+          {
+            "title": "Identity and scope",
+            "detail": "Confirm ownership and purpose",
+            "status": "Review"
+          },
+          {
+            "title": "Capability fit",
+            "detail": "Define what the guidance can support",
+            "status": "Review"
+          },
+          {
+            "title": "Research and rights",
+            "detail": "Check the material you plan to use",
+            "status": "Required"
+          },
+          {
+            "title": "Training and evaluation",
+            "detail": "Prepare evidence and required scenarios",
+            "status": "Required"
+          },
+          {
+            "title": "Release review",
+            "detail": "Publish only after the required gates pass",
+            "status": "Blocked"
+          }
+        ],
+        "kind": "steps"
+      },
+      {
+        "title": "Your next step",
+        "rows": [
+          {
+            "title": "Enter Training Hub",
+            "detail": "Review the first incomplete requirement.",
+            "status": ""
+          },
+          {
+            "title": "Private by default",
+            "detail": "This plan has not published your DNA.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 2
+  },
+  "aos-24": {
+    "id": "24",
+    "title": "Capability fit",
+    "nav": "Training Hub",
+    "intro": "Assess whether your evidence supports the capability you want to offer.",
+    "source": "05_Training_Hub/capability_fit_training_hub_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Publication blocked · capability fit incomplete",
+    "action": "Review capability gaps",
+    "panels": [
+      {
+        "title": "Assessment context",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "Shopify-to-ERP integration",
+            "status": ""
+          },
+          {
+            "title": "Persona",
+            "detail": "My.Career",
+            "status": ""
+          },
+          {
+            "title": "Evidence",
+            "detail": "Work samples, methods and supporting records",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Capability assessment",
+        "rows": [
+          {
+            "title": "Scope and purpose",
+            "detail": "Match the proposed capability to the evidence",
+            "status": "Review"
+          },
+          {
+            "title": "Relevant experience",
+            "detail": "Inspect Career in Action records",
+            "status": "Supported"
+          },
+          {
+            "title": "Required knowledge",
+            "detail": "Confirm current sources and usage rights",
+            "status": "Review"
+          },
+          {
+            "title": "Training requirements",
+            "detail": "Resolve missing evidence or scenarios",
+            "status": "Required"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Publication gate",
+        "rows": [
+          {
+            "title": "Fit must be supported",
+            "detail": "A claim is not ready because it sounds plausible.",
+            "status": ""
+          },
+          {
+            "title": "Next step",
+            "detail": "Collect evidence or narrow the capability scope.",
+            "status": ""
+          },
+          {
+            "title": "Research for new products",
+            "detail": "Review requirements when the capability is new.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-25": {
+    "id": "25",
+    "title": "Train and validate a capability",
+    "nav": "Training Hub",
+    "intro": "Select the evidence, define the training method and review results.",
+    "source": "05_Training_Hub/sigmar_aos_training_validation_workspace.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Publication blocked · training requirements remain",
+    "action": "Add validation requirements",
+    "panels": [
+      {
+        "title": "Scenario setup",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "Shopify-to-ERP integration",
+            "status": ""
+          },
+          {
+            "title": "Candidate",
+            "detail": "v1.0.0",
+            "status": ""
+          },
+          {
+            "title": "Training source",
+            "detail": "Select an authorised training dataset",
+            "status": ""
+          },
+          {
+            "title": "Validation source",
+            "detail": "Select a separate validation dataset",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Training review",
+        "rows": [
+          {
+            "title": "Candidate training",
+            "detail": "Review the planned inputs before starting.",
+            "status": "Review"
+          },
+          {
+            "title": "Proposed method changes",
+            "detail": "Review any change against the agreed scope.",
+            "status": "Review"
+          },
+          {
+            "title": "Validation results",
+            "detail": "Inspect failures and supporting evidence.",
+            "status": "Required"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Training history",
+        "rows": [
+          {
+            "title": "Candidate versions",
+            "detail": "Keep each run and version traceable.",
+            "status": ""
+          },
+          {
+            "title": "Holdout independence",
+            "detail": "Training must not use the independent holdout.",
+            "status": ""
+          },
+          {
+            "title": "Assistant notes",
+            "detail": "Resolve gaps before requesting release validation.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 2
+  },
+  "aos-26": {
+    "id": "26",
+    "title": "Research a new product",
+    "nav": "Training Hub",
+    "intro": "Identify requirements and evidence for a capability not yet supported.",
+    "source": "05_Training_Hub/training_hub_research_admin_dashboard.jpg",
+    "tabs": [
+      "Requirements",
+      "Sources",
+      "Research",
+      "Review"
+    ],
+    "action": "Continue to research plan",
+    "panels": [
+      {
+        "title": "Industry and capability requirements",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "Describe what the product must support",
+            "status": ""
+          },
+          {
+            "title": "Existing evidence",
+            "detail": "Review what is already available",
+            "status": ""
+          },
+          {
+            "title": "Unknowns",
+            "detail": "Record gaps and questions before training",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Research readiness",
+        "rows": [
+          {
+            "title": "Public sources",
+            "detail": "Check relevance, ownership and permitted use",
+            "status": "Review"
+          },
+          {
+            "title": "Capability gaps",
+            "detail": "Define evidence needed to support the claim",
+            "status": "Required"
+          },
+          {
+            "title": "Training requirements",
+            "detail": "Set scenarios and validation criteria",
+            "status": "Required"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Private evidence access",
+        "rows": [
+          {
+            "title": "Permission first",
+            "detail": "Do not assume access to private material.",
+            "status": ""
+          },
+          {
+            "title": "Research plan",
+            "detail": "Separate questions, sources and expected outputs.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-27": {
+    "id": "27",
+    "title": "Research and product plan",
+    "nav": "Training Hub",
+    "intro": "Turn product requirements into an evidence-led research plan.",
+    "source": "05_Training_Hub/sigmar_aos_product_research_hub.jpg",
+    "tabs": [
+      "Requirements",
+      "Sources",
+      "Research",
+      "Review"
+    ],
+    "action": "Continue to validation plan",
+    "panels": [
+      {
+        "title": "Product requirements",
+        "rows": [
+          {
+            "title": "Industry context",
+            "detail": "Review the intended users and operating context",
+            "status": ""
+          },
+          {
+            "title": "Capability requirements",
+            "detail": "Define the work this product should support",
+            "status": ""
+          },
+          {
+            "title": "Required evidence",
+            "detail": "Identify sources that can support each requirement",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Capability requirement mapping",
+        "rows": [
+          {
+            "title": "Scope coverage",
+            "detail": "Map each requirement to available evidence",
+            "status": "Review"
+          },
+          {
+            "title": "Knowledge gaps",
+            "detail": "Assign research where evidence is missing",
+            "status": "Required"
+          },
+          {
+            "title": "Validation criteria",
+            "detail": "Define how the proposed capability is assessed",
+            "status": "Required"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Readiness",
+        "rows": [
+          {
+            "title": "Research plan",
+            "detail": "Review the sources and expected outputs.",
+            "status": ""
+          },
+          {
+            "title": "Evidence rights",
+            "detail": "Confirm access before including private material.",
+            "status": ""
+          },
+          {
+            "title": "Next step",
+            "detail": "Prepare a validation plan for the supported scope.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-28": {
+    "id": "28",
+    "title": "My.Fitness evidence and datasets",
+    "nav": "Training Hub",
+    "intro": "Prepare the evidence without mixing training, validation and independent evaluation.",
+    "source": "05_Training_Hub/my.fitness_evidence_datasets_workspace.jpg",
+    "tabs": [
+      "Sources",
+      "Datasets",
+      "Rights"
+    ],
+    "action": "Add source",
+    "panels": [
+      {
+        "title": "Dataset sources",
+        "rows": [
+          {
+            "title": "Fitness session notes",
+            "detail": "My.Fitness · personal evidence",
+            "status": "Private"
+          },
+          {
+            "title": "Progress records",
+            "detail": "Review consent and usage rights",
+            "status": "Review"
+          },
+          {
+            "title": "Reference material",
+            "detail": "Confirm relevance and permitted use",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Separate your datasets",
+        "rows": [
+          {
+            "title": "Training set",
+            "detail": "Material used to train the candidate",
+            "status": "Separate"
+          },
+          {
+            "title": "Validation set",
+            "detail": "Used while refining the candidate",
+            "status": "Separate"
+          },
+          {
+            "title": "Independent holdout",
+            "detail": "Locked for evaluation only",
+            "status": "Locked"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Quality and rights",
+        "rows": [
+          {
+            "title": "Source access",
+            "detail": "Only include authorised material.",
+            "status": ""
+          },
+          {
+            "title": "Privacy controls",
+            "detail": "Remove or protect personal information.",
+            "status": ""
+          },
+          {
+            "title": "Known limitations",
+            "detail": "Record gaps rather than treating them as passing evidence.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-29": {
+    "id": "29",
+    "title": "Prepare evidence and training data",
+    "nav": "Training Hub",
+    "intro": "Compile quality sources, define usage rights and keep independent evaluation separate.",
+    "source": "05_Training_Hub/training_hub_dataset_preparation.jpg",
+    "tabs": [
+      "Sources",
+      "Datasets",
+      "Rights"
+    ],
+    "action": "Import dataset",
+    "panels": [
+      {
+        "title": "Dataset sources",
+        "rows": [
+          {
+            "title": "Integration playbook",
+            "detail": "Methods and procedures",
+            "status": "Ready"
+          },
+          {
+            "title": "API specifications",
+            "detail": "Contract and interface references",
+            "status": "Review"
+          },
+          {
+            "title": "Project evidence",
+            "detail": "Work samples and delivery records",
+            "status": "Ready"
+          },
+          {
+            "title": "Repository and tests",
+            "detail": "Authorised engineering evidence",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Dataset separation",
+        "rows": [
+          {
+            "title": "Training set",
+            "detail": "Used for candidate training",
+            "status": "Separate"
+          },
+          {
+            "title": "Validation set",
+            "detail": "Used for refinement",
+            "status": "Separate"
+          },
+          {
+            "title": "Independent holdout",
+            "detail": "No training on this dataset",
+            "status": "Locked"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Ground truth and acceptance",
+        "rows": [
+          {
+            "title": "Expected outcomes",
+            "detail": "Record how each scenario is assessed.",
+            "status": ""
+          },
+          {
+            "title": "Privacy controls",
+            "detail": "Respect ownership and data rights.",
+            "status": ""
+          },
+          {
+            "title": "Quality checks",
+            "detail": "Resolve errors before entering the Training lab.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-30": {
+    "id": "30",
+    "title": "Training lab",
+    "nav": "Training Hub",
+    "intro": "Run and inspect candidate training using the approved scope and evidence.",
+    "source": "05_Training_Hub/training_lab_admin_workspace.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Publication blocked · requirements remain",
+    "action": "Review candidate run",
+    "panels": [
+      {
+        "title": "Training configuration",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "Shopify-to-ERP integration",
+            "status": ""
+          },
+          {
+            "title": "Candidate version",
+            "detail": "v1.0.0",
+            "status": ""
+          },
+          {
+            "title": "Training dataset",
+            "detail": "Choose an approved source",
+            "status": ""
+          },
+          {
+            "title": "Validation dataset",
+            "detail": "Keep separate from training",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Inspect the run",
+        "rows": [
+          {
+            "title": "Prompting and methods",
+            "detail": "Review changes before applying them.",
+            "status": "Review"
+          },
+          {
+            "title": "Validation results",
+            "detail": "Open failing cases and their evidence.",
+            "status": "Required"
+          },
+          {
+            "title": "Training history",
+            "detail": "Compare exact candidates and prior runs.",
+            "status": "View"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Release limits",
+        "rows": [
+          {
+            "title": "Holdout",
+            "detail": "Independent evaluation remains separate and locked.",
+            "status": ""
+          },
+          {
+            "title": "Publication",
+            "detail": "Training alone does not make a candidate eligible.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 2
+  },
+  "aos-31": {
+    "id": "31",
+    "title": "Review your existing evidence",
+    "nav": "Training Hub",
+    "intro": "Choose what AOS may use to prepare your training plan.",
+    "source": "05_Training_Hub/training_hub_evidence_review_screen.jpg",
+    "tabs": [
+      "1 Your idea",
+      "2 Your experience",
+      "3 Your training plan"
+    ],
+    "action": "Save draft and continue",
+    "panels": [
+      {
+        "title": "Your capability",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "My Shopify-to-ERP integration patterns and order synchronisation",
+            "status": ""
+          },
+          {
+            "title": "Persona",
+            "detail": "My.Career",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Evidence to include",
+        "rows": [
+          {
+            "title": "My Career in Action",
+            "detail": "Work evidence and experience",
+            "status": "Selected"
+          },
+          {
+            "title": "Project documentation",
+            "detail": "Specifications and delivery records",
+            "status": "Review"
+          },
+          {
+            "title": "Code repository and tests",
+            "detail": "Only authorised material",
+            "status": "Review"
+          },
+          {
+            "title": "Existing Persona methods",
+            "detail": "Knowledge you already own",
+            "status": "Selected"
+          }
+        ],
+        "kind": "checklist"
+      },
+      {
+        "title": "Review your choices",
+        "rows": [
+          {
+            "title": "Source rights",
+            "detail": "Selection does not override access controls.",
+            "status": ""
+          },
+          {
+            "title": "Private evidence",
+            "detail": "Your sources are not automatically published.",
+            "status": ""
+          },
+          {
+            "title": "Next step",
+            "detail": "Review the training plan before starting.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-32": {
+    "id": "32",
+    "title": "Evaluation",
+    "nav": "Training Hub",
+    "intro": "Independent holdout evaluation of an exact candidate against its baseline.",
+    "source": "05_Training_Hub/training_hub_evaluation_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Evaluation locked · frozen candidate",
+    "action": "View evaluation evidence",
+    "panels": [
+      {
+        "title": "Exact evaluation context",
+        "rows": [
+          {
+            "title": "Candidate",
+            "detail": "Shopify-to-ERP integration · v1.0.0",
+            "status": ""
+          },
+          {
+            "title": "Holdout",
+            "detail": "Independent and locked",
+            "status": ""
+          },
+          {
+            "title": "Baseline",
+            "detail": "Compare the recorded baseline version",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Scenario results",
+        "rows": [
+          {
+            "title": "Integration mapping",
+            "detail": "Inspect metric, threshold and replay",
+            "status": "Pass"
+          },
+          {
+            "title": "Error handling",
+            "detail": "Inspect the supporting scenario evidence",
+            "status": "Pass"
+          },
+          {
+            "title": "Regression coverage",
+            "detail": "Required comparisons remain traceable",
+            "status": "Pass"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Safety and rights",
+        "rows": [
+          {
+            "title": "Policy checks",
+            "detail": "Review the evaluated evidence",
+            "status": "Pass"
+          },
+          {
+            "title": "Access and data rights",
+            "detail": "Review source permissions",
+            "status": "Pass"
+          },
+          {
+            "title": "Evaluation use",
+            "detail": "Read-only results. No training on the holdout.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 3
+  },
+  "aos-33": {
+    "id": "33",
+    "title": "Fitness evaluation",
+    "nav": "Training Hub",
+    "intro": "A failed required scenario keeps publication blocked.",
+    "source": "05_Training_Hub/fitness_evaluation_shows_publication_blocked.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Failed · publication blocked",
+    "action": "View gaps",
+    "panels": [
+      {
+        "title": "Evaluation context",
+        "rows": [
+          {
+            "title": "Candidate",
+            "detail": "Personal fitness guidance · v1.0.0",
+            "status": ""
+          },
+          {
+            "title": "Holdout",
+            "detail": "Independent and locked",
+            "status": ""
+          },
+          {
+            "title": "Baseline",
+            "detail": "v0.9.3",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Required scenario results",
+        "rows": [
+          {
+            "title": "Training plan guidance",
+            "detail": "Accuracy 0.94 · threshold ≥ 0.90",
+            "status": "Pass"
+          },
+          {
+            "title": "Progress review",
+            "detail": "Task success 0.89 · threshold ≥ 0.85",
+            "status": "Pass"
+          },
+          {
+            "title": "Exercise routine guidance",
+            "detail": "Task success 0.76 · threshold ≥ 0.80",
+            "status": "Fail"
+          },
+          {
+            "title": "Regression coverage",
+            "detail": "1.00 · threshold ≥ 1.00",
+            "status": "Pass"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Gaps and next steps",
+        "rows": [
+          {
+            "title": "3 of 4 scenarios passed",
+            "detail": "All required scenarios must pass.",
+            "status": "Blocked"
+          },
+          {
+            "title": "Review exercise guidance",
+            "detail": "Inspect the failed replay and supporting evidence.",
+            "status": ""
+          },
+          {
+            "title": "Refine and evaluate again",
+            "detail": "Keep the independent holdout out of training.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 3
+  },
+  "aos-34": {
+    "id": "34",
+    "title": "Release validation",
+    "nav": "Training Hub",
+    "intro": "Confirm the exact candidate meets every publication requirement.",
+    "source": "05_Training_Hub/training_hub_release_validation_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Evidence",
+      "Training",
+      "Evaluation",
+      "Release"
+    ],
+    "notice": "Not eligible to publish",
+    "action": "Review failed gates",
+    "panels": [
+      {
+        "title": "Release checks",
+        "rows": [
+          {
+            "title": "Identity and ownership",
+            "detail": "Confirm owner and publication authority",
+            "status": "Review"
+          },
+          {
+            "title": "Career in Action",
+            "detail": "Check work evidence supporting the claim",
+            "status": "Review"
+          },
+          {
+            "title": "Training and validation",
+            "detail": "Exact candidate must satisfy requirements",
+            "status": "Required"
+          },
+          {
+            "title": "Evaluation holdout",
+            "detail": "Independent scenario results required",
+            "status": "Required"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Evidence provenance",
+        "rows": [
+          {
+            "title": "Source references",
+            "detail": "Keep each result linked to its evidence.",
+            "status": ""
+          },
+          {
+            "title": "Independent evaluation",
+            "detail": "No training on the holdout.",
+            "status": ""
+          },
+          {
+            "title": "Rules and limitations",
+            "detail": "Review the claims and permitted uses.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Release gate",
+        "rows": [
+          {
+            "title": "Publication blocked",
+            "detail": "Resolve all required checks before publishing.",
+            "status": "Blocked"
+          },
+          {
+            "title": "Recheck exact candidate",
+            "detail": "A different version needs its own validation.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 4
+  },
+  "aos-35": {
+    "id": "35",
+    "title": "Monitor your published DNA",
+    "nav": "Training Hub",
+    "intro": "Review usage, quality and feedback for the published version.",
+    "source": "05_Training_Hub/training_hub_dna_monitoring_dashboard.jpg",
+    "tabs": [
+      "Overview",
+      "Usage",
+      "Quality",
+      "Feedback"
+    ],
+    "action": "Start new training version",
+    "panels": [
+      {
+        "title": "Published version",
+        "rows": [
+          {
+            "title": "DNA",
+            "detail": "Shopify-to-ERP integration · v1.0.0",
+            "status": "Published"
+          },
+          {
+            "title": "Usage and quality",
+            "detail": "Inspect the recorded observations.",
+            "status": ""
+          },
+          {
+            "title": "Efficiency",
+            "detail": "Compare outcomes with the available evidence.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Usage over time",
+        "rows": [
+          {
+            "title": "Activity trend",
+            "detail": "Recorded use of the published version",
+            "status": ""
+          },
+          {
+            "title": "Scenario outcomes",
+            "detail": "Inspect quality changes and failures",
+            "status": ""
+          },
+          {
+            "title": "User feedback",
+            "detail": "Review reports and supporting context",
+            "status": ""
+          }
+        ],
+        "kind": "chart"
+      },
+      {
+        "title": "Version readiness",
+        "rows": [
+          {
+            "title": "New candidate",
+            "detail": "Keep new training separate from the published version.",
+            "status": ""
+          },
+          {
+            "title": "Release recommendation",
+            "detail": "Review current evidence before changing a release.",
+            "status": ""
+          },
+          {
+            "title": "Private feedback",
+            "detail": "Respect access and data rights.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-36": {
+    "id": "36",
+    "title": "Marketplace",
+    "nav": "Marketplace",
+    "intro": "Explore DNA by capability, source and licence scope.",
+    "source": "06_Marketplace_and_Licences/sigmar_aos_marketplace_dashboard.jpg",
+    "tabs": [
+      "Explore",
+      "Saved",
+      "Purchased"
+    ],
+    "action": "Explore capabilities",
+    "panels": [
+      {
+        "title": "Explore DNA",
+        "rows": [
+          {
+            "title": "Retail inventory planning",
+            "detail": "Retail specialist team · business use",
+            "status": "Explore"
+          },
+          {
+            "title": "Personal fitness guidance",
+            "detail": "Review scope, evidence and limits",
+            "status": "Explore"
+          },
+          {
+            "title": "Family recipe coach",
+            "detail": "Personal learning and cooking",
+            "status": "Explore"
+          },
+          {
+            "title": "Shopify-to-ERP integration",
+            "detail": "Integration knowledge and methods",
+            "status": "Explore"
+          },
+          {
+            "title": "Garden planning",
+            "detail": "Personal and family knowledge",
+            "status": "Explore"
+          },
+          {
+            "title": "HR onboarding",
+            "detail": "Business scope and licence",
+            "status": "Explore"
+          }
+        ],
+        "kind": "market"
+      },
+      {
+        "title": "Before you choose",
+        "rows": [
+          {
+            "title": "Capability and evidence",
+            "detail": "Review what the offering supports.",
+            "status": ""
+          },
+          {
+            "title": "Licence and scope",
+            "detail": "Check who may use it and for what purpose.",
+            "status": ""
+          },
+          {
+            "title": "Control",
+            "detail": "Purchasing does not automatically link or activate DNA.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-37": {
+    "id": "37",
+    "title": "Retail inventory planning",
+    "nav": "Marketplace",
+    "intro": "Review the offering, evidence and licence before choosing DNA.",
+    "source": "06_Marketplace_and_Licences/retail_inventory_planning_marketplace_detail.jpg",
+    "tabs": [
+      "Overview",
+      "Capabilities",
+      "Evidence",
+      "Licence"
+    ],
+    "action": "Review licence",
+    "panels": [
+      {
+        "title": "Retail inventory planning",
+        "rows": [
+          {
+            "title": "Seller",
+            "detail": "Retail specialist team",
+            "status": ""
+          },
+          {
+            "title": "Version",
+            "detail": "v1.2.0",
+            "status": ""
+          },
+          {
+            "title": "Monthly licence",
+            "detail": "A$390.00 before GST",
+            "status": ""
+          },
+          {
+            "title": "Total with GST",
+            "detail": "A$429.00 / month",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "What you get",
+        "rows": [
+          {
+            "title": "Demand planning",
+            "detail": "Inventory planning and forecasts.",
+            "status": ""
+          },
+          {
+            "title": "Replenishment",
+            "detail": "Recommendations within the licensed scope.",
+            "status": ""
+          },
+          {
+            "title": "Evidence and limitations",
+            "detail": "Review supported uses and excluded claims.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "How it works",
+        "rows": [
+          {
+            "title": "Review the licence",
+            "detail": "Choose the correct deployment scope.",
+            "status": ""
+          },
+          {
+            "title": "Complete the purchase Flow",
+            "detail": "Payment is verified before linking.",
+            "status": ""
+          },
+          {
+            "title": "Link the DNA",
+            "detail": "Review capability and access changes before activation.",
+            "status": ""
+          }
+        ],
+        "kind": "steps"
+      }
+    ]
+  },
+  "aos-38": {
+    "id": "38",
+    "title": "Complete your payment",
+    "nav": "Marketplace",
+    "intro": "Review your billing details and order before paying.",
+    "source": "06_Marketplace_and_Licences/sigmar_aos_marketplace_payment_flow.jpg",
+    "tabs": [
+      "Licence",
+      "Payment",
+      "Verify",
+      "Link DNA",
+      "Complete"
+    ],
+    "action": "Pay A$429.00",
+    "panels": [
+      {
+        "title": "Billing details",
+        "rows": [
+          {
+            "title": "Business / individual name",
+            "detail": "Review purchaser details",
+            "status": ""
+          },
+          {
+            "title": "Email",
+            "detail": "Add billing email",
+            "status": ""
+          },
+          {
+            "title": "Country",
+            "detail": "Australia",
+            "status": ""
+          },
+          {
+            "title": "Billing address",
+            "detail": "Enter billing address",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Payment method",
+        "rows": [
+          {
+            "title": "Visa ending 1234",
+            "detail": "Example saved card",
+            "status": "Selected"
+          },
+          {
+            "title": "Use another card",
+            "detail": "Choose a different payment method",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Order summary",
+        "rows": [
+          {
+            "title": "Monthly subscription",
+            "detail": "Retail inventory planning",
+            "status": "A$390.00"
+          },
+          {
+            "title": "GST (10%)",
+            "detail": "Australian dollars",
+            "status": "A$39.00"
+          },
+          {
+            "title": "Total due today",
+            "detail": "Monthly renewal until cancelled",
+            "status": "A$429.00"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Before payment",
+        "rows": [
+          {
+            "title": "Monthly subscription",
+            "detail": "Automatically renews unless cancelled.",
+            "status": ""
+          },
+          {
+            "title": "Activation",
+            "detail": "Payment alone does not activate the licence. DNA must be linked successfully.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 1
+  },
+  "aos-39": {
+    "id": "39",
+    "title": "Review your licence",
+    "nav": "Marketplace",
+    "intro": "Confirm the deployment scope, contract and recurring price before payment.",
+    "source": "06_Marketplace_and_Licences/sigmar_aos_licence_review_checkout.jpg",
+    "tabs": [
+      "Licence",
+      "Payment",
+      "Verify",
+      "Link DNA",
+      "Complete"
+    ],
+    "action": "Accept and continue",
+    "consentRequired": true,
+    "panels": [
+      {
+        "title": "Deployment scope",
+        "rows": [
+          {
+            "title": "Scope",
+            "detail": "Business Guild",
+            "status": ""
+          },
+          {
+            "title": "Target Guild",
+            "detail": "Retail Operations",
+            "status": ""
+          },
+          {
+            "title": "Purchaser",
+            "detail": "Authorised representative of the Guild",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Contract and terms",
+        "rows": [
+          {
+            "title": "Offering",
+            "detail": "Retail inventory planning · v1.2.0",
+            "status": ""
+          },
+          {
+            "title": "Permitted use",
+            "detail": "Stock planning, forecasting and recommendations for internal business use.",
+            "status": ""
+          },
+          {
+            "title": "Renewal",
+            "detail": "A$390.00 / month before GST; renews until cancelled.",
+            "status": ""
+          },
+          {
+            "title": "Cancellation",
+            "detail": "Cancel before the next renewal date.",
+            "status": ""
+          },
+          {
+            "title": "Read contract and terms",
+            "detail": "Review the applicable seller and Flow contract.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Order summary",
+        "rows": [
+          {
+            "title": "Monthly subscription",
+            "detail": "Retail inventory planning",
+            "status": "A$390.00"
+          },
+          {
+            "title": "GST (10%)",
+            "detail": "Australian dollars",
+            "status": "A$39.00"
+          },
+          {
+            "title": "Total due today",
+            "detail": "Monthly renewal until cancelled",
+            "status": "A$429.00"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Your acceptance",
+        "rows": [
+          {
+            "title": "I have read and accept the terms",
+            "detail": "Confirm you have authority to contract for the Guild.",
+            "status": "Unchecked"
+          },
+          {
+            "title": "Payment is not activation",
+            "detail": "The licence activates only after successful linking.",
+            "status": ""
+          }
+        ],
+        "kind": "consent"
+      }
+    ]
+  },
+  "aos-40": {
+    "id": "40",
+    "title": "Payment verified",
+    "nav": "Marketplace",
+    "intro": "Continue the purchase Flow to link the licensed DNA.",
+    "source": "06_Marketplace_and_Licences/marketplace_payment_verified_dashboard.jpg",
+    "tabs": [
+      "Licence",
+      "Payment",
+      "Verify",
+      "Link DNA",
+      "Complete"
+    ],
+    "notice": "Paid but not yet activated",
+    "action": "Continue to link DNA",
+    "panels": [
+      {
+        "title": "Purchase Flow",
+        "rows": [
+          {
+            "title": "Contract accepted",
+            "detail": "Purchaser confirmed the contract",
+            "status": "Complete"
+          },
+          {
+            "title": "Payment received",
+            "detail": "A$429.00 · verified",
+            "status": "Complete"
+          },
+          {
+            "title": "Licence registered",
+            "detail": "Ready for the next Flow step",
+            "status": "Complete"
+          },
+          {
+            "title": "Activation pending",
+            "detail": "Link DNA to the chosen target",
+            "status": "Pending"
+          }
+        ],
+        "kind": "steps"
+      },
+      {
+        "title": "Order receipt",
+        "rows": [
+          {
+            "title": "Offering",
+            "detail": "Retail inventory planning",
+            "status": ""
+          },
+          {
+            "title": "Total paid today",
+            "detail": "A$429.00",
+            "status": ""
+          },
+          {
+            "title": "Target",
+            "detail": "Retail Operations Guild",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "What happens next",
+        "rows": [
+          {
+            "title": "Review the link",
+            "detail": "Confirm capabilities and access changes.",
+            "status": ""
+          },
+          {
+            "title": "No automatic activation",
+            "detail": "Successful payment does not grant active capabilities by itself.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 2
+  },
+  "aos-41": {
+    "id": "41",
+    "title": "DNA linked successfully",
+    "nav": "Marketplace",
+    "intro": "The purchased DNA is now available within the authorised scope.",
+    "source": "06_Marketplace_and_Licences/dna_linked_retail_inventory_activation.jpg",
+    "tabs": [
+      "Purchase",
+      "Agreement",
+      "Payment",
+      "Activation",
+      "Link DNA"
+    ],
+    "notice": "Purchase complete · DNA linked",
+    "action": "Open Retail Operations Guild",
+    "panels": [
+      {
+        "title": "Retail inventory planning",
+        "rows": [
+          {
+            "title": "Version",
+            "detail": "v1.2.0",
+            "status": ""
+          },
+          {
+            "title": "Linked to",
+            "detail": "Retail Operations Guild",
+            "status": ""
+          },
+          {
+            "title": "Licence",
+            "detail": "Active",
+            "status": "Active"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Capabilities now available",
+        "rows": [
+          {
+            "title": "Inventory planning",
+            "detail": "Within the licensed capability scope",
+            "status": "Available"
+          },
+          {
+            "title": "Stock recommendations",
+            "detail": "Subject to the target’s permissions",
+            "status": "Available"
+          },
+          {
+            "title": "Planning references",
+            "detail": "Linked knowledge remains governed",
+            "status": "Available"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Purchase complete",
+        "rows": [
+          {
+            "title": "Current subscription",
+            "detail": "A$429.00 / month including GST",
+            "status": ""
+          },
+          {
+            "title": "Manage licence",
+            "detail": "Review renewal and cancellation.",
+            "status": ""
+          },
+          {
+            "title": "View evidence",
+            "detail": "Inspect the completed purchase Flow.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 4
+  },
+  "aos-42": {
+    "id": "42",
+    "title": "Link your licensed DNA",
+    "nav": "Marketplace",
+    "intro": "Choose where the approved capabilities will be available.",
+    "source": "06_Marketplace_and_Licences/link_your_licensed_dna_workflow.jpg",
+    "tabs": [
+      "Licence",
+      "Payment",
+      "Verify",
+      "Link DNA",
+      "Complete"
+    ],
+    "action": "Confirm link to Guild",
+    "panels": [
+      {
+        "title": "Select target",
+        "rows": [
+          {
+            "title": "Scope",
+            "detail": "Business Guild",
+            "status": ""
+          },
+          {
+            "title": "Target",
+            "detail": "Retail Operations",
+            "status": ""
+          },
+          {
+            "title": "Required capability",
+            "detail": "Check target scope and permissions",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Review capability and access changes",
+        "rows": [
+          {
+            "title": "Inventory planning",
+            "detail": "Available within the licensed scope",
+            "status": ""
+          },
+          {
+            "title": "Forecasting and recommendations",
+            "detail": "Subject to the target’s rules",
+            "status": ""
+          },
+          {
+            "title": "Knowledge access",
+            "detail": "Inspect what is linked before confirming",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Link summary",
+        "rows": [
+          {
+            "title": "Offering",
+            "detail": "Retail inventory planning · v1.2.0",
+            "status": ""
+          },
+          {
+            "title": "Target",
+            "detail": "Retail Operations Guild",
+            "status": ""
+          },
+          {
+            "title": "Paid amount",
+            "detail": "A$429.00",
+            "status": ""
+          },
+          {
+            "title": "Licence status",
+            "detail": "Paid; activation awaits successful link",
+            "status": "Pending"
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 3
+  },
+  "aos-43": {
+    "id": "43",
+    "title": "Purchases & licences",
+    "nav": "Purchases & licences",
+    "intro": "Manage your licences, subscriptions and linked DNA.",
+    "source": "06_Marketplace_and_Licences/sigmar_aos_licence_management_dashboard.jpg",
+    "tabs": [
+      "Active licences",
+      "Pending activation",
+      "Expired"
+    ],
+    "action": "Review selected licence",
+    "panels": [
+      {
+        "title": "Your licences",
+        "rows": [
+          {
+            "title": "Retail inventory planning",
+            "detail": "Retail Operations Guild · v1.2.0",
+            "status": "Active"
+          },
+          {
+            "title": "Family recipe coach",
+            "detail": "Personal scope · review licence",
+            "status": "Active"
+          },
+          {
+            "title": "Shopify-to-ERP integration",
+            "detail": "Linking requires your review",
+            "status": "Pending"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Retail inventory planning",
+        "rows": [
+          {
+            "title": "Monthly subscription",
+            "detail": "A$429.00 including GST",
+            "status": ""
+          },
+          {
+            "title": "Target",
+            "detail": "Retail Operations Guild",
+            "status": ""
+          },
+          {
+            "title": "Renewal",
+            "detail": "Review the contract and next renewal.",
+            "status": ""
+          },
+          {
+            "title": "Manage",
+            "detail": "Open the purchase Flow or review cancellation terms.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-44": {
+    "id": "44",
+    "title": "Create your marketplace listing",
+    "nav": "Publishing",
+    "intro": "Describe the supported capability and its limitations.",
+    "source": "07_Publishing/marketplace_listing_editor_dashboard.jpg",
+    "tabs": [
+      "Capability",
+      "Listing",
+      "Commercial terms",
+      "Review & submit"
+    ],
+    "action": "Continue to licence and terms",
+    "panels": [
+      {
+        "title": "Listing details",
+        "rows": [
+          {
+            "title": "Offering title",
+            "detail": "Personal fitness guidance",
+            "status": ""
+          },
+          {
+            "title": "Category",
+            "detail": "Fitness and wellbeing",
+            "status": ""
+          },
+          {
+            "title": "Description",
+            "detail": "Describe only supported capabilities",
+            "status": ""
+          },
+          {
+            "title": "Version",
+            "detail": "Select the eligible candidate version",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Approved capabilities and limitations",
+        "rows": [
+          {
+            "title": "Supported uses",
+            "detail": "Match each claim to evidence.",
+            "status": ""
+          },
+          {
+            "title": "Limitations",
+            "detail": "Explain where the guidance should not be used.",
+            "status": ""
+          },
+          {
+            "title": "Public information",
+            "detail": "Private source material is not published as listing copy.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Screenshots and media",
+        "rows": [
+          {
+            "title": "Preview media",
+            "detail": "Add relevant examples you have rights to use.",
+            "status": ""
+          },
+          {
+            "title": "Listing preview",
+            "detail": "Check how the offering will appear.",
+            "status": ""
+          },
+          {
+            "title": "Readiness",
+            "detail": "Listing preparation does not override release gates.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 1
+  },
+  "aos-45": {
+    "id": "45",
+    "title": "Set your licence and pricing",
+    "nav": "Publishing",
+    "intro": "Choose the permitted use, price and commercial terms.",
+    "source": "07_Publishing/sigmar_licence_and_pricing_setup.jpg",
+    "tabs": [
+      "Capability",
+      "Listing",
+      "Licence & terms",
+      "Review",
+      "Release"
+    ],
+    "action": "Continue to review",
+    "panels": [
+      {
+        "title": "Licence settings",
+        "rows": [
+          {
+            "title": "Offering",
+            "detail": "Personal fitness guidance",
+            "status": ""
+          },
+          {
+            "title": "Licence type",
+            "detail": "Subscription",
+            "status": ""
+          },
+          {
+            "title": "Scope",
+            "detail": "Review individual and business use",
+            "status": ""
+          },
+          {
+            "title": "Price",
+            "detail": "A$49.00 / month",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Access and terms",
+        "rows": [
+          {
+            "title": "Permitted use",
+            "detail": "Define supported and excluded uses.",
+            "status": ""
+          },
+          {
+            "title": "Duration and renewal",
+            "detail": "State how subscription renewal works.",
+            "status": ""
+          },
+          {
+            "title": "Cancellation",
+            "detail": "Explain when cancellation takes effect.",
+            "status": ""
+          },
+          {
+            "title": "Seller terms",
+            "detail": "Review the terms buyers must accept.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Commercial review",
+        "rows": [
+          {
+            "title": "Price summary",
+            "detail": "A$49 per month, as shown in the source example.",
+            "status": ""
+          },
+          {
+            "title": "Final terms",
+            "detail": "Confirm the complete commercial terms before release.",
+            "status": ""
+          },
+          {
+            "title": "Publication gates",
+            "detail": "Pricing does not make a candidate eligible to publish.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 2
+  },
+  "aos-46": {
+    "id": "46",
+    "title": "Review your DNA offering",
+    "nav": "Publishing",
+    "intro": "Check the listing, claims and commercial terms before submission.",
+    "source": "07_Publishing/publishing_review_with_blocked_training_gate.jpg",
+    "tabs": [
+      "Capability",
+      "Listing",
+      "Licence & terms",
+      "Review",
+      "Release"
+    ],
+    "notice": "Publishing blocked · required gates remain",
+    "action": "Open Training Hub",
+    "panels": [
+      {
+        "title": "Offering preview",
+        "rows": [
+          {
+            "title": "Title",
+            "detail": "Personal fitness guidance",
+            "status": ""
+          },
+          {
+            "title": "Price",
+            "detail": "A$49.00 / month",
+            "status": ""
+          },
+          {
+            "title": "Capabilities",
+            "detail": "Only publish claims supported by evidence",
+            "status": ""
+          },
+          {
+            "title": "Seller terms",
+            "detail": "Review scope, renewal and cancellation",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Publication readiness",
+        "rows": [
+          {
+            "title": "Identity and ownership",
+            "detail": "Confirm publication authority",
+            "status": "Review"
+          },
+          {
+            "title": "Capability and evidence",
+            "detail": "Inspect supported claims",
+            "status": "Review"
+          },
+          {
+            "title": "Training and evaluation",
+            "detail": "Required checks must pass",
+            "status": "Blocked"
+          },
+          {
+            "title": "Commercial terms",
+            "detail": "Review completeness before release",
+            "status": "Review"
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Release action",
+        "rows": [
+          {
+            "title": "Publish",
+            "detail": "Unavailable until the required gates pass.",
+            "status": "Disabled"
+          },
+          {
+            "title": "Resolve gaps",
+            "detail": "Continue in the Training Hub; keep this listing as a draft.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      }
+    ],
+    "activeTab": 3
+  },
+  "aos-47": {
+    "id": "47",
+    "title": "Publishing readiness",
+    "nav": "Publishing",
+    "intro": "Turn a supported capability into an offering only after the required checks pass.",
+    "source": "07_Publishing/dna_publishing_readiness_dashboard.jpg",
+    "tabs": [
+      "Capability",
+      "Listing",
+      "Licence & terms",
+      "Review",
+      "Release"
+    ],
+    "notice": "Publishing blocked · required checks remain",
+    "action": "Open Training Hub",
+    "panels": [
+      {
+        "title": "Define your capability",
+        "rows": [
+          {
+            "title": "Capability",
+            "detail": "Personal fitness guidance",
+            "status": ""
+          },
+          {
+            "title": "Version",
+            "detail": "Select the exact candidate",
+            "status": ""
+          },
+          {
+            "title": "Listing preview",
+            "detail": "Review the public capability description",
+            "status": ""
+          }
+        ],
+        "kind": "fields"
+      },
+      {
+        "title": "Workers and methods",
+        "rows": [
+          {
+            "title": "Approved methods",
+            "detail": "Inspect supporting methods and evidence.",
+            "status": ""
+          },
+          {
+            "title": "Permitted use",
+            "detail": "Confirm what the capability may do.",
+            "status": ""
+          },
+          {
+            "title": "Source material",
+            "detail": "Compiled DNA does not publish private source material.",
+            "status": ""
+          }
+        ],
+        "kind": "list"
+      },
+      {
+        "title": "Publication readiness",
+        "rows": [
+          {
+            "title": "Scope and ownership",
+            "detail": "Review identity and rights",
+            "status": "Review"
+          },
+          {
+            "title": "Independent evaluation",
+            "detail": "Required scenarios must pass",
+            "status": "Required"
+          },
+          {
+            "title": "Release validation",
+            "detail": "Resolve remaining publication gates",
+            "status": "Blocked"
+          },
+          {
+            "title": "Publish",
+            "detail": "Unavailable until eligible",
+            "status": "Disabled"
+          }
+        ],
+        "kind": "list"
+      }
+    ]
+  },
+  "aos-48": {
+    "id": "48",
+    "title": "Your day, in focus",
+    "nav": "Home",
+    "intro": "A returning-user briefing with a quantified proposal.",
+    "kind": "returning",
+    "source": "../landing-page/returning-user-review/returning-user-v4.svg"
+  },
+  "aos-49": {
+    "id": "49",
+    "title": "Personal workspace menu",
+    "nav": "Home",
+    "intro": "The complete navigation, with no bottom app menus.",
+    "kind": "drawer",
+    "source": "../landing-page/first-screen-review/drawer-open-v3.svg"
+  }
+}

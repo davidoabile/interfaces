@@ -1,0 +1,16 @@
+{
+  "SVGs": 1,
+  "viewport": [
+    1440,
+    1120
+  ],
+  "theme": "light",
+  "sourceImages": 27,
+  "annotatedControls": 57,
+  "publish": "Disabled until validation and publish review",
+  "fontFaces": 2,
+  "duplicateConditionHeadings": 0,
+  "overlappingRunTargets": 0,
+  "textOutsideCanvas": [],
+  "rasterFilesWritten": 0
+}

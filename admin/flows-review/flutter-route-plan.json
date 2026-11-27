@@ -1,0 +1,460 @@
+{
+  "flow": "order_sync",
+  "states": [
+    "02-flow-view-macos-light-v2.svg",
+    "03-flow-designer-macos-light-v2.svg"
+  ],
+  "approval": "Two states of corrected first sample; awaiting approval",
+  "routes": [
+    {
+      "label": "Edit Flow",
+      "route": "flow-edit",
+      "x": 1260,
+      "y": 245,
+      "w": 140,
+      "h": 44,
+      "href": "03-flow-designer-macos-light-v2.svg"
+    },
+    {
+      "label": "New conversation",
+      "route": "app-new-conversation",
+      "x": 16,
+      "y": 216,
+      "w": 208,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Search conversations",
+      "route": "app-search-conversations",
+      "x": 16,
+      "y": 266,
+      "w": 208,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Discover",
+      "route": "app-discover",
+      "x": 16,
+      "y": 316,
+      "w": 208,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Projects",
+      "route": "app-projects",
+      "x": 16,
+      "y": 366,
+      "w": 208,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Rename Flow",
+      "route": "flow-rename",
+      "x": 414,
+      "y": 99,
+      "w": 340,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Back to view",
+      "route": "flow-view",
+      "x": 892,
+      "y": 104,
+      "w": 145,
+      "h": 44,
+      "href": "02-flow-view-macos-light-v2.svg"
+    },
+    {
+      "label": "Preview compiled Flow",
+      "route": "flow-preview-compiled",
+      "x": 1049,
+      "y": 104,
+      "w": 214,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Save",
+      "route": "flow-save",
+      "x": 1275,
+      "y": 104,
+      "w": 141,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Builder",
+      "route": "flow-tab-builder",
+      "x": 264,
+      "y": 164,
+      "w": 128,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Details",
+      "route": "flow-tab-details",
+      "x": 392,
+      "y": 164,
+      "w": 128,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Contracts",
+      "route": "flow-tab-contracts",
+      "x": 520,
+      "y": 164,
+      "w": 128,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Terms",
+      "route": "flow-tab-terms",
+      "x": 648,
+      "y": 164,
+      "w": 128,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Metadata",
+      "route": "flow-tab-metadata",
+      "x": 776,
+      "y": 164,
+      "w": 128,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Audit Log",
+      "route": "flow-tab-audit-log",
+      "x": 904,
+      "y": 164,
+      "w": 128,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Zoom out",
+      "route": "flow-zoom-out",
+      "x": 282,
+      "y": 248,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Zoom in",
+      "route": "flow-zoom-in",
+      "x": 402,
+      "y": 248,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Pan canvas · locks node movement",
+      "route": "flow-pan-mode",
+      "x": 1353,
+      "y": 249,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Open or close Add Node tray",
+      "route": "flow-toggle-palette",
+      "x": 1353,
+      "y": 300,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Edit Start",
+      "route": "flow-node-edit-start",
+      "x": 720,
+      "y": 310,
+      "w": 200,
+      "h": 66,
+      "href": null
+    },
+    {
+      "label": "Options for Start",
+      "route": "flow-node-menu-start",
+      "x": 876,
+      "y": 321,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Edit Validate order",
+      "route": "flow-node-edit-validate_order",
+      "x": 720,
+      "y": 412,
+      "w": 200,
+      "h": 66,
+      "href": null
+    },
+    {
+      "label": "Options for Validate order",
+      "route": "flow-node-menu-validate_order",
+      "x": 876,
+      "y": 423,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Edit Approval condition",
+      "route": "flow-node-edit-approval_cond",
+      "x": 720,
+      "y": 514,
+      "w": 200,
+      "h": 66,
+      "href": null
+    },
+    {
+      "label": "Options for Approval condition",
+      "route": "flow-node-menu-approval_cond",
+      "x": 876,
+      "y": 525,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Edit Record inventory",
+      "route": "flow-node-edit-record_inventory",
+      "x": 490,
+      "y": 650,
+      "w": 200,
+      "h": 66,
+      "href": null
+    },
+    {
+      "label": "Options for Record inventory",
+      "route": "flow-node-menu-record_inventory",
+      "x": 646,
+      "y": 661,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Edit Review",
+      "route": "flow-node-edit-review_order",
+      "x": 950,
+      "y": 650,
+      "w": 200,
+      "h": 66,
+      "href": null
+    },
+    {
+      "label": "Options for Review",
+      "route": "flow-node-menu-review_order",
+      "x": 1106,
+      "y": 661,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Edit Completion",
+      "route": "flow-node-edit-complete",
+      "x": 490,
+      "y": 758,
+      "w": 200,
+      "h": 66,
+      "href": null
+    },
+    {
+      "label": "Options for Completion",
+      "route": "flow-node-menu-complete",
+      "x": 646,
+      "y": 769,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Close Add Node tray",
+      "route": "flow-toggle-palette",
+      "x": 1356,
+      "y": 850,
+      "w": 44,
+      "h": 44,
+      "href": null
+    },
+    {
+      "label": "Drag Task to canvas or click to append",
+      "route": "flow-palette-task",
+      "x": 285,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Approval to canvas or click to append",
+      "route": "flow-palette-approval",
+      "x": 363,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Notary to canvas or click to append",
+      "route": "flow-palette-notary",
+      "x": 441,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Sign to canvas or click to append",
+      "route": "flow-palette-sign",
+      "x": 519,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Transfer to canvas or click to append",
+      "route": "flow-palette-transfer",
+      "x": 597,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Mint to canvas or click to append",
+      "route": "flow-palette-mint",
+      "x": 675,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Burn to canvas or click to append",
+      "route": "flow-palette-burn",
+      "x": 753,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Email to canvas or click to append",
+      "route": "flow-palette-email",
+      "x": 831,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag SMS to canvas or click to append",
+      "route": "flow-palette-sms",
+      "x": 909,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag HTTP Call to canvas or click to append",
+      "route": "flow-palette-httpCall",
+      "x": 987,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Call to canvas or click to append",
+      "route": "flow-palette-call",
+      "x": 1065,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Document to canvas or click to append",
+      "route": "flow-palette-document",
+      "x": 1143,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Wait to canvas or click to append",
+      "route": "flow-palette-wait",
+      "x": 1221,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag End to canvas or click to append",
+      "route": "flow-palette-end",
+      "x": 1299,
+      "y": 914,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag IF Condition to canvas or click to append",
+      "route": "flow-palette-ifCondition",
+      "x": 285,
+      "y": 1008,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Loop to canvas or click to append",
+      "route": "flow-palette-loop",
+      "x": 377,
+      "y": 1008,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Branch to canvas or click to append",
+      "route": "flow-palette-branch",
+      "x": 469,
+      "y": 1008,
+      "w": 64,
+      "h": 64,
+      "href": null
+    },
+    {
+      "label": "Drag Merge to canvas or click to append",
+      "route": "flow-palette-merge",
+      "x": 561,
+      "y": 1008,
+      "w": 64,
+      "h": 64,
+      "href": null
+    }
+  ]
+}

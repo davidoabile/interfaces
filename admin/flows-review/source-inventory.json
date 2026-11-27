@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "01-Flow-Terms-Agreement-Rules.jpg",
+    "01-Flow-Triggers.jpg",
+    "02-Flow-Replay.jpg",
+    "02-Flow-Terms-Governance.jpg",
+    "03-Flow-Sign-and-Seal.jpg",
+    "03-Flow-Terms-Notifications.jpg",
+    "04-Flow-HTTP-Call.jpg",
+    "04-Flow-Handwritten-Signature.jpg",
+    "04-Flow-Terms-Runtime-Parameters.jpg",
+    "05-Flow-Contract-Parties-and-Assets.jpg",
+    "05-Flow-Template-Catalogue-Industry-Filter.jpg",
+    "06-Flow-Contract-Registered-Party-Picker.jpg",
+    "06-Flow-Templates-Page-1.jpg",
+    "07-Flow-Contract-Add-Asset.jpg",
+    "07-Flow-Templates-Page-2.jpg",
+    "08-Flow-Contract-Representations-and-References.jpg",
+    "08-Flow-Templates-Page-3.jpg",
+    "09-Flow-Contract-Review.jpg",
+    "09-Flow-Templates-Page-4.jpg",
+    "10-Flow-Template-Construction-Detail.jpg",
+    "11-CMS-Publishing-Workflows.jpg",
+    "14-Flow-Designer.jpg",
+    "23-Flows-Add-Step.jpg",
+    "24-Flows-Publish-Review.jpg",
+    "30-CMS-Link-Publishing-Flow.jpg",
+    "31-Payment-FLOW-in-progress.jpg",
+    "34-Purchase-cancelled-refund-FLOW.jpg"
+  ],
+  "count": 27,
+  "status": "Existing source inventory; first refresh awaiting visual approval"
+}

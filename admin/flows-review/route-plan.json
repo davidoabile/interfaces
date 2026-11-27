@@ -1,0 +1,576 @@
+{
+  "approval": "First Flow theme refresh awaits approval",
+  "scope": "Existing Flow designer, templates, contracts, terms, trigger/execution/replay and source-linked states",
+  "routes": [
+    {
+      "label": "Search conversations",
+      "route": "app-search",
+      "x": 16,
+      "y": 160,
+      "w": 208,
+      "h": 42,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "New conversation",
+      "route": "app-new-chat",
+      "x": 16,
+      "y": 224,
+      "w": 208,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Search conversations",
+      "route": "app-search",
+      "x": 16,
+      "y": 274,
+      "w": 208,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Discover",
+      "route": "app-discover",
+      "x": 16,
+      "y": 324,
+      "w": 208,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Projects",
+      "route": "app-projects",
+      "x": 16,
+      "y": 374,
+      "w": 208,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Choose workspace",
+      "route": "workspace-picker",
+      "x": 16,
+      "y": 480,
+      "w": 208,
+      "h": 62,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Open your Flows",
+      "route": "flows-home",
+      "x": 16,
+      "y": 562,
+      "w": 208,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Workspace account",
+      "route": "workspace-account",
+      "x": 68,
+      "y": 990,
+      "w": 156,
+      "h": 62,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "All Flows",
+      "route": "flows-home",
+      "x": 1286,
+      "y": 114,
+      "w": 130,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Designer",
+      "route": "flow-designer",
+      "x": 264,
+      "y": 183,
+      "w": 106,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Contracts",
+      "route": "flow-contracts",
+      "x": 370,
+      "y": 183,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Terms",
+      "route": "flow-terms",
+      "x": 480,
+      "y": 183,
+      "w": 80,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Templates",
+      "route": "flow-templates",
+      "x": 560,
+      "y": 183,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Triggers",
+      "route": "flow-triggers",
+      "x": 670,
+      "y": 183,
+      "w": 100,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Executions",
+      "route": "flow-executions",
+      "x": 770,
+      "y": 183,
+      "w": 118,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Replay",
+      "route": "flow-replay",
+      "x": 888,
+      "y": 183,
+      "w": 94,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Flow",
+      "route": "flow-selector",
+      "x": 280,
+      "y": 245,
+      "w": 292,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Save draft",
+      "route": "flow-save-draft",
+      "x": 1000,
+      "y": 245,
+      "w": 124,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Validate",
+      "route": "flow-validate",
+      "x": 1136,
+      "y": 245,
+      "w": 112,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Publish",
+      "route": "flow-publish-review",
+      "x": 1260,
+      "y": 245,
+      "w": 140,
+      "h": 44,
+      "disabled": true,
+      "status": "Unavailable until prerequisites pass"
+    },
+    {
+      "label": "Add step",
+      "route": "flow-add-step",
+      "x": 280,
+      "y": 399,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Undo",
+      "route": "flow-undo",
+      "x": 405,
+      "y": 400,
+      "w": 44,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Redo",
+      "route": "flow-redo",
+      "x": 451,
+      "y": 400,
+      "w": 44,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Fit",
+      "route": "flow-canvas-fit",
+      "x": 806,
+      "y": 399,
+      "w": 74,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "−",
+      "route": "flow-zoom-out",
+      "x": 892,
+      "y": 399,
+      "w": 44,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "100%",
+      "route": "flow-zoom-level",
+      "x": 942,
+      "y": 399,
+      "w": 82,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "+",
+      "route": "flow-zoom-in",
+      "x": 1030,
+      "y": 399,
+      "w": 50,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Start",
+      "route": "flow-step-start",
+      "x": 286,
+      "y": 460,
+      "w": 84,
+      "h": 56,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Validate order",
+      "route": "flow-step-validate_order",
+      "x": 400,
+      "y": 456,
+      "w": 132,
+      "h": 64,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Approval condition",
+      "route": "flow-step-approval_cond",
+      "x": 563,
+      "y": 431,
+      "w": 114,
+      "h": 114,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Record inventory",
+      "route": "flow-step-record_inventory",
+      "x": 770,
+      "y": 456,
+      "w": 130,
+      "h": 64,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Completion",
+      "route": "flow-step-complete",
+      "x": 970,
+      "y": 460,
+      "w": 100,
+      "h": 56,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Select Review",
+      "route": "flow-step-review_order",
+      "x": 548,
+      "y": 597,
+      "w": 144,
+      "h": 52,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Step inspector options",
+      "route": "flow-step-menu",
+      "x": 1362,
+      "y": 316,
+      "w": 40,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Configuration",
+      "route": "flow-inspector-configuration",
+      "x": 1128,
+      "y": 352,
+      "w": 126,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "HTQL",
+      "route": "flow-inspector-htql",
+      "x": 1258,
+      "y": 352,
+      "w": 65,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Validation",
+      "route": "flow-inspector-validation",
+      "x": 1328,
+      "y": 352,
+      "w": 80,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Name",
+      "route": "flow-edit-step-name",
+      "x": 1132,
+      "y": 428,
+      "w": 264,
+      "h": 42,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Step ID",
+      "route": "flow-edit-step-id",
+      "x": 1132,
+      "y": 499,
+      "w": 264,
+      "h": 42,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Type",
+      "route": "flow-step-type",
+      "x": 1132,
+      "y": 570,
+      "w": 264,
+      "h": 42,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Add input",
+      "route": "flow-add-input",
+      "x": 1324,
+      "y": 619,
+      "w": 72,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Source for order_id",
+      "route": "flow-input-source-order_id",
+      "x": 1138,
+      "y": 691,
+      "w": 252,
+      "h": 36,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Source for amount",
+      "route": "flow-input-source-amount",
+      "x": 1138,
+      "y": 763,
+      "w": 252,
+      "h": 36,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Edit approval condition",
+      "route": "flow-expression",
+      "x": 1132,
+      "y": 843,
+      "w": 264,
+      "h": 84,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Review project-default permissions",
+      "route": "flow-step-permissions",
+      "x": 1132,
+      "y": 944,
+      "w": 264,
+      "h": 62,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "All runs",
+      "route": "flow-run-filter",
+      "x": 846,
+      "y": 705,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Last 7 days",
+      "route": "flow-run-date-filter",
+      "x": 968,
+      "y": 705,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Run history",
+      "route": "flow-execution-run-history",
+      "x": 280,
+      "y": 758,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Step logs",
+      "route": "flow-execution-step-logs",
+      "x": 394,
+      "y": 758,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Metrics",
+      "route": "flow-execution-metrics",
+      "x": 508,
+      "y": 758,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Columns",
+      "route": "flow-run-columns",
+      "x": 844,
+      "y": 758,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Export",
+      "route": "flow-run-export",
+      "x": 968,
+      "y": 758,
+      "w": 110,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Inspect run RUN-024918",
+      "route": "flow-run-024918",
+      "x": 280,
+      "y": 844,
+      "w": 800,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Inspect run RUN-024917",
+      "route": "flow-run-024917",
+      "x": 280,
+      "y": 888,
+      "w": 800,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Inspect run RUN-024916",
+      "route": "flow-run-024916",
+      "x": 280,
+      "y": 932,
+      "w": 800,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Inspect run RUN-024919",
+      "route": "flow-run-024919",
+      "x": 280,
+      "y": 976,
+      "w": 800,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    },
+    {
+      "label": "Open execution history",
+      "route": "flow-executions",
+      "x": 900,
+      "y": 1017,
+      "w": 180,
+      "h": 44,
+      "disabled": false,
+      "status": "Route planned for approved linked batch"
+    }
+  ]
+}

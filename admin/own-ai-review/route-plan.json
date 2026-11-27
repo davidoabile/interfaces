@@ -1,0 +1,153 @@
+{
+  "scope": "First macOS sample with linked Persona-selector state; not a full flow batch",
+  "approval": "Pending visual approval",
+  "routes": [
+    {
+      "screen": "own-ai-accounts",
+      "label": "General",
+      "route": "settings-general",
+      "href": "../settings-mockups/macos/light/settings-general.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Conversation & voice",
+      "route": "settings-voice",
+      "href": "../settings-mockups/macos/light/settings-voice.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Notifications",
+      "route": "settings-notifications",
+      "href": "../settings-mockups/macos/light/settings-notifications.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Privacy & AI access",
+      "route": "settings",
+      "href": "../settings-mockups/macos/light/settings.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Personalisation & learning",
+      "route": "settings-learning",
+      "href": "../settings-mockups/macos/light/settings-learning.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Data & sync",
+      "route": "settings-data",
+      "href": "../settings-mockups/macos/light/settings-data.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Account & security",
+      "route": "settings-account",
+      "href": "../settings-mockups/macos/light/settings-account.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "About & support",
+      "route": "settings-about",
+      "href": "../settings-mockups/macos/light/settings-about.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Manage",
+      "route": "own-ai-manage-anthropic",
+      "href": null,
+      "status": "Next batch after visual approval"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Add API key",
+      "route": "own-ai-add-openai",
+      "href": null,
+      "status": "Next batch after visual approval"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "View selection",
+      "route": "own-ai-persona-selector",
+      "href": "02-persona-ai-selector-macos-light-v1.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-accounts",
+      "label": "Usage & daily limits",
+      "route": "own-ai-usage",
+      "href": null,
+      "status": "Next batch after visual approval"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "New conversation",
+      "route": "@aos-01",
+      "href": "../global-mockups/macos/aos-01.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Search conversations",
+      "route": "@search",
+      "href": "../global-mockups/macos/search.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Discover",
+      "route": "@discover",
+      "href": "../global-mockups/macos/discover.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Projects",
+      "route": "@projects",
+      "href": "../global-mockups/macos/projects.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Sigmar AI",
+      "route": "own-ai-select-sigmar",
+      "href": null,
+      "status": "Next batch after visual approval"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Anthropic · Personal account",
+      "route": "own-ai-review-anthropic",
+      "href": null,
+      "status": "Next batch after visual approval"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Manage accounts",
+      "route": "own-ai-accounts",
+      "href": "01-ai-accounts-macos-light-v1.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Keep Sigmar AI",
+      "route": "persona-home",
+      "href": "../persona-management/macos/light/persona-home.svg",
+      "status": "Linked review state"
+    },
+    {
+      "screen": "own-ai-persona-selector",
+      "label": "Cancel",
+      "route": "persona-home",
+      "href": "../persona-management/macos/light/persona-home.svg",
+      "status": "Linked review state"
+    }
+  ]
+}

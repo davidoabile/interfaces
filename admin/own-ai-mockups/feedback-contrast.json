@@ -1,0 +1,45 @@
+{
+  "minimumTextContrast": 4.5,
+  "roles": [
+    {
+      "theme": "light",
+      "tone": "danger",
+      "textContrast": 6.3
+    },
+    {
+      "theme": "light",
+      "tone": "warning",
+      "textContrast": 6.35
+    },
+    {
+      "theme": "light",
+      "tone": "success",
+      "textContrast": 6.49
+    },
+    {
+      "theme": "light",
+      "tone": "info",
+      "textContrast": 7.12
+    },
+    {
+      "theme": "dark",
+      "tone": "danger",
+      "textContrast": 8.34
+    },
+    {
+      "theme": "dark",
+      "tone": "warning",
+      "textContrast": 8.37
+    },
+    {
+      "theme": "dark",
+      "tone": "success",
+      "textContrast": 8
+    },
+    {
+      "theme": "dark",
+      "tone": "info",
+      "textContrast": 8.43
+    }
+  ]
+}

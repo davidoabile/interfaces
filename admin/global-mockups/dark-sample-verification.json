@@ -1,0 +1,39 @@
+{
+  "reference": "dark/macos/discover-charcoal-v2.svg",
+  "XML": "passed",
+  "embeddedFonts": 2,
+  "renderedInMemory": true,
+  "brandPalette": "shared Sigmar charcoal",
+  "contrast": [
+    {
+      "foreground": "#E8DCCB",
+      "background": "#2B2520",
+      "ratio": 11.19
+    },
+    {
+      "foreground": "#BFB5A9",
+      "background": "#2B2520",
+      "ratio": 7.49
+    },
+    {
+      "foreground": "#A69B8E",
+      "background": "#332D27",
+      "ratio": 4.98
+    },
+    {
+      "foreground": "#F08D4C",
+      "background": "#2B2520",
+      "ratio": 6.21
+    },
+    {
+      "foreground": "#918171",
+      "background": "#2B2520",
+      "ratio": 4.02
+    },
+    {
+      "foreground": "#201C18",
+      "background": "#E87832",
+      "ratio": 5.77
+    }
+  ]
+}
