@@ -1,0 +1,861 @@
+{
+  "reviewDate": "2026-11-27",
+  "basis": "All 27 original JPGs inspected with view_image; mapped to current source catalogues without editing them. Later corrections are tracked individually in gapResolutions; source omissions remain explicit.",
+  "sourceInventoryCount": 27,
+  "mappedSourceCount": 27,
+  "claims": [
+    "View and edit remain separate.",
+    "Private signing material is never an editable field.",
+    "Read-only replay does not re-execute.",
+    "ESC-0042 signing and MO-1042 marketplace signing use separate routes.",
+    "Legacy publication review is distinct from Flutter Approve → Ready.",
+    "Code/compile/schema previews are illustrative and not engine-validated."
+  ],
+  "records": [
+    {
+      "source": "01-Flow-Terms-Agreement-Rules.jpg",
+      "sceneIds": [
+        "flow-terms-rules",
+        "flow-terms-review",
+        "flow-terms-saved"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Agreement summary/note",
+        "Cooling enable/period/refund/unilateral cancellation",
+        "Cancellation and fee",
+        "Signature count and notary/document verification",
+        "Release rule/partial release/currency",
+        "Compensation/refund/penalty",
+        "Snapshot before funds movement"
+      ],
+      "gaps": [],
+      "caveats": []
+    },
+    {
+      "source": "01-Flow-Triggers.jpg",
+      "sceneIds": [
+        "flow-triggers",
+        "flow-trigger-submit-signature",
+        "flow-trigger-submit-documents",
+        "flow-trigger-timer-fire",
+        "flow-trigger-http-response",
+        "flow-trigger-aos-event",
+        "flow-trigger-fail",
+        "flow-trigger-event"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Flow/execution/status scope",
+        "Six trigger categories",
+        "Authenticated participant and Flow-derived evidence references",
+        "Optional public identity metadata",
+        "Private signing material explicitly never stored/displayed/requested",
+        "Receipt distinct from verification; 1 of 2 signature gate"
+      ],
+      "gaps": [
+        {
+          "id": "trigger-contract-generalisation",
+          "detail": "All six trigger-type pages currently reuse the signature input contract. The JPG details only Submit signature; do not imply hash/encrypted-document/signer fields are required for Timer/HTTP/AOS/Fail without source evidence.",
+          "severity": "source-fidelity",
+          "resolution": "Each trigger has an event-specific review. Schemas absent from the supplied source are labelled pending confirmation rather than copied from signing.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": [
+        "Private-key source row is contract documentation, never a customer credential field."
+      ]
+    },
+    {
+      "source": "02-Flow-Replay.jpg",
+      "sceneIds": [
+        "flow-replay",
+        "flow-replay-0",
+        "flow-replay-1",
+        "flow-replay-2",
+        "flow-replay-3",
+        "flow-replay-4",
+        "flow-replay-5",
+        "flow-replay-6",
+        "flow-replay-3-input",
+        "flow-replay-3-output",
+        "flow-replay-evidence",
+        "flow-replay-verify"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Seven recorded snapshots and previous/next navigation",
+        "Read-only replay; no live query/re-execution/new transfer",
+        "Input/output/event-evidence destinations",
+        "Snapshot/event/correlation/causation/idempotency/hash concepts",
+        "Verify evidence separate from executing"
+      ],
+      "gaps": [
+        {
+          "id": "replay-recorded-payload",
+          "detail": "Recorded input and output scenes contain generic evidence metadata, rather than the source escrow input payload and recorded transfer result.",
+          "severity": "source-fidelity",
+          "resolution": "Transfer snapshot shows the supplied AUD 10,000 input and settled output. Unsupplied payloads are explicitly unavailable.",
+          "status": "resolved in mockup; implementation caveats retained"
+        },
+        {
+          "id": "replay-selected-snapshot",
+          "detail": "All seven snapshots link the same generic input/output/evidence pages; selected step and snapshot identity are not retained there.",
+          "severity": "source-fidelity",
+          "resolution": "Seven independent input/output/evidence routes retain the selected snapshot and return to it.",
+          "status": "resolved in mockup; implementation caveats retained"
+        },
+        {
+          "id": "runtime-draft-context",
+          "detail": "Runtime replay inherits supplier_escrow · Draft context, despite inspecting fixed ESC-0042 recorded evidence.",
+          "severity": "context",
+          "resolution": "Replay shows historical completed ESC-0042 v3; signing shows fixed agreement v3. Neither inherits Draft.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": []
+    },
+    {
+      "source": "02-Flow-Terms-Governance.jpg",
+      "sceneIds": [
+        "flow-terms-governance"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Dispute/freeze-escrow",
+        "Governing law/jurisdiction/tax flag",
+        "Force majeure/description/suspend deadlines",
+        "Voting threshold/quorum/period/delay/weighted/abstention/eligibility",
+        "Zero threshold and quorum explicitly means no consensus gate"
+      ],
+      "gaps": [
+        {
+          "id": "independent-verification-controls",
+          "detail": "KYC/AML are combined, as are verify parties/verify funds. Source had four independently visible controls; their individual settings are not represented.",
+          "severity": "source-fidelity",
+          "resolution": "KYC, AML, party verification and funds verification are independent switches with linked draft alternatives.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": []
+    },
+    {
+      "source": "03-Flow-Sign-and-Seal.jpg",
+      "sceneIds": [
+        "flow-agreement-esc0042",
+        "flow-sign",
+        "flow-sign-document",
+        "flow-sign-download",
+        "flow-sign-consent",
+        "flow-sign-pin",
+        "flow-sign-pin-error",
+        "flow-sign-pending",
+        "flow-sign-failed",
+        "flow-sign-received",
+        "flow-agreement-esc0042-progress"
+      ],
+      "status": "covered",
+      "preserved": [
+        "ESC-0042 fixed version 3",
+        "Locked agreement route/download-scope review",
+        "Exact-version consent before enabled submission",
+        "Designated registered Buyer and PIN identity confirmation",
+        "Pending/interrupted/received outcomes",
+        "Signature receipt is not verified completion or settlement"
+      ],
+      "gaps": [
+        {
+          "id": "locked-document-content",
+          "detail": "documentPreview surface is a labelled ruled placeholder, without the source agreement clauses. The fixed terms cannot yet be substantively read in the preview before consenting.",
+          "severity": "source-fidelity",
+          "resolution": "Readable fixed-version source summaries are supplied for digital and handwritten agreements, with the distinct dispute clauses retained. Full documents are not fabricated.",
+          "status": "resolved in mockup; implementation caveats retained"
+        },
+        {
+          "id": "runtime-draft-context",
+          "detail": "Signing scenes inherit supplier_escrow · Draft context while their content states fixed ESC-0042 version 3.",
+          "severity": "context",
+          "resolution": "Replay shows historical completed ESC-0042 v3; signing shows fixed agreement v3. Neither inherits Draft.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": [
+        "Illustrative registered identity is not a live verification claim.",
+        "No private signing key field."
+      ]
+    },
+    {
+      "source": "03-Flow-Terms-Notifications.jpg",
+      "sceneIds": [
+        "flow-terms-notifications",
+        "flow-notification-agreement-sent",
+        "flow-notification-funds-escrowed",
+        "flow-notification-signed",
+        "flow-notification-settled",
+        "flow-notification-cancelled",
+        "flow-notification-dispute-raised",
+        "flow-notification-new",
+        "flow-notification-preview"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Six agreement events",
+        "Add notification",
+        "Recipient/email/SMS/subject/body fields",
+        "Email/SMS preview",
+        "Delivery-required gate waits for confirmation"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Notification copy is concise generic example text, rather than a promise that settlement already happened."
+      ]
+    },
+    {
+      "source": "04-Flow-HTTP-Call.jpg",
+      "sceneIds": [
+        "flow-http",
+        "flow-registered-urls",
+        "flow-url-order-service",
+        "flow-http-method",
+        "flow-http-mapping",
+        "flow-http-response",
+        "flow-http-failure",
+        "flow-edit-add-httpCall"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Step title/type",
+        "Registered approved URL and read-only destination",
+        "HTTP method",
+        "Input mappings id/include and add mapping",
+        "Nested response fields id/status/total/items sku/quantity",
+        "Output variable order_result",
+        "Explicit error-handler route"
+      ],
+      "gaps": [
+        {
+          "id": "http-registered-path-binding",
+          "detail": "Source destination included /orders/{id}; the named registration review currently shows /orders only while mapping id. The example does not show how that path binding is resolved.",
+          "severity": "source-fidelity",
+          "resolution": "Registered /orders/{id} path and order.gid binding shown explicitly.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": [
+        "No arbitrary secret value in URL, headers, metadata or request body.",
+        "Flutter node editor supersedes old surrounding canvas/spreadsheet chrome."
+      ]
+    },
+    {
+      "source": "04-Flow-Handwritten-Signature.jpg",
+      "sceneIds": [
+        "flow-handwritten",
+        "flow-handwritten-upload",
+        "flow-handwritten-review",
+        "flow-handwritten-consent",
+        "flow-handwritten-pin",
+        "flow-handwritten-received"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Handwritten mode required by fixed ESC-0042 agreement",
+        "Download/print/sign/upload complete PDF stages",
+        "Selected file and replace action",
+        "Completeness confirmation before submission",
+        "Identity confirmation",
+        "Received versus verification pending"
+      ],
+      "gaps": [
+        {
+          "id": "locked-document-content",
+          "detail": "Fixed document preview has no substantive terms text; same shared document-content gap as digital signing.",
+          "severity": "source-fidelity",
+          "resolution": "Readable fixed-version source summaries are supplied for digital and handwritten agreements, with the distinct dispute clauses retained. Full documents are not fabricated.",
+          "status": "resolved in mockup; implementation caveats retained"
+        },
+        {
+          "id": "runtime-draft-context",
+          "detail": "Handwritten submission pages inherit Draft context while operating on fixed ESC-0042 v3.",
+          "severity": "context",
+          "resolution": "Replay shows historical completed ESC-0042 v3; signing shows fixed agreement v3. Neither inherits Draft.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": []
+    },
+    {
+      "source": "04-Flow-Terms-Runtime-Parameters.jpg",
+      "sceneIds": [
+        "flow-terms-runtime",
+        "flow-parameter-locked",
+        "flow-parameter-cancelled",
+        "flow-parameter-cooling",
+        "flow-parameter-new",
+        "flow-terms-code"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Key/type/value entry review",
+        "Locked require_notary_signs Integer 2 from Terms",
+        "cancelled Boolean false",
+        "cooling String 14d",
+        "Add parameter",
+        "Terms/snapshot preview",
+        "Terms hash not snapshotted",
+        "NOTARY_SIGN cannot override Terms count"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Code preview is illustrative, not engine-validated syntax."
+      ]
+    },
+    {
+      "source": "05-Flow-Contract-Parties-and-Assets.jpg",
+      "sceneIds": [
+        "flow-contract-parties",
+        "flow-contract-party-buyer",
+        "flow-contract-party-seller",
+        "flow-contract-party-notary",
+        "flow-contract-asset-deposit",
+        "flow-contract-asset-release",
+        "flow-contract-asset-refund"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Named buyer/seller/notary",
+        "Party add/edit and explicit rights",
+        "Money escrow/release/conditional-refund directions",
+        "Agreed AUD 10,000 major-unit values",
+        "No automatic currency conversion",
+        "Terms link"
+      ],
+      "gaps": [
+        {
+          "id": "party-role-side",
+          "detail": "Party editors initialise Side from Role (Buyer/Seller/Notary). Source treats side separately as Initiator/Counterparty/Neutral; current values conflate the two.",
+          "severity": "source-fidelity",
+          "resolution": "Buyer / Initiator, Seller / Counterparty, Notary / Neutral remain separate fields.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": []
+    },
+    {
+      "source": "05-Flow-Template-Catalogue-Industry-Filter.jpg",
+      "sceneIds": [
+        "flow-templates-industries",
+        "flow-templates-industry-construction",
+        "flow-templates-industry-real-estate",
+        "flow-templates-industry-healthcare",
+        "flow-templates-industry-education",
+        "flow-templates-industry-agriculture",
+        "flow-templates-industry-manufacturing",
+        "flow-templates-industry-transport-and-logistics",
+        "flow-templates-industry-mining",
+        "flow-templates-industry-energy-and-utilities",
+        "flow-templates-industry-government",
+        "flow-templates-industry-insurance-and-finance",
+        "flow-templates-industry-hospitality-and-tourism",
+        "flow-templates-industry-professional-services-and-it",
+        "flow-templates-industry-human-resources",
+        "flow-templates-industry-community-sport-and-arts",
+        "flow-templates-industry-retail-and-commerce",
+        "flow-templates-search",
+        "flow-templates-workspace"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Sixteen industry filters",
+        "Four metadata previews per industry; 64 source names total",
+        "Search and empty-search destination",
+        "Platform catalogue and workspace state",
+        "Unique preview/setup/result path per card"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Earlier nine-card/eight-page layout is consolidated into the source four-page catalogue. No availability or executable-package claim."
+      ]
+    },
+    {
+      "source": "06-Flow-Contract-Registered-Party-Picker.jpg",
+      "sceneIds": [
+        "flow-contract-party-picker",
+        "flow-contract-party-picked",
+        "flow-contract-party-new"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Search registered parties",
+        "Business/individual categories",
+        "Registered name/reference/contact/public identity metadata",
+        "Selected-party review/change",
+        "Required role/side/share and explicit rights",
+        "Cancel/add action"
+      ],
+      "gaps": [
+        {
+          "id": "party-role-side",
+          "detail": "Side must not copy the Buyer/Seller/Notary role; source side is Initiator/Counterparty/Neutral.",
+          "severity": "source-fidelity",
+          "resolution": "Buyer / Initiator, Seller / Counterparty, Notary / Neutral remain separate fields.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": [
+        "No customer private-key input; displayed metadata remains permission-scoped."
+      ]
+    },
+    {
+      "source": "06-Flow-Templates-Page-1.jpg",
+      "sceneIds": [
+        "flow-templates-page-1",
+        "flow-template-construction-progress-payments-preview",
+        "flow-template-construction-defect-rectification-preview",
+        "flow-template-construction-contract-variations-preview",
+        "flow-template-construction-practical-completion-preview",
+        "flow-template-real-estate-property-purchase-preview",
+        "flow-template-real-estate-tenancy-onboarding-preview",
+        "flow-template-real-estate-rental-bond-release-preview",
+        "flow-template-real-estate-property-inspection-preview",
+        "flow-template-healthcare-patient-consent-preview",
+        "flow-template-healthcare-referral-management-preview",
+        "flow-template-healthcare-treatment-approval-preview",
+        "flow-template-healthcare-clinical-incident-review-preview",
+        "flow-template-education-student-enrolment-preview",
+        "flow-template-education-apprenticeship-preview",
+        "flow-template-education-qualification-verification-preview",
+        "flow-template-education-scholarship-approval-preview"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Sixteen source process names on this page",
+        "Four source industries",
+        "Industry and workspace navigation",
+        "Search",
+        "Page navigation",
+        "Each card has its own name/purpose/category setup and bare-draft result"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Metadata catalogue is not 64 executable definitions."
+      ]
+    },
+    {
+      "source": "07-Flow-Templates-Page-2.jpg",
+      "sceneIds": [
+        "flow-templates-page-2",
+        "flow-template-agriculture-livestock-transfer-preview",
+        "flow-template-agriculture-produce-supply-agreements-preview",
+        "flow-template-agriculture-harvest-acceptance-preview",
+        "flow-template-agriculture-biosecurity-clearance-preview",
+        "flow-template-manufacturing-quality-inspection-preview",
+        "flow-template-manufacturing-production-acceptance-preview",
+        "flow-template-manufacturing-product-recall-preview",
+        "flow-template-manufacturing-equipment-maintenance-preview",
+        "flow-template-transport-and-logistics-proof-of-delivery-preview",
+        "flow-template-transport-and-logistics-freight-settlement-preview",
+        "flow-template-transport-and-logistics-customs-clearance-preview",
+        "flow-template-transport-and-logistics-damaged-goods-claims-preview",
+        "flow-template-mining-contractor-mobilisation-preview",
+        "flow-template-mining-site-access-approval-preview",
+        "flow-template-mining-safety-incident-reporting-preview",
+        "flow-template-mining-rehabilitation-milestones-preview"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Sixteen source process names on this page",
+        "Four source industries",
+        "Industry and workspace navigation",
+        "Search",
+        "Page navigation",
+        "Each card has its own name/purpose/category setup and bare-draft result"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Metadata catalogue is not 64 executable definitions."
+      ]
+    },
+    {
+      "source": "08-Flow-Templates-Page-3.jpg",
+      "sceneIds": [
+        "flow-templates-page-3",
+        "flow-template-energy-and-utilities-grid-connection-preview",
+        "flow-template-energy-and-utilities-meter-installation-preview",
+        "flow-template-energy-and-utilities-outage-response-preview",
+        "flow-template-energy-and-utilities-renewable-project-acceptance-preview",
+        "flow-template-government-tender-evaluation-preview",
+        "flow-template-government-procurement-acceptance-preview",
+        "flow-template-government-grant-disbursement-preview",
+        "flow-template-government-permit-approvals-preview",
+        "flow-template-insurance-and-finance-claims-assessment-preview",
+        "flow-template-insurance-and-finance-loan-disbursement-preview",
+        "flow-template-insurance-and-finance-equity-purchase-preview",
+        "flow-template-insurance-and-finance-insurance-policy-renewal-preview",
+        "flow-template-hospitality-and-tourism-group-reservations-preview",
+        "flow-template-hospitality-and-tourism-event-bookings-preview",
+        "flow-template-hospitality-and-tourism-supplier-agreements-preview",
+        "flow-template-hospitality-and-tourism-booking-cancellations-preview"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Sixteen source process names on this page",
+        "Four source industries",
+        "Industry and workspace navigation",
+        "Search",
+        "Page navigation",
+        "Each card has its own name/purpose/category setup and bare-draft result"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Metadata catalogue is not 64 executable definitions."
+      ]
+    },
+    {
+      "source": "09-Flow-Templates-Page-4.jpg",
+      "sceneIds": [
+        "flow-templates-page-4",
+        "flow-template-professional-services-and-it-software-acceptance-testing-preview",
+        "flow-template-professional-services-and-it-architecture-approval-preview",
+        "flow-template-professional-services-and-it-service-level-review-preview",
+        "flow-template-professional-services-and-it-change-management-preview",
+        "flow-template-human-resources-employment-offers-preview",
+        "flow-template-human-resources-employee-onboarding-preview",
+        "flow-template-human-resources-performance-reviews-preview",
+        "flow-template-human-resources-staff-exit-preview",
+        "flow-template-community-sport-and-arts-sponsorship-preview",
+        "flow-template-community-sport-and-arts-athlete-agreements-preview",
+        "flow-template-community-sport-and-arts-artist-royalties-preview",
+        "flow-template-community-sport-and-arts-community-funding-preview",
+        "flow-template-retail-and-commerce-purchase-orders-preview",
+        "flow-template-retail-and-commerce-customer-returns-preview",
+        "flow-template-retail-and-commerce-supplier-onboarding-preview",
+        "flow-template-retail-and-commerce-marketplace-transactions-preview"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Sixteen source process names on this page",
+        "Four source industries",
+        "Industry and workspace navigation",
+        "Search",
+        "Page navigation",
+        "Each card has its own name/purpose/category setup and bare-draft result"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Metadata catalogue is not 64 executable definitions."
+      ]
+    },
+    {
+      "source": "07-Flow-Contract-Add-Asset.jpg",
+      "sceneIds": [
+        "flow-contract-add-asset",
+        "flow-contract-asset-confirm",
+        "flow-asset-kinds"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Type/direction/from/escrow/optional-to/value/agreed-unit fields",
+        "Generated direction preview",
+        "Fixed engine-default release rule remains non-arbitrary",
+        "Confirm/cancel",
+        "Adding direction does not move money"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Generated representation is a design snippet, not a validated engine contract."
+      ]
+    },
+    {
+      "source": "08-Flow-Contract-Representations-and-References.jpg",
+      "sceneIds": [
+        "flow-contract-representations",
+        "flow-contract-representation-new"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Asserting party and statement",
+        "Add representation",
+        "Required external reference",
+        "Optional Pathway/Guild/Treasury/Marketplace/Source Flow/related identifier concepts",
+        "Party/asset/representation counts and linked Terms"
+      ],
+      "gaps": [
+        {
+          "id": "separate-reference-fields",
+          "detail": "Optional Pathway/Guild, Treasury/Marketplace and Source Flow/related IDs are paired into three broad fields instead of six separate source reference controls.",
+          "severity": "source-fidelity",
+          "resolution": "Pathway, Guild, Treasury, Marketplace, Source Flow and Related identifiers are separate controls.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": []
+    },
+    {
+      "source": "09-Flow-Contract-Review.jpg",
+      "sceneIds": [
+        "flow-contract-review",
+        "flow-contract-code",
+        "flow-contract-validation",
+        "flow-contract-invalid"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Draft legal summary",
+        "Named parties/asset rules",
+        "Terms and contract hashes not generated",
+        "Read-only code preview",
+        "Validate/back-to-edit",
+        "Validation separate from signing/snapshot/execution"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Agreement-rule detail is linked through Terms rather than duplicated in one review card."
+      ]
+    },
+    {
+      "source": "10-Flow-Template-Construction-Detail.jpg",
+      "sceneIds": [
+        "flow-template-construction-progress-payments-preview",
+        "flow-template-construction-progress-payments-details",
+        "flow-template-construction-progress-payments-created"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Seven source construction process stages",
+        "Flow definition/Contract/Terms configuration scope",
+        "Responsibilities/inspection/amounts/settlement must be configured",
+        "Use template creates named Start→End draft only",
+        "No payment/publication/approval implied"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Preview is a proposed outline, not a prevalidated runnable package."
+      ]
+    },
+    {
+      "source": "11-CMS-Publishing-Workflows.jpg",
+      "sceneIds": [
+        "flow-cms-workflows",
+        "flow-cms-flow-view",
+        "flow-cms-flow-edit",
+        "flow-cms-item-review",
+        "flow-cms-item-legal",
+        "flow-cms-item-publish",
+        "flow-cms-execution",
+        "flow-cms-releases",
+        "flow-cms-calendar",
+        "flow-cms-release-new"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Project/Space/Language context",
+        "Four named workflow/version/status records",
+        "Content types Article and Landing page",
+        "Content/legal/publisher human gates",
+        "Rejected review returns Draft with revision note",
+        "Three source active items",
+        "Open Flow/recorded execution/link/create-release context"
+      ],
+      "gaps": [
+        {
+          "id": "cms-project-context",
+          "detail": "Source Project is Commerce under Acme Studio workspace. Current CMS Project field is Acme Studio, conflating workspace and project.",
+          "severity": "context",
+          "resolution": "Commerce project remains distinct from Acme Studio workspace.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": [
+        "CMS release/calendar operations stay in their owning module; Flow linking does not publish content."
+      ]
+    },
+    {
+      "source": "14-Flow-Designer.jpg",
+      "sceneIds": [
+        "flow-view",
+        "flow-edit",
+        "flow-edit-node-approval_cond",
+        "flow-view-htql",
+        "flow-view-permissions",
+        "flow-executions"
+      ],
+      "status": "covered",
+      "preserved": [
+        "View→Edit mode split",
+        "Flutter drag/drop palette and canvas",
+        "Conditional branch and review path",
+        "Configured input/condition review",
+        "Inherited execute/edit authority",
+        "Run history is inspection",
+        "Save/compiled review/Approve Ready distinct from execution"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Flutter-approved builder overrides source canvas inspector/spreadsheet layout. Old step-inspector tabs are adapted to separate linked scenes."
+      ]
+    },
+    {
+      "source": "23-Flows-Add-Step.jpg",
+      "sceneIds": [
+        "flow-edit-add-approval",
+        "flow-edit-add-approval-invalid",
+        "flow-edit-added-approval",
+        "flow-edit-add-document",
+        "flow-edit-add-wait",
+        "flow-edit-branch-label"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Human approver/condition/required-count inputs",
+        "Configured node addition",
+        "Missing-input outcome",
+        "Documents/wait/branch connections exist as Flutter node types"
+      ],
+      "gaps": [
+        {
+          "id": "legacy-approval-source-fields",
+          "detail": "The original single Human approval form also had explicit approved/rejected transition mappings, outcome, business-hours timeout (2 days), and required-evidence setting. Those source-only fields are not shown together in a linked read-only source review; Flutter authority justifies not inventing them as unsupported inputs.",
+          "severity": "source-fidelity",
+          "resolution": "Linked legacy human-approval review preserves outcome, transitions, two-business-day timeout and evidence requirements without inventing Flutter inputs.",
+          "status": "resolved in mockup; implementation caveats retained"
+        }
+      ],
+      "caveats": [
+        "Do not replace Flutter node schema to reproduce obsolete form fields."
+      ]
+    },
+    {
+      "source": "24-Flows-Publish-Review.jpg",
+      "sceneIds": [
+        "flow-publish-review",
+        "flow-publish-checks",
+        "flow-publish-governance",
+        "flow-publish-dependencies",
+        "flow-publish-transition",
+        "flow-publish-eligible",
+        "flow-publish-pending",
+        "flow-published",
+        "flow-publish-failed",
+        "flow-edit-approve",
+        "flow-edit-ready"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Six publication checks",
+        "Policy/rules/production environment",
+        "Exact proposed/head versions",
+        "Schema/contract/secret-reference prerequisites",
+        "Flow dependencies and versions",
+        "Additional human authority determined by actual policy",
+        "Version transition and audit concepts",
+        "Publication distinct from Flutter Approve→Ready and from running"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Source no-human-approval example is not made a universal bypass. Secret is a reference only. Compile/schema snippets are not engine-validated."
+      ]
+    },
+    {
+      "source": "30-CMS-Link-Publishing-Flow.jpg",
+      "sceneIds": [
+        "flow-cms-link",
+        "flow-cms-link-selected",
+        "flow-cms-workflow-campaign",
+        "flow-cms-workflow-asset",
+        "flow-cms-workflow-emergency",
+        "flow-cms-workflow-archive",
+        "flow-cms-link-review",
+        "flow-cms-linked"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Five named Flow versions and active/draft states",
+        "Search",
+        "content_publish stage preview",
+        "Lifecycle event-to-state/role mapping",
+        "Cancel/review/link outcome",
+        "Draft workflow cannot be linked as active",
+        "Link does not approve or publish"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Link confirmation remains illustrative, not a live CMS update."
+      ]
+    },
+    {
+      "source": "31-Payment-FLOW-in-progress.jpg",
+      "sceneIds": [
+        "flow-payment-progress",
+        "flow-payment-agreement",
+        "flow-payment-signature",
+        "flow-payment-signature-consent",
+        "flow-payment-signature-pin",
+        "flow-payment-signature-pending",
+        "flow-payment-signature-received",
+        "flow-payment-cancel-review"
+      ],
+      "status": "covered",
+      "preserved": [
+        "Order MO-1042 and Flow-1042 separate from ESC-0042",
+        "Acme/ Ledger Advisory / Treasury Advisory v4 / Corporate Treasury",
+        "AUD 240 escrow; AUD 0 released",
+        "Contract/Terms fixed; transfer recorded",
+        "1 of 2 signature gate",
+        "Release/settlement/licence link remain locked/pending",
+        "Outstanding signature and fixed-order terms links",
+        "Conditional cancellation only under agreed terms"
+      ],
+      "gaps": [],
+      "caveats": []
+    },
+    {
+      "source": "34-Purchase-cancelled-refund-FLOW.jpg",
+      "sceneIds": [
+        "flow-refund-complete",
+        "flow-refund-receipt"
+      ],
+      "status": "covered",
+      "preserved": [
+        "MO-1042 conditional refund outcome",
+        "Terms frozen/escrow/cancellation/compensation/refund-settlement sequence",
+        "Compensated contract status",
+        "AUD 240 full refund / AUD 0 seller release",
+        "Licence not activated/link unavailable",
+        "Transfer/hash/reason reference concepts",
+        "Receipt review and marketplace return"
+      ],
+      "gaps": [],
+      "caveats": [
+        "Illustrative agreed refund; no universal refund-right claim. No live funds action occurs."
+      ]
+    }
+  ],
+  "significantGapIds": [
+    "trigger-contract-generalisation",
+    "replay-recorded-payload",
+    "replay-selected-snapshot",
+    "runtime-draft-context",
+    "independent-verification-controls",
+    "locked-document-content",
+    "http-registered-path-binding",
+    "party-role-side",
+    "separate-reference-fields",
+    "cms-project-context",
+    "legacy-approval-source-fields"
+  ],
+  "gapResolutions": {
+    "trigger-contract-generalisation": "Each trigger has an event-specific review. Schemas absent from the supplied source are labelled pending confirmation rather than copied from signing.",
+    "replay-recorded-payload": "Transfer snapshot shows the supplied AUD 10,000 input and settled output. Unsupplied payloads are explicitly unavailable.",
+    "replay-selected-snapshot": "Seven independent input/output/evidence routes retain the selected snapshot and return to it.",
+    "runtime-draft-context": "Replay shows historical completed ESC-0042 v3; signing shows fixed agreement v3. Neither inherits Draft.",
+    "independent-verification-controls": "KYC, AML, party verification and funds verification are independent switches with linked draft alternatives.",
+    "locked-document-content": "Readable fixed-version source summaries are supplied for digital and handwritten agreements, with the distinct dispute clauses retained. Full documents are not fabricated.",
+    "http-registered-path-binding": "Registered /orders/{id} path and order.gid binding shown explicitly.",
+    "party-role-side": "Buyer / Initiator, Seller / Counterparty, Notary / Neutral remain separate fields.",
+    "separate-reference-fields": "Pathway, Guild, Treasury, Marketplace, Source Flow and Related identifiers are separate controls.",
+    "cms-project-context": "Commerce project remains distinct from Acme Studio workspace.",
+    "legacy-approval-source-fields": "Linked legacy human-approval review preserves outcome, transitions, two-business-day timeout and evidence requirements without inventing Flutter inputs."
+  },
+  "unresolvedDesignGaps": [],
+  "additionalUX": "Each of seven node-scoped document pickers includes upload, selected-file review, pending, failure recovery, preview and attachment confirmation, returning to its exact originating node."
+}

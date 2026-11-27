@@ -4,7 +4,7 @@
     "02-flow-view-macos-light-v2.svg",
     "03-flow-designer-macos-light-v2.svg"
   ],
-  "approval": "Two states of corrected first sample; awaiting approval",
+  "approval": "User approved corrected View/Edit pair; full linked suite in ../flows-mockups",
   "routes": [
     {
       "label": "Edit Flow",
@@ -160,7 +160,7 @@
       "href": null
     },
     {
-      "label": "Pan canvas · locks node movement",
+      "label": "Pan canvas \u00b7 locks node movement",
       "route": "flow-pan-mode",
       "x": 1353,
       "y": 249,

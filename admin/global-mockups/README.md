@@ -2,7 +2,7 @@
 
 [Open the current gallery](index.html#macos/discover)
 
-1,086 screen states in 15,204 SVGs across light and approved Sigmar charcoal dark, following the refined light [Discover v3 reference](../macos-discover-review/01-discover-macos-light-v3.svg) and [global requirements](../../MOCKUP_REQUIREMENTS.md#16-global-sigmar-design-standard-26-november-2026). The user explicitly authorised the full batch after the initial sample refinements. All records are illustrative; SVG links navigate review files and do not execute live account actions.
+2,251 screen states in 31,514 SVGs across light and approved Sigmar charcoal dark, following the refined light [Discover v3 reference](../macos-discover-review/01-discover-macos-light-v3.svg) and [global requirements](../../MOCKUP_REQUIREMENTS.md#16-global-sigmar-design-standard-26-november-2026). The user explicitly authorised the full batch after the initial sample refinements. All records are illustrative; SVG links navigate review files and do not execute live account actions.
 
 | Content | Screen states |
 | --- | ---: |
@@ -13,6 +13,7 @@
 | Complete settings and linked review states | 137 |
 | Persona management, wizard, recovery and media | 676 |
 | Own AI accounts and Persona selection | 188 |
+| Flow view/editor, templates, agreements and runtime review | 1,165 |
 | Total | 1,086 |
 
 Each state has seven platform/layout files: macOS, desktop web, narrow web, iPhone, iPad, Android phone and Android tablet. Use the gallery to search, select a group/platform and open the original SVG. The Fit width control can be turned off for native-size inspection. Long content scrolls; its intended viewport is listed separately from the SVG's full height. Menu-open captures stay at one viewport.
@@ -44,3 +45,5 @@ The approved [Persona-management extension](../persona-management/README.md) inc
 The approved [own-AI extension](../own-ai-mockups/README.md) covers account setup and per-Persona account selection. [AI accounts](index.html#macos/own-ai-accounts/light) · [Feedback design reference](index.html#macos/own-ai-feedback-guide/light). Shared semantic feedback and clearer Persona recovery are recorded in requirements section 25. Earlier render reports remain history; the latest new/revised own-AI and feedback audit is `../own-ai-mockups/render-verification.json`.
 
 Persona review shortcuts now expose the [four-step wizard](index.html#macos/persona-wizard-1/light) and [media library](index.html#macos/persona-media-career-library/light). Current contextual-feedback/media render checks are in `../persona-management/media-render-verification.json`; earlier reports remain history.
+
+The approved [Flow suite](../flows-mockups/README.md) refreshes all 27 original references. [Flows](index.html#macos/flow-home/light) · [View Flow](index.html#macos/flow-view/light) · [Edit Flow](index.html#macos/flow-edit/light) · [Charcoal editor](index.html#macos/flow-edit/dark). Review source-specific publication, contract, signing, replay and marketplace states independently; mockups do not execute operations.

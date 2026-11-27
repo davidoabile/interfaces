@@ -1,0 +1,66 @@
+{
+  "flowStates": 1165,
+  "flowSVGs": 16310,
+  "linksChecked": 186320,
+  "interactiveControlsChecked": 109008,
+  "reachability": {
+    "macos/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "macos/dark": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "web/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "web/dark": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "web-phone/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "web-phone/dark": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "ios/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "ios/dark": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "ipad/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "ipad/dark": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "android/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "android/dark": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "android-tablet/light": {
+      "reachable": 1165,
+      "total": 1165
+    },
+    "android-tablet/dark": {
+      "reachable": 1165,
+      "total": 1165
+    }
+  },
+  "errors": [],
+  "nativeChrome": "OS window controls and read-only illustrative fields excluded from app-link test"
+}

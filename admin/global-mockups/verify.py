@@ -1,9 +1,14 @@
 from pathlib import Path
 from collections import Counter
-import json,re,xml.etree.ElementTree as ET
+import json,re,os,xml.etree.ElementTree as ET
 from fontTools.ttLib import TTFont
 home=Path(__file__).resolve().parent
 m=json.loads((home/'manifest.json').read_text())
+review_filter=os.environ.get('REVIEW_SCREEN_CONTAINS')
+if review_filter:
+    m['entries']=[e for e in m['entries'] if review_filter in e['screen']]
+    m['screens']=len(set(e['screen'] for e in m['entries']))
+    m['total']=len(m['entries'])
 font=TTFont('/Users/doabile/workspace/hedgetech/workers/sigmar-aos-site/public/fonts/satoshi/Satoshi-Regular.otf')
 cmap=font.getBestCmap();metrics=font['hmtx'].metrics;upem=font['head'].unitsPerEm
 errors=[];warnings=[];ns='{http://www.w3.org/2000/svg}'
@@ -46,7 +51,7 @@ for e in m['entries']:
         if href and href.endswith('.svg') and not a.attrib.get('data-theme-switch') and e['theme']=='dark' and '/dark/' not in str((p.parent/href).resolve()):errors.append([e['svg'],'cross-theme link',href])
     for s,x,y,w,z in walk(r):
         if e['screen']!='aos-49' and (x < -2 or x+w>e['width']+2 or y-z < -2 or y>e['canvasHeight']+2):errors.append([e['svg'],'text outside canvas',s,round(x,1),round(x+w,1),round(y,1)])
-    if not e['screen'].startswith(('setup','auth')) and e.get('composition') not in ('settings-window','persona-management','own-ai-window'):
+    if not e['screen'].startswith(('setup','auth')) and e.get('composition') not in ('settings-window','persona-management','own-ai-window','flow-management'):
         if 'Talk to Sigmar' not in raw or 'Add attachment' not in raw:errors.append([e['svg'],'composer'])
     if e.get('consentRequired',False) and 'aria-disabled="true"' not in raw:errors.append([e['svg'],'consent gate'])
     if e['screen']=='auth-02' and len(r.findall('.//*[@data-code-slot]'))!=6:errors.append([e['svg'],'OTP count'])
@@ -63,6 +68,6 @@ dark_counts=Counter(e['platform'] for e in m['entries'] if e['theme']=='dark')
 assert dark_counts==light_counts
 assert len(m['entries'])==m['screens']*14
 report={'screens':m['screens'],'totalSVGs':len(m['entries']),'platformCounts':dict(counts),'errors':errors,'warnings':warnings,'checks':['XML','embedded fonts','all SVG review links','text within canvas using Satoshi glyph metrics','voice and attachment controls','OTP/PIN digit counts','upload limits','consent gates','payment activation and failed publication','navigation order']}
-(home/'verification.json').write_text(json.dumps(report,indent=2))
+(home/('verification-filtered.json' if review_filter else 'verification.json')).write_text(json.dumps(report,indent=2))
 print(json.dumps({'screens':m['screens'],'SVGs':m['total'],'errors':len(errors),'firstErrors':errors[:16]},indent=2))
 raise SystemExit(bool(errors))

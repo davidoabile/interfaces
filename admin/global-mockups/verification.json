@@ -1,14 +1,14 @@
 {
-  "screens": 1086,
-  "totalSVGs": 15204,
+  "screens": 2209,
+  "totalSVGs": 30926,
   "platformCounts": {
-    "macos": 2172,
-    "web": 2172,
-    "web-phone": 2172,
-    "ios": 2172,
-    "ipad": 2172,
-    "android": 2172,
-    "android-tablet": 2172
+    "macos": 4418,
+    "web": 4418,
+    "web-phone": 4418,
+    "ios": 4418,
+    "ipad": 4418,
+    "android": 4418,
+    "android-tablet": 4418
   },
   "errors": [],
   "warnings": [],

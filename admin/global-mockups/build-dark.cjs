@@ -29,7 +29,7 @@ function toDark(light,e,dna){const artwork=[];let s=light.replace(/<svg\b(?=[^>]
  return s;
 }
 async function build(){const p=path.join(home,'manifest.json'),m=JSON.parse(fs.readFileSync(p));
- const settings=m.entries.filter(e=>['Settings','Persona management','Own AI'].includes(e.group));const lights=m.entries.filter(e=>e.theme==='light'&&!['Settings','Persona management','Own AI'].includes(e.group));if(![595,602].includes(lights.length))throw Error('Main AOS light inventory is incomplete');
+ const settings=m.entries.filter(e=>['Settings','Persona management','Own AI','Flows'].includes(e.group));const lights=m.entries.filter(e=>e.theme==='light'&&!['Settings','Persona management','Own AI','Flows'].includes(e.group));if(![595,602].includes(lights.length))throw Error('Main AOS light inventory is incomplete');
  const dna=(await sharp(path.resolve(home,'../login-register/samples/sigmar-dna-dark-background.png')).resize({width:1100}).blur(9).png({palette:true,colors:96}).toBuffer()).toString('base64');
  const dark=[];for(const e of lights){const out='dark/'+e.svg,file=path.join(home,out);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,toDark(fs.readFileSync(path.join(home,e.svg),'utf8'),e,dna));dark.push({...e,theme:'dark',svg:out});}
  m.entries=[...lights,...dark,...settings];m.screens=new Set(m.entries.map(e=>e.screen)).size;m.total=m.entries.length;m.themes=['light','dark'];m.theme='Light and approved Sigmar charcoal';m.darkSampleOnly=false;m.darkReference='dark/macos/discover-charcoal-v2.svg';m.version=2;

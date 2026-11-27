@@ -1,0 +1,10 @@
+{
+  "screens": 2251,
+  "totalSVGs": 31514,
+  "errors": [],
+  "basis": "Full gallery audit of the 30,926-SVG checkpoint plus 686 current node-evidence SVGs, covering the later 588 added SVGs and 98 revised library SVGs",
+  "reports": [
+    "../global-mockups/verification.json",
+    "../global-mockups/verification-filtered.json"
+  ]
+}

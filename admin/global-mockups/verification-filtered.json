@@ -1,0 +1,27 @@
+{
+  "screens": 49,
+  "totalSVGs": 686,
+  "platformCounts": {
+    "macos": 98,
+    "web": 98,
+    "web-phone": 98,
+    "ios": 98,
+    "ipad": 98,
+    "android": 98,
+    "android-tablet": 98
+  },
+  "errors": [],
+  "warnings": [],
+  "checks": [
+    "XML",
+    "embedded fonts",
+    "all SVG review links",
+    "text within canvas using Satoshi glyph metrics",
+    "voice and attachment controls",
+    "OTP/PIN digit counts",
+    "upload limits",
+    "consent gates",
+    "payment activation and failed publication",
+    "navigation order"
+  ]
+}

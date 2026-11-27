@@ -1,0 +1,12 @@
+{
+  "inventoryStates": 1123,
+  "inventorySVGs": 15722,
+  "coverage": "Every scene macOS/light; representative interaction/domain screens across all 14 layout/theme combinations; the supplemental report covers all 42 later upload/attachment scenes and the seven revised libraries on every layout/theme",
+  "decoded": 1812,
+  "total": 1812,
+  "errors": [],
+  "rasterFilesWritten": 0,
+  "supplementalReport": "evidence-render-verification.json",
+  "finalInventoryStates": 1165,
+  "finalInventorySVGs": 16310
+}
