@@ -68,7 +68,8 @@ y=row(x,y,cw,"Knowledge lifecycle","Observation → Experience → Reflection �
 }else{for(const [title,sub,dest] of info[2])y=row(x,y,cw,title,sub,dest);btn(x,y,Math.min(180,cw),"Back to Knowledge","aos-06");y+=64;}
 const newY=y+20,delta=newY-oldY,newH=H+delta;
 let prefix=original.slice(0,start).replace(new RegExp('height="'+H+'"',"g"),'height="'+newH+'"').replace('viewBox="0 0 '+W+' '+H+'"','viewBox="0 0 '+W+' '+newH+'"').replace(new RegExp("V"+H+'"',"g"),"V"+newH+'"').replace("full content "+H,"full content "+newH).replace("&quot;canvasHeight&quot;:"+H,"&quot;canvasHeight&quot;:"+newH).replace(/<title id="screen-title">[^<]+<\/title>/,'<title id="screen-title">'+esc(info[0])+' · '+dev+' · '+(dark?"dark":"light")+'</title>');
-return {id,title:info[0],content:prefix+a.join("")+'<g transform="translate(0 '+delta+')">'+original.slice(end,-6)+'</g></svg>'};
+const cut=original.slice(start,end),bal=(cut.match(/<g[\s>]/g)||[]).length-(cut.match(/<\/g>/g)||[]).length;/* the cut may open a group whose close stays after it; reopen it so the tags stay balanced */
+return {id,title:info[0],content:prefix+(bal>0?"<g>".repeat(bal):"</g>".repeat(-bal))+a.join("")+'<g transform="translate(0 '+delta+')">'+original.slice(end,-6)+'</g></svg>'};
 });
 }
 module.exports = generate;

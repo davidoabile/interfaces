@@ -65,7 +65,8 @@ t(x,y+25,'Knowledge lifecycle',16,500,p.ink);y+=43;y=para(x,y,'Observation → E
 }else{const [name,desc,rows]=states[id];btn(x,y,145,'‹ Knowledge','home');y+=64;title(name,desc);let ww=wide?Math.min(cw,740):cw;for(const v of rows)y=row(x,y,ww,...v)}
 const newY=y+22,delta=newY-oldY,newH=H+delta;
 let prefix=s.slice(0,start).replace(new RegExp('height="'+H+'"','g'),'height="'+newH+'"').replace('viewBox="0 0 '+W+' '+H+'"','viewBox="0 0 '+W+' '+newH+'"').replace(new RegExp('V'+H+'"','g'),'V'+newH+'"').replace('full content '+H,'full content '+newH).replace(/<metadata>[\s\S]*?<\/metadata>/,'<metadata>'+esc(JSON.stringify({screen:id,platform:dev,theme:dark?'dark':'light',canvasHeight:newH,illustrative:true}))+'</metadata>').replace(/<title id="screen-title">[^<]*<\/title>/,'<title id="screen-title">'+esc(id==='aos-06'?'Knowledge':states[id][0])+' · '+dev+' · '+(dark?'dark':'light')+'</title>');
-return prefix+a.join('')+'<g transform="translate(0 '+delta+')">'+s.slice(end,-6)+'</g></svg>';
+const cut=s.slice(start,end),bal=(cut.match(/<g[\s>]/g)||[]).length-(cut.match(/<\/g>/g)||[]).length;/* the cut may open a group whose close stays after it; reopen it so the tags stay balanced */
+return prefix+(bal>0?'<g>'.repeat(bal):'</g>'.repeat(-bal))+a.join('')+'<g transform="translate(0 '+delta+')">'+s.slice(end,-6)+'</g></svg>';
 }
 function build(){for(const dark of [false,true])for(const dev of layouts){const dir=path.join(root,dark?'dark':'',dev),file=path.join(dir,'aos-06.svg'),src=path.join(dir,'knowledge-shell.svg');if(!fs.existsSync(src))fs.copyFileSync(file,src);const s=fs.readFileSync(src,'utf8');for(const id of ['aos-06',...Object.keys(states)])fs.writeFileSync(path.join(dir,id+'.svg'),render(s,id,dark,dev));}}
 if(require.main===module)build();
