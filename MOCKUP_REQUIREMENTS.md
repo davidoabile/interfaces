@@ -1,12 +1,12 @@
 # Sigmar interface mockup requirements
 
-**Status:** Global design standard updated 26 November 2026, Australia/Melbourne. Section 16 is the current cross-platform authority; earlier sections retain the design history and functional requirements.
+**Status:** Global design standard updated 27 November 2026, Australia/Melbourne. Section 16 is the current cross-platform authority, including the mandatory content and visual policy in section 16.6; earlier sections retain the design history and functional requirements.
 
 **Purpose:** Give another AI enough information to continue these mockups without repeating the rejected design directions. This is a design project containing references and mockup assets. The sample builders are design utilities, not production application implementations.
 
 ## 1. Sources and precedence
 
-Apply the user's latest instructions first, then the global standard in section 16, then the remaining project record, then the shared [Sigmar branding topology and design system](https://github.com/davidoabile/apcce/blob/main/htql/docs/website/sigmar-branding-topology.md). Consult [sigmar.io](https://sigmar.io/) for product context and maintained product language.
+Apply the user's latest instructions first, then the global standard in section 16, then the remaining project record, then the shared [Sigmar branding topology and design system](https://github.com/davidoabile/apcce/blob/main/htql/docs/website/sigmar-branding-topology.md). Consult [sigmar.io](https://sigmar.io/) for product context and maintained product language. Section 16.6 establishes mandatory Shopify-derived content and visual guidance and restricts Pitch Anything framing to commercial and voluntary connection invitations.
 
 The shared guide describes a primarily dark system. The user explicitly requires **both light and dark themes on mobile and tablets**. The approved examples in this project establish the light treatment for this work.
 
@@ -218,6 +218,8 @@ The existing content references cover login, passcode verification, account sele
 - PIN recovery needs its maintained recovery specification before it is designed. Do not invent a new recovery or security process from the appearance of the lock screen.
 
 ## 12. Writing
+
+Apply the mandatory content, tone and commercial-framing policy in section 16.6 to all new and revised copy.
 
 Use concise first-party Sigmar language, Australian spelling and sentence case. Preserve the approved Persona names, including their `My.` prefix and punctuation.
 
@@ -443,6 +445,59 @@ Use semantic roles instead of platform-specific palette forks. Gradients are opt
 - Use genuine platform chrome: macOS traffic-light window controls on Mac, browser conventions on web, native safe areas and input controls on mobile. Do not paste Mac title-bar controls onto mobile or into a web page's app content.
 - Confirm text contrast (at least 4.5:1 for normal text), meaningful controls/focus (at least 3:1), text scaling and keyboard access. Decorative hairlines and shadows do not establish essential control boundaries.
 - Deliver new mockups as SVG only. Inspect the first rendered sample at the target size before review; wait for approval before extending the new screen/direction to more screens, themes or device variants.
+
+### 16.6 Mandatory content and visual design policy (27 November 2026)
+
+Apply the following across AOS, HTQLDB, Profit Guard, Workers, CLI-related interfaces, websites, member communications and every supported platform and theme. This is normative for new and revised work, not a retrospective approval or instruction to regenerate existing assets.
+
+#### External authorities and adaptation
+
+- [Shopify content](https://shopify.dev/docs/apps/design/content)
+- [Shopify voice and tone](https://shopify.dev/docs/apps/design/content/voice-and-tone)
+- [Shopify grammar and mechanics](https://shopify.dev/docs/apps/design/content/grammar-and-mechanics)
+- [Shopify visual design](https://shopify.dev/docs/apps/design/visual-design)
+- Oren Klaff, [Pitch Anything](https://www.mheducation.com/highered/mhp/product/pitch-anything-innovative-method-presenting-persuading-winning-deal.html?viewOption=student), 2011.
+
+Reviewed 27 November 2026. Shopify's applicable usability principles are requirements, not optional inspiration. Translate merchant-specific conventions to Sigmar members and their workflows; retain Australian English, approved terminology, Satoshi, original artwork, palette, native behaviour and security semantics. Shopify-specific integration, App Store asset sizes and Polaris implementation requirements apply only where actually building for Shopify. For other surfaces, reuse Sigmar components rather than importing Shopify branding. Record and justify any applicable guidance deviation in the review notes. Recheck source revisions when changing policy; external changes do not silently supersede approved Sigmar rules.
+
+#### Content requirements
+
+- Keep the voice consistent, professional and human; adjust tone to the actual situation. Write directly to members without assuming their emotions or knowledge.
+- Use short, active sentences and familiar words; target approximately grade 7 readability for general member content. Retain necessary precise technical, legal and financial terms, explaining unfamiliar terms in context.
+- Put the outcome and next action first. Remove duplicate titles, redundant explanations and competing navigation. Group complex work into meaningful stages; provide contextual help rather than compulsory instruction where possible.
+- Maintain a controlled vocabulary and identical labels for equivalent actions. Preserve AOS, HTQLDB, Persona, Guild, DNA, Worker and Flow distinctions. Use sentence case, Australian spelling, localised dates, currency and units; avoid idioms, unnecessary abbreviations, em dashes and double dashes.
+- Use specific verb-led actions that accurately predict the result. Explain relevant costs, dependencies, effects and choices before commitment; never substitute a generic CTA for a permission or payment decision.
+- Match tone to state: quiet and efficient for routine work; explanatory for learning; specific and corrective for errors; restrained acknowledgement for confirmed progress; direct and supportive for serious incidents. Apply section 25.1 semantic feedback and section 26 contextual titles. Keep diagnostic codes in optional technical detail unless useful for recovery.
+
+#### Visual requirements
+
+- Use shared Sigmar tokens and reusable components for consistent spacing, alignment, borders, depth and typography. Prioritise the main task through hierarchy and grouping; avoid redundant decoration, competing actions and oversized headings.
+- Reserve semantic status colours for actual state; distinguish categories with neutral labels. Maintain Sigmar's danger, warning, success and info contract, and distinguish brand copper from status indicators. Pair state with text and an appropriate icon.
+- Maintain the contrast, accessible control sizing, keyboard focus and responsive rules of section 16. Use headings that remain identifiable without colour, and consistent icons in repeating layouts. Give icon-only controls accessible names.
+- Use imagery only when it aids understanding or supports the relevant commercial proposition; use a coherent illustration style and original brand assets. Do not introduce decorative DNA into functional workspaces or use excessive branding.
+- Use one clear primary action per decision context. Keep secondary, cancel and destructive actions distinguishable; do not hide consequences, constraints or recovery actions behind visual emphasis.
+
+#### Pitch Anything: restricted commercial and connection framing
+
+Use Klaff-inspired framing only where a member is considering buying, subscribing, upgrading or voluntarily connecting a service, AI or account: marketplace discovery and listings, advertising, product offers, plan comparisons, and optional integration or account-connection invitations. Do not apply it to ordinary navigation, project governance, operational work, authentication, security, consent, approval, data access, recovery, error states or payment confirmation. In mixed journeys, persuasive copy stops at the decision/permission boundary; subsequent scopes, terms, costs and confirmation remain factual.
+
+Adapt the method into a short, evidence-led sequence: establish the member's relevant situation, show a concrete problem or opportunity, reveal the distinctive capability, make the achievable value tangible, and present a specific next step. Use relevant proof and demonstrate actual outcomes where available. Prefer confident positioning to hype or feature inventories. Do not manufacture scarcity, urgency, exclusivity, social proof, savings or guaranteed results; never use pressure, shame, hidden fees, preselected consent or obstructive cancellation. Clearly disclose sponsored placements and material limitations. Quantified claims require a verifiable source, assumptions and appropriate context.
+
+| Context | Illustrative copy | Action |
+| --- | --- | --- |
+| Marketplace DNA | Bring specialist expertise into your business. Compare verified capabilities and outcomes before choosing. | Explore DNA |
+| Optional AI connection | Use an AI account you already manage with your Personas. Review supported models and usage costs. | Connect AI account |
+| Optional business connection | Bring authorised business information into your workspace without re-entering it. | Connect account |
+| Upgrade | Compare the capabilities available on each plan and choose what fits your work. | Compare plans |
+| Advertising | Reach members looking for expertise in your field. Review placement and pricing before publishing. | View advertising options |
+| Project governance (not persuasive) | Choose the access classification and AI accounts permitted for this project. | Review project policy |
+
+Examples are illustrative, not approved capability, pricing or verification claims. Verify each against the maintained product contract before publication.
+
+#### Mandatory review gate
+
+For each new or revised screen, the designer and reviewer must establish the screen intent (operational, commercial/connection, or mixed), applicable source guidance, brand compliance, wording and terminology consistency, primary action accuracy, state semantics, accessibility, and evidence for claims. For mixed screens, explicitly verify the boundary between invitation and consent. Record exceptions and unresolved evidence, and reject nonconforming work before visual approval or implementation. Existing first-sample and stakeholder approval gates remain in force.
+
 
 ## 17. Complete global screen batch, 26 November 2026
 
